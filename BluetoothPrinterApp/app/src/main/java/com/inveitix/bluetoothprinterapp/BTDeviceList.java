@@ -18,6 +18,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class BTDeviceList extends ListActivity {
@@ -180,7 +181,6 @@ public class BTDeviceList extends ListActivity {
                                 if (btDeviceList.contains(device) == false) {
 
                                     btDevices.add(device);
-
                                     mArrayAdapter.add(device.getName() + "\n"
                                             + device.getAddress());
                                     mArrayAdapter.notifyDataSetInvalidated();
