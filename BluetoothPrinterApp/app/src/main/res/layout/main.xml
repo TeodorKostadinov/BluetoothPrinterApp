@@ -20,14 +20,21 @@
         android:hint="@string/hint_website"
         android:text="@string/txt_http" />
 
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Remember website" />
+
     <Button
         android:id="@+id/button"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Open"
+        android:layout_marginBottom="5dp"
         android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"/>
+        android:text="Open" />
 
     <ScrollView
         android:layout_width="352dp"
@@ -47,7 +54,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="5dp"
         android:text="@string/txt_print"
-        android:visibility="invisible"/>
+        android:visibility="invisible" />
 
 
 </LinearLayout>

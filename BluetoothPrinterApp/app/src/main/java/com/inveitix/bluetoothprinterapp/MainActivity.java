@@ -4,21 +4,26 @@ import android.Manifest;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 
 import com.crashlytics.android.Crashlytics;
+
 import io.fabric.sdk.android.Fabric;
+
 import java.io.IOException;
 import java.io.OutputStream;
 
 import android.bluetooth.BluetoothSocket;
 import android.content.Intent;
+import android.os.Handler;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -33,6 +38,7 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.http.GET;
 
+
 public class MainActivity extends Activity {
 
     private static final int PERMISSIONS_REQUEST_BLUETOOTH = 1;
@@ -40,6 +46,8 @@ public class MainActivity extends Activity {
     private static final int PERMISSIONS_REQUEST_INTERNET = 0;
     private static final int PERMISSIONS_REQUEST_BT_ADMIN = 2;
     private static final int PERMISSIONS_REQUEST_LOCATION = 3;
+    private static final String WEB_SITE = "Remembered Web Site";
+    private static final String IS_CHECKED = "Check box";
     private static BluetoothSocket btsocket;
     private static OutputStream btoutputstream;
 
@@ -50,6 +58,9 @@ public class MainActivity extends Activity {
     Button btnPrint;
     @Bind(R.id.textView)
     TextView textView;
+    @Bind(R.id.checkBox)
+    CheckBox checkBox;
+    SharedPreferences sharedPref;
     private ProgressDialog dialog;
 
     @Override
@@ -58,12 +69,22 @@ public class MainActivity extends Activity {
         Fabric.with(this, new Crashlytics());
         setContentView(R.layout.main);
         ButterKnife.bind(this);
+        sharedPref = this.getPreferences(Context.MODE_PRIVATE);
         checkPermissions();
+    }
+
+    private void setRememberedWeb() {
+        if (checkBox.isChecked()) {
+            String rememberedWeb = sharedPref.getString(WEB_SITE, "");
+            if (!rememberedWeb.equals("")) {
+                etWebAddress.setText(rememberedWeb);
+            }
+        }
     }
 
     @OnClick(R.id.button)
     public void downloadContent() {
-        if (!etWebAddress.getText().toString().equals("")) {
+        if (!etWebAddress.getText().toString().equals("") && !etWebAddress.getText().toString().equals("https://")) {
             Retrofit retrofit = new Retrofit.Builder()
                     .baseUrl(etWebAddress.getText().toString())
                     .build();
@@ -78,6 +99,7 @@ public class MainActivity extends Activity {
                         textView.setText(response.body().string());
                         btnPrint.setVisibility(View.VISIBLE);
                         dialog.cancel();
+
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
@@ -88,6 +110,34 @@ public class MainActivity extends Activity {
                 }
             });
         }
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        saveState(checkBox.isChecked());
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        checkBox.setChecked(load());
+        setRememberedWeb();
+    }
+
+    private void saveState(boolean isChecked) {
+        SharedPreferences.Editor editor = sharedPref.edit();
+        editor.putBoolean(IS_CHECKED, isChecked);
+        if (isChecked) {
+            editor.putString(WEB_SITE, etWebAddress.getText().toString());
+        } else {
+            editor.putString(WEB_SITE, getString(R.string.txt_http));
+        }
+        editor.apply();
+    }
+
+    private boolean load() {
+        return sharedPref.getBoolean(IS_CHECKED, false);
     }
 
     private void closeKeyboard() {
@@ -103,6 +153,15 @@ public class MainActivity extends Activity {
         dialog = new ProgressDialog(MainActivity.this);
         dialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
         dialog.setMessage("Downloading. Please wait...");
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                if(dialog.isShowing()) {
+                    Toast.makeText(MainActivity.this, "Connection timeout", Toast.LENGTH_SHORT).show();
+                    dialog.cancel();
+                }
+            }
+        }, 30000);
         dialog.setIndeterminate(true);
         dialog.setCanceledOnTouchOutside(false);
         dialog.show();
