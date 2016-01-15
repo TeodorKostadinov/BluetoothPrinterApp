@@ -10,4 +10,5 @@
     <string name="txt_print">Print</string>
     <string name="hint_website">https://www.yourwebsite.com</string>
     <string name="remembered_website"></string>
+    <string name="txt_refresh">Refresh list</string>
 </resources>
