@@ -18,7 +18,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class BTDeviceList extends ListActivity {
@@ -44,7 +43,7 @@ public class BTDeviceList extends ListActivity {
 
                 try {
                     if (btDevices == null) {
-                        btDevices = new ArrayAdapter<BluetoothDevice>(
+                        btDevices = new ArrayAdapter<>(
                                 getApplicationContext(), android.R.id.text1);
                     }
 
@@ -122,8 +121,7 @@ public class BTDeviceList extends ListActivity {
 
             finalize();
 
-        } catch (Exception ex) {
-        } catch (Throwable e) {
+        } catch (Throwable ignored) {
         }
 
     }
@@ -135,7 +133,7 @@ public class BTDeviceList extends ListActivity {
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
         if (mBluetoothAdapter == null) {
             Toast.makeText(getApplicationContext(),
-                    "Bluetooth not supported !!",Toast.LENGTH_LONG).show();
+                    "Bluetooth not supported !!", Toast.LENGTH_LONG).show();
             return -1;
         }
 
@@ -143,7 +141,7 @@ public class BTDeviceList extends ListActivity {
             mBluetoothAdapter.cancelDiscovery();
         }
 
-        mArrayAdapter = new ArrayAdapter<String>(getApplicationContext(),
+        mArrayAdapter = new ArrayAdapter<>(getApplicationContext(),
                 android.R.layout.simple_list_item_1);
 
         setListAdapter(mArrayAdapter);
@@ -178,7 +176,7 @@ public class BTDeviceList extends ListActivity {
                         if (btDeviceList.size() > 0) {
 
                             for (BluetoothDevice device : btDeviceList) {
-                                if (btDeviceList.contains(device) == false) {
+                                if (!btDeviceList.contains(device)) {
 
                                     btDevices.add(device);
                                     mArrayAdapter.add(device.getName() + "\n"
@@ -187,7 +185,7 @@ public class BTDeviceList extends ListActivity {
                                 }
                             }
                         }
-                    } catch (Exception ex) {
+                    } catch (Exception ignored) {
                     }
                 }
 
@@ -213,8 +211,8 @@ public class BTDeviceList extends ListActivity {
 
         Toast.makeText(
                 getApplicationContext(),
-                "Connecting to " + btDevices.getItem(position).getName() +","
-        +btDevices.getItem(position).getAddress(),
+                "Connecting to " + btDevices.getItem(position).getName() + ","
+                        + btDevices.getItem(position).getAddress(),
                 Toast.LENGTH_SHORT).show();
 
         Thread connectThread = new Thread(new Runnable() {
@@ -224,26 +222,35 @@ public class BTDeviceList extends ListActivity {
                 try {
                     boolean gotuuid = btDevices.getItem(position)
                             .fetchUuidsWithSdp();
-                    UUID uuid = btDevices.getItem(position).getUuids()[0]
-                            .getUuid();
-                    mbtSocket = btDevices.getItem(position)
-                            .createRfcommSocketToServiceRecord(uuid);
+                    if(gotuuid){
+                        UUID uuid = btDevices.getItem(position).getUuids()[0]
+                                .getUuid();
+                        mbtSocket = btDevices.getItem(position)
+                                .createRfcommSocketToServiceRecord(uuid);
 
-                    mbtSocket.connect();
+                        mbtSocket.connect();
+                    }
+                } catch (NullPointerException ex){
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            Toast.makeText(BTDeviceList.this, "Please connect to printer", Toast.LENGTH_SHORT).show();
+                        }
+                    });
                 } catch (IOException ex) {
                     runOnUiThread(socketErrorRunnable);
                     try {
                         mbtSocket.close();
-                    } catch (IOException e) {
-// e.printStackTrace();
+                    } catch (IOException ignored) {
                     }
                     mbtSocket = null;
-                    return;
+
                 } finally {
                     runOnUiThread(new Runnable() {
 
                         @Override
                         public void run() {
+                            unregisterReceiver(mBTReceiver);
                             finish();
 
                         }

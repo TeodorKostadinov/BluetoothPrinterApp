@@ -2,34 +2,38 @@ package com.inveitix.bluetoothprinterapp;
 
 import android.Manifest;
 import android.app.Activity;
+import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.pm.PackageManager;
-import android.os.AsyncTask;
 import android.os.Bundle;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.io.OutputStream;
 
 import android.bluetooth.BluetoothSocket;
 import android.content.Intent;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
-import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.protocol.BasicHttpContext;
-import org.apache.http.protocol.HttpContext;
+import butterknife.Bind;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+import okhttp3.ResponseBody;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.Retrofit;
+import retrofit2.http.GET;
 
 public class MainActivity extends Activity {
+
     private static final int PERMISSIONS_REQUEST_BLUETOOTH = 1;
     private static final String TAG_REQUEST_PERMISSION = "Request permission";
     private static final int PERMISSIONS_REQUEST_INTERNET = 0;
@@ -37,37 +41,77 @@ public class MainActivity extends Activity {
     private static final int PERMISSIONS_REQUEST_LOCATION = 3;
     private static BluetoothSocket btsocket;
     private static OutputStream btoutputstream;
-    /**
-     * Called when the activity is first created.
-     */
-    EditText message;
-    Button printbtn;
+
     byte FONT_TYPE;
+    @Bind(R.id.et_web_address)
+    EditText etWebAddress;
+    @Bind(R.id.printButton)
+    Button btnPrint;
+    @Bind(R.id.textView)
+    TextView textView;
+    private ProgressDialog dialog;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        message = (EditText) findViewById(R.id.message);
-        printbtn = (Button) findViewById(R.id.printButton);
+        ButterKnife.bind(this);
         checkPermissions();
-
-        new FeedTask().execute();
-        printbtn.setOnClickListener(new OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                connect();
-            }
-        });
     }
 
+    @OnClick(R.id.button)
+    public void downloadContent() {
+        if (!etWebAddress.getText().toString().equals("")) {
+            Retrofit retrofit = new Retrofit.Builder()
+                    .baseUrl(etWebAddress.getText().toString())
+                    .build();
+
+            HttpService service = retrofit.create(HttpService.class);
+            Call<ResponseBody> result = service.getContent();
+            result.enqueue(new Callback<ResponseBody>() {
+                @Override
+                public void onResponse(Response<ResponseBody> response) {
+                    try {
+                        closeKeyboard();
+                        textView.setText(response.body().string());
+                        btnPrint.setVisibility(View.VISIBLE);
+                        dialog.cancel();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+
+                @Override
+                public void onFailure(Throwable t) {
+                }
+            });
+        }
+    }
+
+    private void closeKeyboard() {
+        View view = this.getCurrentFocus();
+        if (view != null) {
+            InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+            imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+        }
+    }
+
+    @OnClick(R.id.button)
+    public void loadingContent() {
+        dialog = new ProgressDialog(MainActivity.this);
+        dialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+        dialog.setMessage("Downloading. Please wait...");
+        dialog.setIndeterminate(true);
+        dialog.setCanceledOnTouchOutside(false);
+        dialog.show();
+    }
+
+    @OnClick(R.id.printButton)
     protected void connect() {
         if (btsocket == null) {
             Intent BTIntent = new Intent(getApplicationContext(), BTDeviceList.class);
             this.startActivityForResult(BTIntent, BTDeviceList.REQUEST_CONNECT_BT);
         } else {
-
             OutputStream opstream = null;
             try {
                 opstream = btsocket.getOutputStream();
@@ -76,9 +120,7 @@ public class MainActivity extends Activity {
             }
             btoutputstream = opstream;
             print_bt();
-
         }
-
     }
 
     private void print_bt() {
@@ -88,12 +130,10 @@ public class MainActivity extends Activity {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-
             btoutputstream = btsocket.getOutputStream();
-
             byte[] printformat = {0x1B, 0x21, FONT_TYPE};
             btoutputstream.write(printformat);
-            String msg = message.getText().toString();
+            String msg = textView.getText().toString();
             btoutputstream.write(msg.getBytes());
             btoutputstream.write(0x0D);
             btoutputstream.write(0x0D);
@@ -102,7 +142,6 @@ public class MainActivity extends Activity {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 
     @Override
@@ -130,41 +169,37 @@ public class MainActivity extends Activity {
                 ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION);
 
         if (permissionCheck == PackageManager.PERMISSION_DENIED) {
-            message.setText(R.string.no_bluetooth_permissions);
+            etWebAddress.setText(R.string.no_bluetooth_permissions);
             if (ActivityCompat.shouldShowRequestPermissionRationale(this,
                     Manifest.permission.BLUETOOTH)) {
                 Toast.makeText(MainActivity.this, TAG_REQUEST_PERMISSION, Toast.LENGTH_SHORT).show();
-
             } else {
                 requestBTPermission();
             }
             return false;
         } else if (permissionInternet == PackageManager.PERMISSION_DENIED) {
-            message.setText(R.string.no_internet_permissions);
+            etWebAddress.setText(R.string.no_internet_permissions);
             if (ActivityCompat.shouldShowRequestPermissionRationale(this,
                     Manifest.permission.INTERNET)) {
                 Toast.makeText(MainActivity.this, TAG_REQUEST_PERMISSION, Toast.LENGTH_SHORT).show();
-
             } else {
                 requestInternetPermission();
             }
             return false;
         } else if (permissionBTAdmin == PackageManager.PERMISSION_DENIED) {
-            message.setText(R.string.no_bt_admin_permissions);
+            etWebAddress.setText(R.string.no_bt_admin_permissions);
             if (ActivityCompat.shouldShowRequestPermissionRationale(this,
                     Manifest.permission.INTERNET)) {
                 Toast.makeText(MainActivity.this, TAG_REQUEST_PERMISSION, Toast.LENGTH_SHORT).show();
-
             } else {
                 requestBTAdminPermission();
             }
             return false;
         } else if (permissionLocation == PackageManager.PERMISSION_DENIED) {
-            message.setText(R.string.no_location_permissions);
+            etWebAddress.setText(R.string.no_location_permissions);
             if (ActivityCompat.shouldShowRequestPermissionRationale(this,
                     Manifest.permission.ACCESS_COARSE_LOCATION)) {
                 Toast.makeText(MainActivity.this, TAG_REQUEST_PERMISSION, Toast.LENGTH_SHORT).show();
-
             } else {
                 requestLocationPermission();
             }
@@ -206,54 +241,14 @@ public class MainActivity extends Activity {
             if (btsocket != null) {
                 print_bt();
             }
-
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    class FeedTask extends AsyncTask<Void, Void, String> {
 
-        @Override
-        protected String doInBackground(Void... params) {
-            HttpClient httpClient = new DefaultHttpClient();
-            HttpContext localContext = new BasicHttpContext();
-            HttpGet httpGet = new HttpGet("http://www.olx.bg");
-            HttpResponse response = null;
-            try {
-                response = httpClient.execute(httpGet, localContext);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            String result = "";
-
-            BufferedReader reader = null;
-            try {
-                reader = new BufferedReader(
-                        new InputStreamReader(
-                                response.getEntity().getContent()
-                        )
-                );
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-
-            String line = null;
-            try {
-                while ((line = reader.readLine()) != null) {
-                    result += line + "\n";
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            return result;
-        }
-
-        @Override
-        protected void onPostExecute(String s) {
-            super.onPostExecute(s);
-            message.setText(s);
-            Log.e("Test", s);
-        }
+    public interface HttpService {
+        @GET("/")
+        Call<ResponseBody> getContent();
     }
 }
