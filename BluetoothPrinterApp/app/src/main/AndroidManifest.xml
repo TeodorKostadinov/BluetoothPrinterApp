@@ -21,6 +21,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".BTDeviceList"></activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="2c37a6da2b87c0d89884215e996733435c81413c" />
     </application>
 
 </manifest>
