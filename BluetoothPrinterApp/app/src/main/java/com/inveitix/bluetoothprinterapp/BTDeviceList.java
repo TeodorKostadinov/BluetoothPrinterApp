@@ -14,6 +14,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -222,7 +223,7 @@ public class BTDeviceList extends ListActivity {
                 try {
                     boolean gotuuid = btDevices.getItem(position)
                             .fetchUuidsWithSdp();
-                    if(gotuuid){
+                    if (gotuuid) {
                         UUID uuid = btDevices.getItem(position).getUuids()[0]
                                 .getUuid();
                         mbtSocket = btDevices.getItem(position)
@@ -230,11 +231,11 @@ public class BTDeviceList extends ListActivity {
 
                         mbtSocket.connect();
                     }
-                } catch (NullPointerException ex){
+                } catch (NullPointerException ex) {
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
-                            Toast.makeText(BTDeviceList.this, "Please connect to printer", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(BTDeviceList.this, "This is not a printer", Toast.LENGTH_SHORT).show();
                         }
                     });
                 } catch (IOException ex) {
@@ -264,10 +265,8 @@ public class BTDeviceList extends ListActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        super.onCreateOptionsMenu(menu);
-
-        menu.add(0, Menu.FIRST, Menu.NONE, "Refresh Scanning");
-
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu, menu);
         return true;
     }
 
@@ -276,7 +275,7 @@ public class BTDeviceList extends ListActivity {
         super.onOptionsItemSelected(item);
 
         switch (item.getItemId()) {
-            case Menu.FIRST:
+            case R.id.refresh:
                 initDevicesList();
                 break;
         }

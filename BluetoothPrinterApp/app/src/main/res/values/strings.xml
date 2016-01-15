@@ -6,7 +6,7 @@
     <string name="no_bt_admin_permissions">No Bluetooth Admin Permission</string>
     <string name="no_location_permissions">No location permissions</string>
     <string name="lbl_enter_website">Enter Your Website :</string>
-    <string name="txt_http">https://</string>
+    <string name="txt_http">http://</string>
     <string name="txt_print">Print</string>
     <string name="hint_website">https://www.yourwebsite.com</string>
     <string name="remembered_website"></string>
