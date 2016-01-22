@@ -41,10 +41,10 @@
         android:layout_height="0dp"
         android:layout_weight="0.90">
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+        <WebView
+            android:id="@+id/web_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></WebView>
     </ScrollView>
 
     <Button

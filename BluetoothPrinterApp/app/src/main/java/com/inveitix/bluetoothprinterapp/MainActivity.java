@@ -18,11 +18,17 @@ import java.io.OutputStream;
 import android.bluetooth.BluetoothSocket;
 import android.content.Intent;
 import android.os.Handler;
+import android.print.PrintAttributes;
+import android.print.PrintDocumentAdapter;
+import android.print.PrintJob;
+import android.print.PrintManager;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -57,11 +63,15 @@ public class MainActivity extends Activity {
     EditText etWebAddress;
     @Bind(R.id.printButton)
     Button btnPrint;
-    @Bind(R.id.textView)
-    TextView textView;
+//    @Bind(R.id.textView)
+//    TextView textView;
     @Bind(R.id.checkBox)
     CheckBox checkBox;
-    SharedPreferences sharedPref;
+    @Bind(R.id.web_view)
+    WebView webView;
+    String htmlDocument;
+    private WebView mWebView;
+    private SharedPreferences sharedPref;
     private ProgressDialog dialog;
 
     @Override
@@ -70,6 +80,8 @@ public class MainActivity extends Activity {
         Fabric.with(this, new Crashlytics());
         setContentView(R.layout.main);
         ButterKnife.bind(this);
+        webView.getSettings().setJavaScriptEnabled(true);
+        webView.getSettings().setDefaultTextEncodingName("utf-8");
         sharedPref = this.getPreferences(Context.MODE_PRIVATE);
         checkPermissions();
     }
@@ -97,7 +109,10 @@ public class MainActivity extends Activity {
                 public void onResponse(Response<ResponseBody> response) {
                     try {
                         closeKeyboard();
-                        textView.setText(response.body().string());
+                        //textView.setText(response.body().string());
+                        String summary = response.body().string();
+                        htmlDocument = summary;
+                        webView.loadData(summary, "text/html; charset=utf-8", null);
                         btnPrint.setVisibility(View.VISIBLE);
                         dialog.cancel();
 
@@ -157,7 +172,7 @@ public class MainActivity extends Activity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                if(dialog.isShowing()) {
+                if (dialog.isShowing()) {
                     Toast.makeText(MainActivity.this, "Connection timeout", Toast.LENGTH_SHORT).show();
                     dialog.cancel();
                 }
@@ -181,7 +196,8 @@ public class MainActivity extends Activity {
                 e.printStackTrace();
             }
             btoutputstream = opstream;
-            print_bt();
+            doWebViewPrint();
+            //print_bt();
         }
     }
 
@@ -195,14 +211,54 @@ public class MainActivity extends Activity {
             btoutputstream = btsocket.getOutputStream();
             byte[] printformat = {0x1B, 0x21, FONT_TYPE};
             btoutputstream.write(printformat);
-            String msg = textView.getText().toString();
-            btoutputstream.write(msg.getBytes());
+            //String msg = textView.getText().toString();
+            //btoutputstream.write(msg.getBytes());
             btoutputstream.write(0x0D);
             btoutputstream.write(0x0D);
             btoutputstream.write(0x0D);
             btoutputstream.flush();
         } catch (IOException e) {
             e.printStackTrace();
+        }
+    }
+
+    private void doWebViewPrint() {
+        // Create a WebView object specifically for printing
+        webView.setWebViewClient(new WebViewClient() {
+
+            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                return false;
+            }
+
+            @Override
+            public void onPageFinished(WebView view, String url) {
+                Log.i("WEB", "page finished loading " + url);
+                createWebPrintJob(view);
+                mWebView = null;
+            }
+        });
+
+        // Keep a reference to WebView object until you pass the PrintDocumentAdapter
+        // to the PrintManager
+        mWebView = webView;
+    }
+
+    private void createWebPrintJob(WebView webView) {
+
+        // Get a PrintManager instance
+        PrintManager printManager = (PrintManager) this
+                .getSystemService(Context.PRINT_SERVICE);
+
+        // Get a print adapter instance
+        PrintDocumentAdapter printAdapter = webView.createPrintDocumentAdapter();
+
+        // Create a print job with name and adapter instance
+        String jobName = getString(R.string.app_name) + " Document";
+        PrintJob printJob = printManager.print(jobName, printAdapter,
+                new PrintAttributes.Builder().build());
+
+        if(printJob.isFailed()) {
+            printJob.restart();
         }
     }
 
