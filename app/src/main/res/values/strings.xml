@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PrintDemo</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_found">No devices found</string>
+    <string name="btn_search">Connect  Bluetooth  Printer</string>
+    <string name="btn_open">Open</string>
+    <string name="btn_print">Print</string>
+    <string name="btn_close">Close</string>
+    <string name="txt_content">"http://"</string>
+    <string name="menu_settings">set</string>
+    <string name="strLang">en</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="no_bluetooth_permissions">No bluetooth permissions</string>
+    <string name="no_internet_permissions">No internet permissions</string>
+    <string name="no_bt_admin_permissions">No bluetooth admin permissions</string>
+    <string name="no_location_permissions">No location permissions</string>
+    <string name="txt_remember_web">Remember website</string>
+
+</resources>
