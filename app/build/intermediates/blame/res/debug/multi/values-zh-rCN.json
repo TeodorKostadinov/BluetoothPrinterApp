@@ -6,249 +6,389 @@
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
-                    "startOffset": 55,
+                    "startOffset": 105,
                     "endColumn": 95,
-                    "endOffset": 146
+                    "endOffset": 196
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 233,
+                        "endColumn": 95,
+                        "endOffset": 324
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 151,
+                    "startOffset": 201,
                     "endColumn": 106,
-                    "endOffset": 253
+                    "endOffset": 303
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 329,
+                        "endColumn": 106,
+                        "endOffset": 431
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 258,
+                    "startOffset": 308,
                     "endColumn": 122,
-                    "endOffset": 376
+                    "endOffset": 426
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 436,
+                        "endColumn": 122,
+                        "endOffset": 554
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 381,
+                    "startOffset": 431,
                     "endColumn": 94,
-                    "endOffset": 471
+                    "endOffset": 521
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 559,
+                        "endColumn": 94,
+                        "endOffset": 649
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 476,
+                    "startOffset": 526,
                     "endColumn": 99,
-                    "endOffset": 571
+                    "endOffset": 621
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 654,
+                        "endColumn": 99,
+                        "endOffset": 749
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 576,
+                    "startOffset": 626,
                     "endColumn": 81,
-                    "endOffset": 653
+                    "endOffset": 703
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 754,
+                        "endColumn": 81,
+                        "endOffset": 831
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 658,
+                    "startOffset": 708,
                     "endColumn": 96,
-                    "endOffset": 750
+                    "endOffset": 800
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 836,
+                        "endColumn": 96,
+                        "endOffset": 928
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 755,
+                    "startOffset": 805,
                     "endColumn": 105,
-                    "endOffset": 856
+                    "endOffset": 906
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 933,
+                        "endColumn": 105,
+                        "endOffset": 1034
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 861,
+                    "startOffset": 911,
                     "endColumn": 75,
-                    "endOffset": 932
+                    "endOffset": 982
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1039,
+                        "endColumn": 75,
+                        "endOffset": 1110
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 937,
+                    "startOffset": 987,
                     "endColumn": 75,
-                    "endOffset": 1008
+                    "endOffset": 1058
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1115,
+                        "endColumn": 75,
+                        "endOffset": 1186
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1013,
+                    "startOffset": 1063,
                     "endColumn": 77,
-                    "endOffset": 1086
+                    "endOffset": 1136
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1191,
+                        "endColumn": 77,
+                        "endOffset": 1264
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1091,
+                    "startOffset": 1141,
                     "endColumn": 95,
-                    "endOffset": 1182
+                    "endOffset": 1232
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1269,
+                        "endColumn": 95,
+                        "endOffset": 1360
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1187,
+                    "startOffset": 1237,
                     "endColumn": 95,
-                    "endOffset": 1278
+                    "endOffset": 1328
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1365,
+                        "endColumn": 95,
+                        "endOffset": 1456
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1283,
+                    "startOffset": 1333,
                     "endColumn": 94,
-                    "endOffset": 1373
+                    "endOffset": 1423
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1461,
+                        "endColumn": 94,
+                        "endOffset": 1551
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1378,
+                    "startOffset": 1428,
                     "endColumn": 96,
-                    "endOffset": 1470
+                    "endOffset": 1520
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1556,
+                        "endColumn": 96,
+                        "endOffset": 1648
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1475,
+                    "startOffset": 1525,
                     "endColumn": 94,
-                    "endOffset": 1565
+                    "endOffset": 1615
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1653,
+                        "endColumn": 94,
+                        "endOffset": 1743
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1570,
+                    "startOffset": 1620,
                     "endColumn": 97,
-                    "endOffset": 1663
+                    "endOffset": 1713
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1748,
+                        "endColumn": 97,
+                        "endOffset": 1841
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1668,
+                    "startOffset": 1718,
                     "endColumn": 111,
-                    "endOffset": 1775
+                    "endOffset": 1825
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1846,
+                        "endColumn": 111,
+                        "endOffset": 1953
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 1780,
+                    "startOffset": 1830,
                     "endColumn": 93,
-                    "endOffset": 1869
+                    "endOffset": 1919
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1958,
+                        "endColumn": 93,
+                        "endOffset": 2047
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 1874,
+                    "startOffset": 1924,
                     "endColumn": 46,
-                    "endOffset": 1916
+                    "endOffset": 1966
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\src\\main\\res\\values-zh-rCN\\strings.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 46,
+                        "endOffset": 98
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 1921,
+                    "startOffset": 1971,
                     "endColumn": 40,
-                    "endOffset": 1957
+                    "endOffset": 2007
                 },
                 "from": {
                     "file": "D:\\BluetoothDEMO\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
@@ -265,9 +405,9 @@
                 "to": {
                     "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 1962,
+                    "startOffset": 2012,
                     "endColumn": 39,
-                    "endOffset": 1997
+                    "endOffset": 2047
                 },
                 "from": {
                     "file": "D:\\BluetoothDEMO\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
@@ -284,9 +424,9 @@
                 "to": {
                     "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 2002,
+                    "startOffset": 2052,
                     "endColumn": 43,
-                    "endOffset": 2041
+                    "endOffset": 2091
                 },
                 "from": {
                     "file": "D:\\BluetoothDEMO\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
@@ -303,9 +443,9 @@
                 "to": {
                     "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 2046,
+                    "startOffset": 2096,
                     "endColumn": 46,
-                    "endOffset": 2088
+                    "endOffset": 2138
                 },
                 "from": {
                     "file": "D:\\BluetoothDEMO\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
@@ -322,108 +462,741 @@
                 "to": {
                     "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 2093,
+                    "startOffset": 2143,
                     "endColumn": 42,
-                    "endOffset": 2131
+                    "endOffset": 2181
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\src\\main\\res\\values-zh-rCN\\strings.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 597,
+                        "endColumn": 42,
+                        "endOffset": 635
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 2136,
-                    "endColumn": 44,
-                    "endOffset": 2176
+                    "startOffset": 2186,
+                    "endColumn": 169,
+                    "endOffset": 2351
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\src\\main\\res\\values-zh-rCN\\strings.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 434,
+                        "endColumn": 173,
+                        "endOffset": 603
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 2181,
-                    "endColumn": 44,
-                    "endOffset": 2221
+                    "startOffset": 2356,
+                    "endColumn": 152,
+                    "endOffset": 2504
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\src\\main\\res\\values-zh-rCN\\strings.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2266,
+                        "endColumn": 156,
+                        "endOffset": 2418
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 2226,
-                    "endColumn": 48,
-                    "endOffset": 2270
+                    "startOffset": 2509,
+                    "endColumn": 105,
+                    "endOffset": 2610
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\src\\main\\res\\values-zh-rCN\\strings.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1995,
+                        "endColumn": 105,
+                        "endOffset": 2096
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 2275,
-                    "endColumn": 39,
-                    "endOffset": 2310
+                    "startOffset": 2615,
+                    "endColumn": 185,
+                    "endOffset": 2796
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\src\\main\\res\\values-zh-rCN\\strings.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 3816,
+                        "endColumn": 189,
+                        "endOffset": 4001
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 2315,
-                    "endColumn": 50,
-                    "endOffset": 2361
+                    "startOffset": 2801,
+                    "endColumn": 115,
+                    "endOffset": 2912
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\src\\main\\res\\values-zh-rCN\\strings.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1764,
+                        "endColumn": 115,
+                        "endOffset": 1875
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 2366,
-                    "endColumn": 100,
-                    "endOffset": 2462
+                    "startOffset": 2917,
+                    "endColumn": 160,
+                    "endOffset": 3073
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1599,
+                        "endColumn": 164,
+                        "endOffset": 1759
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 2467,
-                    "endColumn": 38,
-                    "endOffset": 2501
+                    "startOffset": 3078,
+                    "endColumn": 113,
+                    "endOffset": 3187
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\src\\main\\res\\values-zh-rCN\\strings.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1485,
+                        "endColumn": 113,
+                        "endOffset": 1594
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 2506,
-                    "endColumn": 42,
-                    "endOffset": 2544
+                    "startOffset": 3192,
+                    "endColumn": 160,
+                    "endOffset": 3348
                 },
                 "from": {
-                    "file": "D:\\BluetoothDEMO\\app\\src\\main\\res\\values-zh-rCN\\strings.xml"
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 739,
+                        "endColumn": 164,
+                        "endOffset": 899
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 3353,
+                    "endColumn": 116,
+                    "endOffset": 3465
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1368,
+                        "endColumn": 116,
+                        "endOffset": 1480
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 3470,
+                    "endColumn": 169,
+                    "endOffset": 3635
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1018,
+                        "endColumn": 173,
+                        "endOffset": 1187
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 3640,
+                    "endColumn": 171,
+                    "endOffset": 3807
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1192,
+                        "endColumn": 175,
+                        "endOffset": 1363
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 3812,
+                    "endColumn": 113,
+                    "endOffset": 3921
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 904,
+                        "endColumn": 113,
+                        "endOffset": 1013
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 3926,
+                    "endColumn": 128,
+                    "endOffset": 4050
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 3067,
+                        "endColumn": 128,
+                        "endOffset": 3191
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 4055,
+                    "endColumn": 112,
+                    "endOffset": 4163
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2954,
+                        "endColumn": 112,
+                        "endOffset": 3062
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 4168,
+                    "endColumn": 130,
+                    "endOffset": 4294
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 608,
+                        "endColumn": 130,
+                        "endOffset": 734
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 4299,
+                    "endColumn": 133,
+                    "endOffset": 4428
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2820,
+                        "endColumn": 133,
+                        "endOffset": 2949
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 4433,
+                    "endColumn": 110,
+                    "endOffset": 4539
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2709,
+                        "endColumn": 110,
+                        "endOffset": 2815
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 4544,
+                    "endColumn": 141,
+                    "endOffset": 4681
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 292,
+                        "endColumn": 141,
+                        "endOffset": 429
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 4686,
+                    "endColumn": 121,
+                    "endOffset": 4803
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 170,
+                        "endColumn": 121,
+                        "endOffset": 287
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 4808,
+                    "endColumn": 123,
+                    "endOffset": 4927
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 4118,
+                        "endColumn": 123,
+                        "endOffset": 4237
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 4932,
+                    "endColumn": 111,
+                    "endOffset": 5039
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 4006,
+                        "endColumn": 111,
+                        "endOffset": 4113
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 5044,
+                    "endColumn": 120,
+                    "endOffset": 5160
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 3196,
+                        "endColumn": 120,
+                        "endOffset": 3312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 5165,
+                    "endColumn": 188,
+                    "endOffset": 5349
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 3435,
+                        "endColumn": 192,
+                        "endOffset": 3623
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 5354,
+                    "endColumn": 117,
+                    "endOffset": 5467
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 3317,
+                        "endColumn": 117,
+                        "endOffset": 3430
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 5472,
+                    "endColumn": 102,
+                    "endOffset": 5570
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 3628,
+                        "endColumn": 102,
+                        "endOffset": 3726
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 5575,
+                    "endColumn": 160,
+                    "endOffset": 5731
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2101,
+                        "endColumn": 164,
+                        "endOffset": 2261
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 5736,
+                    "endColumn": 114,
+                    "endOffset": 5846
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1880,
+                        "endColumn": 114,
+                        "endOffset": 1990
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 5851,
+                    "endColumn": 162,
+                    "endOffset": 6009
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2542,
+                        "endColumn": 166,
+                        "endOffset": 2704
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 6014,
+                    "endColumn": 118,
+                    "endOffset": 6128
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2423,
+                        "endColumn": 118,
+                        "endOffset": 2537
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 6133,
+                    "endColumn": 84,
+                    "endOffset": 6213
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 3731,
+                        "endColumn": 84,
+                        "endOffset": 3811
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 6218,
+                    "endColumn": 44,
+                    "endOffset": 6258
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 513,
+                        "endColumn": 44,
+                        "endOffset": 553
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 6263,
+                    "endColumn": 44,
+                    "endOffset": 6303
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 243,
+                        "endColumn": 44,
+                        "endOffset": 283
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 6308,
+                    "endColumn": 48,
+                    "endOffset": 6352
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 103,
+                        "endColumn": 48,
+                        "endOffset": 147
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 6357,
+                    "endColumn": 39,
+                    "endOffset": 6392
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 152,
+                        "endColumn": 39,
+                        "endOffset": 187
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 6397,
+                    "endColumn": 50,
+                    "endOffset": 6443
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 192,
+                        "endColumn": 50,
+                        "endOffset": 238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 6448,
+                    "endColumn": 100,
+                    "endOffset": 6544
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2052,
+                        "endColumn": 100,
+                        "endOffset": 2148
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 6549,
+                    "endColumn": 38,
+                    "endOffset": 6583
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 558,
+                        "endColumn": 38,
+                        "endOffset": 592
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 6588,
+                    "endColumn": 42,
+                    "endOffset": 6626
+                },
+                "from": {
+                    "file": "D:\\BluetoothDEMO\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 460,
+                        "endColumn": 52,
+                        "endOffset": 508
+                    }
                 }
             }
         ]

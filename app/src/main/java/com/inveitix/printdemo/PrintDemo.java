@@ -4,6 +4,8 @@ import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
 
+import com.crashlytics.android.Crashlytics;
+import com.inveitix.printdemo.constants.RequestConstants;
 import com.zj.btsdk.BluetoothService;
 import com.zj.btsdk.PrintPic;
 
@@ -15,9 +17,10 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
-import android.graphics.Picture;
+import android.graphics.Paint;
 import android.media.MediaScannerConnection;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
@@ -33,6 +36,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import android.util.Log;
+import io.fabric.sdk.android.Fabric;
+
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -49,15 +54,7 @@ import retrofit2.http.GET;
 
 
 public class PrintDemo extends Activity {
-    private static final int REQUEST_ENABLE_BT = 2;
-    private static final int REQUEST_CONNECT_DEVICE = 1;
-    private static final int PERMISSIONS_REQUEST_BLUETOOTH = 1;
-    private static final String TAG_REQUEST_PERMISSION = "Request permission";
-    private static final int PERMISSIONS_REQUEST_INTERNET = 0;
-    private static final int PERMISSIONS_REQUEST_BT_ADMIN = 2;
-    private static final int PERMISSIONS_REQUEST_LOCATION = 3;
-    private static final String WEB_SITE = "Remembered Web Site";
-    private static final String IS_CHECKED = "Check box";
+
     @Bind(R.id.btn_search)
     Button btnSearch;
     @Bind(R.id.btn_print)
@@ -66,6 +63,7 @@ public class PrintDemo extends Activity {
     Button btnSend;
     @Bind(R.id.btn_close)
     Button btnClose;
+
     private final Handler mHandler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
@@ -103,22 +101,27 @@ public class PrintDemo extends Activity {
         }
 
     };
+
+    String path;
+    File dir;
+    File file;
     @Bind(R.id.check_box)
     CheckBox checkBox;
     @Bind(R.id.txt_content)
     EditText edtContext;
     @Bind(R.id.web_view)
     WebView webView;
-    BluetoothService mService = null;
-    BluetoothDevice con_dev = null;
+    BluetoothService mService;
+    BluetoothDevice con_dev;
     private SharedPreferences sharedPref;
 
-    /**
-     * Called when the activity is first created.
-     */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Fabric.with(this, new Crashlytics());
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            WebView.enableSlowWholeDocumentDraw();
+        }
         setContentView(R.layout.main);
         ButterKnife.bind(this);
         mService = new BluetoothService(this, mHandler);
@@ -127,10 +130,8 @@ public class PrintDemo extends Activity {
             Toast.makeText(this, "Bluetooth is not available", Toast.LENGTH_LONG).show();
             finish();
         }
-
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setDefaultTextEncodingName("utf-8");
-
         webView.setWebViewClient(new WebViewClient() {
 
             @SuppressLint("SdCardPath")
@@ -139,43 +140,9 @@ public class PrintDemo extends Activity {
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        Picture picture = view.capturePicture();
-                        Bitmap b = Bitmap.createBitmap(
-                                picture.getWidth(), picture.getHeight(), Bitmap.Config.ARGB_8888); // tuk chupi koda
-                        Canvas c = new Canvas(b);
-                        picture.draw(c);
-
-                        FileOutputStream fos;
-                        try {
-                            String path = Environment.getExternalStorageDirectory().toString();
-                            File dir = new File(path, "/PrintDemo/media/img/");
-                            if (!dir.isDirectory()) {
-                                dir.mkdirs();
-                            }
-                            String arquivo = "darf_"+ System.currentTimeMillis() + ".jpg";
-                            File file = new File(dir, arquivo);
-
-                            fos = new FileOutputStream(file);
-                            String imagePath =  file.getAbsolutePath();
-                            //scan the image so show up in album
-                            MediaScannerConnection.scanFile(PrintDemo.this, new String[]{imagePath},
-                                    null, new MediaScannerConnection.OnScanCompletedListener() {
-                                        public void onScanCompleted(String path, Uri uri) {
-
-                                        }
-                                    });
-
-                            if (fos != null) {
-                                b.compress(Bitmap.CompressFormat.JPEG, 90, fos);
-
-                                fos.close();
-                            }
-
-                        } catch (Exception e) {
-                            e.printStackTrace();
-                        }
+                        siteToImage();
                     }
-                }, 10000);
+                }, 2000);
 
             }
         });
@@ -184,9 +151,54 @@ public class PrintDemo extends Activity {
         checkPermissions();
     }
 
+    private void siteToImage() {
+        webView.measure(View.MeasureSpec.makeMeasureSpec(
+                        View.MeasureSpec.UNSPECIFIED, View.MeasureSpec.UNSPECIFIED),
+                View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED));
+
+        webView.setDrawingCacheEnabled(true);
+        webView.buildDrawingCache();
+        Bitmap b = Bitmap.createBitmap(webView.getMeasuredWidth(),
+                webView.getMeasuredHeight(), Bitmap.Config.ARGB_8888);
+        Canvas c = new Canvas(b);
+        Paint paint = new Paint();
+        int iHeight = b.getHeight();
+        c.drawBitmap(b, 0, iHeight, paint);
+        webView.draw(c);
+
+        FileOutputStream fos;
+        try {
+            path = Environment.getExternalStorageDirectory().toString();
+            dir = new File(path, "/PrintDemo/media/img/");
+            if (!dir.isDirectory()) {
+                dir.mkdirs();
+            }
+            String arquivo = "darf_" + System.currentTimeMillis() + ".jpg";
+            file = new File(dir, arquivo);
+
+            fos = new FileOutputStream(file);
+            String imagePath = file.getAbsolutePath();
+            //scan the image so show up in album
+            MediaScannerConnection.scanFile(PrintDemo.this, new String[]{imagePath},
+                    null, new MediaScannerConnection.OnScanCompletedListener() {
+                        public void onScanCompleted(String path, Uri uri) {
+
+                        }
+                    });
+
+            b.compress(Bitmap.CompressFormat.PNG, 50, fos);
+            fos.flush();
+            fos.close();
+            b.recycle();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
     private void setRememberedWeb() {
         if (checkBox.isChecked()) {
-            String rememberedWeb = sharedPref.getString(WEB_SITE, "");
+            String rememberedWeb = sharedPref.getString(RequestConstants.WEB_SITE, "");
             if (!rememberedWeb.equals("")) {
                 edtContext.setText(rememberedWeb);
             }
@@ -208,17 +220,17 @@ public class PrintDemo extends Activity {
 
     private void saveState(boolean isChecked) {
         SharedPreferences.Editor editor = sharedPref.edit();
-        editor.putBoolean(IS_CHECKED, isChecked);
+        editor.putBoolean(RequestConstants.IS_CHECKED, isChecked);
         if (isChecked) {
-            editor.putString(WEB_SITE, edtContext.getText().toString());
+            editor.putString(RequestConstants.WEB_SITE, edtContext.getText().toString());
         } else {
-            editor.putString(WEB_SITE, getString(R.string.txt_content));
+            editor.putString(RequestConstants.WEB_SITE, getString(R.string.txt_content));
         }
         editor.apply();
     }
 
     private boolean load() {
-        return sharedPref.getBoolean(IS_CHECKED, false);
+        return sharedPref.getBoolean(RequestConstants.IS_CHECKED, false);
     }
 
     private boolean checkPermissions() {
@@ -235,7 +247,8 @@ public class PrintDemo extends Activity {
             edtContext.setText(R.string.no_bluetooth_permissions);
             if (ActivityCompat.shouldShowRequestPermissionRationale(this,
                     Manifest.permission.BLUETOOTH)) {
-                Toast.makeText(PrintDemo.this, TAG_REQUEST_PERMISSION, Toast.LENGTH_SHORT).show();
+                Toast.makeText(PrintDemo.this,
+                        RequestConstants.TAG_REQUEST_PERMISSION, Toast.LENGTH_SHORT).show();
             } else {
                 requestBTPermission();
             }
@@ -244,7 +257,8 @@ public class PrintDemo extends Activity {
             edtContext.setText(R.string.no_internet_permissions);
             if (ActivityCompat.shouldShowRequestPermissionRationale(this,
                     Manifest.permission.INTERNET)) {
-                Toast.makeText(PrintDemo.this, TAG_REQUEST_PERMISSION, Toast.LENGTH_SHORT).show();
+                Toast.makeText(PrintDemo.this,
+                        RequestConstants.TAG_REQUEST_PERMISSION, Toast.LENGTH_SHORT).show();
             } else {
                 requestInternetPermission();
             }
@@ -253,7 +267,8 @@ public class PrintDemo extends Activity {
             edtContext.setText(R.string.no_bt_admin_permissions);
             if (ActivityCompat.shouldShowRequestPermissionRationale(this,
                     Manifest.permission.INTERNET)) {
-                Toast.makeText(PrintDemo.this, TAG_REQUEST_PERMISSION, Toast.LENGTH_SHORT).show();
+                Toast.makeText(PrintDemo.this,
+                        RequestConstants.TAG_REQUEST_PERMISSION, Toast.LENGTH_SHORT).show();
             } else {
                 requestBTAdminPermission();
             }
@@ -262,7 +277,8 @@ public class PrintDemo extends Activity {
             edtContext.setText(R.string.no_location_permissions);
             if (ActivityCompat.shouldShowRequestPermissionRationale(this,
                     Manifest.permission.ACCESS_COARSE_LOCATION)) {
-                Toast.makeText(PrintDemo.this, TAG_REQUEST_PERMISSION, Toast.LENGTH_SHORT).show();
+                Toast.makeText(PrintDemo.this,
+                        RequestConstants.TAG_REQUEST_PERMISSION, Toast.LENGTH_SHORT).show();
             } else {
                 requestLocationPermission();
             }
@@ -275,27 +291,26 @@ public class PrintDemo extends Activity {
     private void requestLocationPermission() {
         ActivityCompat
                 .requestPermissions(this, new String[]{Manifest.permission.ACCESS_COARSE_LOCATION},
-                        PERMISSIONS_REQUEST_LOCATION);
+                        RequestConstants.PERMISSIONS_REQUEST_LOCATION);
     }
 
     private void requestBTAdminPermission() {
         ActivityCompat
                 .requestPermissions(this, new String[]{Manifest.permission.BLUETOOTH_ADMIN},
-                        PERMISSIONS_REQUEST_BT_ADMIN);
+                        RequestConstants.PERMISSIONS_REQUEST_BT_ADMIN);
     }
 
     private void requestInternetPermission() {
         ActivityCompat
                 .requestPermissions(this, new String[]{Manifest.permission.INTERNET},
-                        PERMISSIONS_REQUEST_INTERNET);
+                        RequestConstants.PERMISSIONS_REQUEST_INTERNET);
     }
 
     private void requestBTPermission() {
         ActivityCompat
                 .requestPermissions(this, new String[]{Manifest.permission.BLUETOOTH},
-                        PERMISSIONS_REQUEST_BLUETOOTH);
+                        RequestConstants.PERMISSIONS_REQUEST_BLUETOOTH);
     }
-
 
     @Override
     public void onStart() {
@@ -303,7 +318,7 @@ public class PrintDemo extends Activity {
 
         if (!mService.isBTopen()) {
             Intent enableIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
-            startActivityForResult(enableIntent, REQUEST_ENABLE_BT);
+            startActivityForResult(enableIntent, RequestConstants.REQUEST_ENABLE_BT);
         }
         try {
             btnSendDraw = (Button) this.findViewById(R.id.btn_print);
@@ -334,19 +349,18 @@ public class PrintDemo extends Activity {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         switch (requestCode) {
-            case REQUEST_ENABLE_BT:
+            case RequestConstants.REQUEST_ENABLE_BT:
                 if (resultCode == Activity.RESULT_OK) {
                     Toast.makeText(this, "Bluetooth open successful", Toast.LENGTH_LONG).show();
                 } else {
                     finish();
                 }
                 break;
-            case REQUEST_CONNECT_DEVICE:
+            case RequestConstants.REQUEST_CONNECT_DEVICE:
                 if (resultCode == Activity.RESULT_OK) {
                     String address = data.getExtras()
                             .getString(DeviceListActivity.EXTRA_DEVICE_ADDRESS);
                     con_dev = mService.getDevByMac(address);
-
                     mService.connect(con_dev);
                 }
                 break;
@@ -359,9 +373,7 @@ public class PrintDemo extends Activity {
         PrintPic pg = new PrintPic();
         pg.initCanvas(384);
         pg.initPaint();
-        String path = Environment.getExternalStorageDirectory().toString();
-        File dir = new File(path, "/PrintDemo/media/img/");
-        pg.drawImage(0, 0, dir.getPath());
+        pg.drawImage(0, 0, file.getPath());
         sendData = pg.printDraw();
         mService.write(sendData);
     }
@@ -378,8 +390,10 @@ public class PrintDemo extends Activity {
                 @Override
                 public void onResponse(Response<ResponseBody> response) {
                     try {
-                        String summary = response.body().string();
-                        webView.loadData(summary, "text/html; charset=utf-8", null);
+                        if (response.body() != null) {
+                            String summary = response.body().string();
+                            webView.loadData(summary, "text/html; charset=utf-8", null);
+                        }
 
                     } catch (IOException e) {
                         e.printStackTrace();
@@ -402,42 +416,16 @@ public class PrintDemo extends Activity {
         public void onClick(View v) {
             if (v == btnSearch) {
                 Intent serverIntent = new Intent(PrintDemo.this, DeviceListActivity.class);
-                startActivityForResult(serverIntent, REQUEST_CONNECT_DEVICE);
+                startActivityForResult(serverIntent, RequestConstants.REQUEST_CONNECT_DEVICE);
+
+
             } else if (v == btnSend) {
                 downloadContent();
             } else if (v == btnClose) {
                 mService.stop();
-            } else if (v == btnSendDraw) { //tova go printira
-                String msg = "";
-                String lang = getString(R.string.strLang);
+            } else if (v == btnSendDraw) {
                 printImage();
 
-                byte[] cmd = new byte[3];
-                cmd[0] = 0x1b;
-                cmd[1] = 0x21;
-                if ((lang.compareTo("en")) == 0) {
-                    cmd[2] |= 0x10;
-                    mService.write(cmd);
-                    mService.sendMessage("Congratulations!\n", "GBK");
-                    cmd[2] &= 0xEF;
-                    mService.write(cmd);
-                    msg = "  You have sucessfully created communications between your device and our bluetooth printer.\n\n"
-                            + "  the company is a high-tech enterprise which specializes" +
-                            " in R&D,manufacturing,marketing of thermal printers and barcode scanners.\n\n";
-
-
-                    mService.sendMessage(msg, "GBK");
-                } else if ((lang.compareTo("ch")) == 0) {
-                    cmd[2] |= 0x10;
-                    mService.write(cmd);
-                    mService.sendMessage("Message\n", "GBK");
-                    cmd[2] &= 0xEF;
-                    mService.write(cmd);
-                    msg = "  Message\n\n"
-                            + "  another message.\n\n";
-
-                    mService.sendMessage(msg, "GBK");
-                }
             }
         }
     }
