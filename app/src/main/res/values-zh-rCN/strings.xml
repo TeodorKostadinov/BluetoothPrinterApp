@@ -9,7 +9,7 @@
     <string name="btn_search">连接蓝牙打印机</string>
     <string name="btn_open">打印</string>
     <string name="btn_print">打印测试页</string>
-    <string name="btn_close">关闭</string>
+    <string name="btn_disconnect">关闭</string>
     <string name="txt_content">&quot;&quot;</string>
     <string name="menu_settings">设置</string>
     <string name="strLang">ch</string>
