@@ -179,13 +179,6 @@ public class MainActivity extends AppCompatActivity {
             String arquivo = "darf_" + System.currentTimeMillis() + ".jpg";
             file = new File(dir, arquivo);
             fos = new FileOutputStream(file);
-            String imagePath = file.getAbsolutePath();
-            //scan the image so show up in album
-//            MediaScannerConnection.scanFile(MainActivity.this, new String[]{imagePath},
-//                    null, new MediaScannerConnection.OnScanCompletedListener() {
-//                        public void onScanCompleted(String path, Uri uri) {
-//                        }
-//                    });
             b.compress(Bitmap.CompressFormat.PNG, 50, fos);
             fos.flush();
             fos.close();
