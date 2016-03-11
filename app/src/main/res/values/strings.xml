@@ -20,5 +20,16 @@
     <string name="no_location_permissions">No location permissions</string>
     <string name="txt_remember_web">Remember website</string>
     <string name="txt_connect">Connect to bluetooth</string>
+    <string name="txt_exit">Do you want to exit?</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="txt_yes">Yes</string>
+    <string name="bt_open">Bluetooth open successful</string>
+    <string name="file_path">/MainActivity/media/img/</string>
+    <string name="encoding">utf-8</string>
+    <string name="bt_not_available">Bluetooth is not available</string>
+    <string name="connect_success">Connect successful</string>
+    <string name="connecting">Connecting...</string>
+    <string name="conn_lost">Device connection was lost</string>
+    <string name="unable_conn">Unable to connect device</string>
 
 </resources>

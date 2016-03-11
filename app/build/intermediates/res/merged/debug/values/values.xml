@@ -234,12 +234,14 @@
     <string name="app_name">TicketPrint</string>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
     <string name="auth_google_play_services_client_google_display_name">Google</string>
+    <string name="bt_not_available">Bluetooth is not available</string>
+    <string name="bt_open">Bluetooth open successful</string>
     <string name="btn_disconnect">Disconnect</string>
     <string name="btn_open">Open</string>
     <string name="btn_print">Print</string>
     <string name="btn_search">Connect  Bluetooth  Printer</string>
     <string name="button_scan">Scan for devices</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">0660ac5f-f61e-459a-b0f0-05cb9d743943</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">d9e445d0-4ec3-4090-8457-851acd9ae0df</string>
     <string name="common_android_wear_notification_needs_update_text"><ns1:g id="app_name">%1$s</ns1:g> requires an update to the Android Wear app.</string>
     <string name="common_android_wear_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update the Android Wear app.</string>
     <string msgid="6006316683626838685" name="common_android_wear_update_title">Update Android Wear</string>
@@ -270,6 +272,11 @@
     <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
     <string name="common_google_play_services_updating_title">Google Play services are updating</string>
     <string name="common_open_on_phone">Open on phone</string>
+    <string name="conn_lost">Device connection was lost</string>
+    <string name="connect_success">Connect successful</string>
+    <string name="connecting">Connecting...</string>
+    <string name="encoding">utf-8</string>
+    <string name="file_path">/MainActivity/media/img/</string>
     <string name="menu_settings">set</string>
     <string name="no_bluetooth_permissions">No bluetooth permissions</string>
     <string name="no_bt_admin_permissions">No bluetooth admin permissions</string>
@@ -281,9 +288,13 @@
     <string name="select_device">select a device to connect</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="strLang">en</string>
+    <string name="txt_cancel">Cancel</string>
     <string name="txt_connect">Connect to bluetooth</string>
     <string name="txt_content">http://</string>
+    <string name="txt_exit">Do you want to exit?</string>
     <string name="txt_remember_web">Remember website</string>
+    <string name="txt_yes">Yes</string>
+    <string name="unable_conn">Unable to connect device</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

@@ -2,6 +2,7 @@ package com.inveitix.ticketprint.ui;
 
 import android.Manifest;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 
 import com.crashlytics.android.Crashlytics;
@@ -26,6 +27,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -86,13 +88,13 @@ public class MainActivity extends AppCompatActivity {
                 case BluetoothService.MESSAGE_STATE_CHANGE:
                     switch (msg.arg1) {
                         case BluetoothService.STATE_CONNECTED:
-                            Toast.makeText(getApplicationContext(), "Connect successful",
+                            Toast.makeText(getApplicationContext(), R.string.connect_success,
                                     Toast.LENGTH_SHORT).show();
                             btnDisconnect.setVisibility(View.VISIBLE);
                             btnSendDraw.setVisibility(View.VISIBLE);
                             break;
                         case BluetoothService.STATE_CONNECTING:
-                            Toast.makeText(getApplicationContext(), "Connecting...",
+                            Toast.makeText(getApplicationContext(), R.string.connecting,
                                     Toast.LENGTH_SHORT).show();
                             break;
                         case BluetoothService.STATE_LISTEN:
@@ -102,20 +104,19 @@ public class MainActivity extends AppCompatActivity {
                     }
                     break;
                 case BluetoothService.MESSAGE_CONNECTION_LOST:
-                    Toast.makeText(getApplicationContext(), "Device connection was lost",
+                    Toast.makeText(getApplicationContext(), R.string.conn_lost,
                             Toast.LENGTH_SHORT).show();
                     btnDisconnect.setVisibility(View.GONE);
                     btnSendDraw.setVisibility(View.GONE);
                     break;
                 case BluetoothService.MESSAGE_UNABLE_CONNECT:
-                    Toast.makeText(getApplicationContext(), "Unable to connect device",
+                    Toast.makeText(getApplicationContext(), R.string.unable_conn,
                             Toast.LENGTH_SHORT).show();
                     break;
             }
         }
 
     };
-
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -129,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
         mService = new BluetoothService(this, mHandler);
 
         if (!mService.isAvailable()) {
-            Toast.makeText(this, "Bluetooth is not available", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.bt_not_available, Toast.LENGTH_LONG).show();
             finish();
         }
         initWebView();
@@ -139,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initWebView() {
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.getSettings().setDefaultTextEncodingName("utf-8");
+        webView.getSettings().setDefaultTextEncodingName(getString(R.string.encoding));
         webView.setWebViewClient(new WebViewClient() {
 
             @SuppressLint("SdCardPath")
@@ -173,7 +174,7 @@ public class MainActivity extends AppCompatActivity {
         FileOutputStream fos;
         try {
             path = Environment.getExternalStorageDirectory().toString();
-            dir = new File(path, "/MainActivity/media/img/");
+            dir = new File(path, getString(R.string.file_path));
             if (!dir.isDirectory()) {
                 dir.mkdirs();
             }
@@ -342,7 +343,7 @@ public class MainActivity extends AppCompatActivity {
             btnOpen.setOnClickListener(new ClickEvent());
             btnDisconnect.setOnClickListener(new ClickEvent());
 
-            if(mService.getState() == BluetoothService.STATE_CONNECTED) {
+            if (mService.getState() == BluetoothService.STATE_CONNECTED) {
                 btnSendDraw.setVisibility(View.VISIBLE);
                 btnDisconnect.setVisibility(View.VISIBLE);
             } else {
@@ -364,15 +365,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void deleteFile() {
-        file.delete();
-        if(file.exists()){
-            try {
-                file.getCanonicalFile().delete();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            if(file.exists()){
-                getApplicationContext().deleteFile(file.getName());
+        if (file != null) {
+            file.delete();
+
+            if (file.exists()) {
+                try {
+                    file.getCanonicalFile().delete();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                if (file.exists()) {
+                    getApplicationContext().deleteFile(file.getName());
+                }
             }
         }
     }
@@ -382,7 +386,7 @@ public class MainActivity extends AppCompatActivity {
         switch (requestCode) {
             case RequestConstants.REQUEST_ENABLE_BT:
                 if (resultCode == Activity.RESULT_OK) {
-                    Toast.makeText(this, "Bluetooth open successful", Toast.LENGTH_LONG).show();
+                    Toast.makeText(this, R.string.bt_open, Toast.LENGTH_LONG).show();
                 } else {
                     finish();
                 }
@@ -393,7 +397,7 @@ public class MainActivity extends AppCompatActivity {
                             .getString(DeviceListActivity.EXTRA_DEVICE_ADDRESS);
                     con_dev = mService.getDevByMac(address);
                     mService.connect(con_dev);
-                    if(mService.getState() == BluetoothService.STATE_CONNECTED) {
+                    if (mService.getState() == BluetoothService.STATE_CONNECTED) {
                         btnSendDraw.setVisibility(View.VISIBLE);
                         btnDisconnect.setVisibility(View.VISIBLE);
                     }
@@ -418,7 +422,7 @@ public class MainActivity extends AppCompatActivity {
                 .equals(getString(R.string.txt_content))) {
             edtContext = (EditText) this.getCurrentFocus();
             if (edtContext != null) {
-                InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
+                InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
                 imm.hideSoftInputFromWindow(edtContext.getWindowToken(), 0);
             }
             Retrofit retrofit = new Retrofit.Builder()
@@ -444,6 +448,26 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
         }
+    }
+
+    private void doExit() {
+        AlertDialog.Builder alertDialog = new AlertDialog.Builder(
+                MainActivity.this);
+        alertDialog.setPositiveButton(getString(R.string.txt_yes), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                finish();
+            }
+        });
+        alertDialog.setNegativeButton(getString(R.string.txt_cancel), null);
+        alertDialog.setMessage(getString(R.string.txt_exit));
+        alertDialog.setTitle(getString(R.string.app_name));
+        alertDialog.show();
+    }
+
+    @Override
+    public void onBackPressed() {
+        doExit();
     }
 
     public interface HttpService {
