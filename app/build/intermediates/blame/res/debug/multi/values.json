@@ -2419,8 +2419,8 @@
                     "startLine": 233,
                     "startColumn": 4,
                     "startOffset": 30723,
-                    "endColumn": 46,
-                    "endOffset": 30765
+                    "endColumn": 48,
+                    "endOffset": 30767
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\src\\main\\res\\values\\strings.xml"
@@ -2430,9 +2430,9 @@
                 "to": {
                     "startLine": 234,
                     "startColumn": 4,
-                    "startOffset": 30770,
+                    "startOffset": 30772,
                     "endColumn": 91,
-                    "endOffset": 30857
+                    "endOffset": 30859
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\auth_strings.xml"
@@ -2442,9 +2442,9 @@
                 "to": {
                     "startLine": 235,
                     "startColumn": 4,
-                    "startOffset": 30862,
+                    "startOffset": 30864,
                     "endColumn": 87,
-                    "endOffset": 30945
+                    "endOffset": 30947
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\auth_strings.xml"
@@ -2454,9 +2454,9 @@
                 "to": {
                     "startLine": 236,
                     "startColumn": 4,
-                    "startOffset": 30950,
+                    "startOffset": 30952,
                     "endColumn": 53,
-                    "endOffset": 30999
+                    "endOffset": 31001
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\src\\main\\res\\values\\strings.xml"
@@ -2466,9 +2466,9 @@
                 "to": {
                     "startLine": 237,
                     "startColumn": 4,
-                    "startOffset": 31004,
+                    "startOffset": 31006,
                     "endColumn": 41,
-                    "endOffset": 31041
+                    "endOffset": 31043
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\src\\main\\res\\values\\strings.xml"
@@ -2478,9 +2478,9 @@
                 "to": {
                     "startLine": 238,
                     "startColumn": 4,
-                    "startOffset": 31046,
+                    "startOffset": 31048,
                     "endColumn": 43,
-                    "endOffset": 31085
+                    "endOffset": 31087
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\src\\main\\res\\values\\strings.xml"
@@ -2490,9 +2490,9 @@
                 "to": {
                     "startLine": 239,
                     "startColumn": 4,
-                    "startOffset": 31090,
+                    "startOffset": 31092,
                     "endColumn": 66,
-                    "endOffset": 31152
+                    "endOffset": 31154
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\src\\main\\res\\values\\strings.xml"
@@ -2502,9 +2502,9 @@
                 "to": {
                     "startLine": 240,
                     "startColumn": 4,
-                    "startOffset": 31157,
+                    "startOffset": 31159,
                     "endColumn": 56,
-                    "endOffset": 31209
+                    "endOffset": 31211
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\src\\main\\res\\values\\strings.xml"
@@ -2514,9 +2514,9 @@
                 "to": {
                     "startLine": 241,
                     "startColumn": 4,
-                    "startOffset": 31214,
+                    "startOffset": 31216,
                     "endColumn": 164,
-                    "endOffset": 31374
+                    "endOffset": 31376
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\generated\\fabric\\res\\debug\\values\\com_crashlytics_build_id.xml",
@@ -2533,9 +2533,9 @@
                 "to": {
                     "startLine": 242,
                     "startColumn": 4,
-                    "startOffset": 31379,
+                    "startOffset": 31381,
                     "endColumn": 156,
-                    "endOffset": 31531
+                    "endOffset": 31533
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2545,9 +2545,9 @@
                 "to": {
                     "startLine": 243,
                     "startColumn": 4,
-                    "startOffset": 31536,
+                    "startOffset": 31538,
                     "endColumn": 144,
-                    "endOffset": 31676
+                    "endOffset": 31678
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2557,9 +2557,9 @@
                 "to": {
                     "startLine": 244,
                     "startColumn": 4,
-                    "startOffset": 31681,
+                    "startOffset": 31683,
                     "endColumn": 108,
-                    "endOffset": 31785
+                    "endOffset": 31787
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2569,9 +2569,9 @@
                 "to": {
                     "startLine": 245,
                     "startColumn": 4,
-                    "startOffset": 31790,
+                    "startOffset": 31792,
                     "endColumn": 231,
-                    "endOffset": 32017
+                    "endOffset": 32019
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2581,9 +2581,9 @@
                 "to": {
                     "startLine": 246,
                     "startColumn": 4,
-                    "startOffset": 32022,
+                    "startOffset": 32024,
                     "endColumn": 125,
-                    "endOffset": 32143
+                    "endOffset": 32145
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2593,9 +2593,9 @@
                 "to": {
                     "startLine": 247,
                     "startColumn": 4,
-                    "startOffset": 32148,
+                    "startOffset": 32150,
                     "endColumn": 180,
-                    "endOffset": 32324
+                    "endOffset": 32326
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2605,9 +2605,9 @@
                 "to": {
                     "startLine": 248,
                     "startColumn": 4,
-                    "startOffset": 32329,
+                    "startOffset": 32331,
                     "endColumn": 124,
-                    "endOffset": 32449
+                    "endOffset": 32451
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2617,9 +2617,9 @@
                 "to": {
                     "startLine": 249,
                     "startColumn": 4,
-                    "startOffset": 32454,
+                    "startOffset": 32456,
                     "endColumn": 138,
-                    "endOffset": 32588
+                    "endOffset": 32590
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2629,9 +2629,9 @@
                 "to": {
                     "startLine": 250,
                     "startColumn": 4,
-                    "startOffset": 32593,
+                    "startOffset": 32595,
                     "endColumn": 123,
-                    "endOffset": 32712
+                    "endOffset": 32714
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2641,9 +2641,9 @@
                 "to": {
                     "startLine": 251,
                     "startColumn": 4,
-                    "startOffset": 32717,
+                    "startOffset": 32719,
                     "endColumn": 212,
-                    "endOffset": 32925
+                    "endOffset": 32927
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2653,9 +2653,9 @@
                 "to": {
                     "startLine": 252,
                     "startColumn": 4,
-                    "startOffset": 32930,
+                    "startOffset": 32932,
                     "endColumn": 214,
-                    "endOffset": 33140
+                    "endOffset": 33142
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2665,9 +2665,9 @@
                 "to": {
                     "startLine": 253,
                     "startColumn": 4,
-                    "startOffset": 33145,
+                    "startOffset": 33147,
                     "endColumn": 122,
-                    "endOffset": 33263
+                    "endOffset": 33265
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2677,9 +2677,9 @@
                 "to": {
                     "startLine": 254,
                     "startColumn": 4,
-                    "startOffset": 33268,
+                    "startOffset": 33270,
                     "endColumn": 164,
-                    "endOffset": 33428
+                    "endOffset": 33430
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2689,9 +2689,9 @@
                 "to": {
                     "startLine": 255,
                     "startColumn": 4,
-                    "startOffset": 33433,
+                    "startOffset": 33435,
                     "endColumn": 93,
-                    "endOffset": 33522
+                    "endOffset": 33524
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2701,9 +2701,9 @@
                 "to": {
                     "startLine": 256,
                     "startColumn": 4,
-                    "startOffset": 33527,
+                    "startOffset": 33529,
                     "endColumn": 136,
-                    "endOffset": 33659
+                    "endOffset": 33661
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2713,9 +2713,9 @@
                 "to": {
                     "startLine": 257,
                     "startColumn": 4,
-                    "startOffset": 33664,
+                    "startOffset": 33666,
                     "endColumn": 140,
-                    "endOffset": 33800
+                    "endOffset": 33802
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2725,9 +2725,9 @@
                 "to": {
                     "startLine": 258,
                     "startColumn": 4,
-                    "startOffset": 33805,
+                    "startOffset": 33807,
                     "endColumn": 89,
-                    "endOffset": 33890
+                    "endOffset": 33892
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2737,9 +2737,9 @@
                 "to": {
                     "startLine": 259,
                     "startColumn": 4,
-                    "startOffset": 33895,
+                    "startOffset": 33897,
                     "endColumn": 147,
-                    "endOffset": 34038
+                    "endOffset": 34040
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2749,9 +2749,9 @@
                 "to": {
                     "startLine": 260,
                     "startColumn": 4,
-                    "startOffset": 34043,
+                    "startOffset": 34045,
                     "endColumn": 102,
-                    "endOffset": 34141
+                    "endOffset": 34143
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2761,9 +2761,9 @@
                 "to": {
                     "startLine": 261,
                     "startColumn": 4,
-                    "startOffset": 34146,
+                    "startOffset": 34148,
                     "endColumn": 150,
-                    "endOffset": 34292
+                    "endOffset": 34294
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2773,9 +2773,9 @@
                 "to": {
                     "startLine": 262,
                     "startColumn": 4,
-                    "startOffset": 34297,
+                    "startOffset": 34299,
                     "endColumn": 91,
-                    "endOffset": 34384
+                    "endOffset": 34386
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2785,9 +2785,9 @@
                 "to": {
                     "startLine": 263,
                     "startColumn": 4,
-                    "startOffset": 34389,
+                    "startOffset": 34391,
                     "endColumn": 110,
-                    "endOffset": 34495
+                    "endOffset": 34497
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2797,9 +2797,9 @@
                 "to": {
                     "startLine": 264,
                     "startColumn": 4,
-                    "startOffset": 34500,
+                    "startOffset": 34502,
                     "endColumn": 218,
-                    "endOffset": 34714
+                    "endOffset": 34716
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2809,9 +2809,9 @@
                 "to": {
                     "startLine": 265,
                     "startColumn": 4,
-                    "startOffset": 34719,
+                    "startOffset": 34721,
                     "endColumn": 94,
-                    "endOffset": 34809
+                    "endOffset": 34811
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2821,9 +2821,9 @@
                 "to": {
                     "startLine": 266,
                     "startColumn": 4,
-                    "startOffset": 34814,
+                    "startOffset": 34816,
                     "endColumn": 104,
-                    "endOffset": 34914
+                    "endOffset": 34916
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2833,9 +2833,9 @@
                 "to": {
                     "startLine": 267,
                     "startColumn": 4,
-                    "startOffset": 34919,
+                    "startOffset": 34921,
                     "endColumn": 180,
-                    "endOffset": 35095
+                    "endOffset": 35097
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2845,9 +2845,9 @@
                 "to": {
                     "startLine": 268,
                     "startColumn": 4,
-                    "startOffset": 35100,
+                    "startOffset": 35102,
                     "endColumn": 124,
-                    "endOffset": 35220
+                    "endOffset": 35222
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2857,9 +2857,9 @@
                 "to": {
                     "startLine": 269,
                     "startColumn": 4,
-                    "startOffset": 35225,
+                    "startOffset": 35227,
                     "endColumn": 174,
-                    "endOffset": 35395
+                    "endOffset": 35397
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2869,9 +2869,9 @@
                 "to": {
                     "startLine": 270,
                     "startColumn": 4,
-                    "startOffset": 35400,
+                    "startOffset": 35402,
                     "endColumn": 104,
-                    "endOffset": 35500
+                    "endOffset": 35502
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2881,9 +2881,9 @@
                 "to": {
                     "startLine": 271,
                     "startColumn": 4,
-                    "startOffset": 35505,
+                    "startOffset": 35507,
                     "endColumn": 62,
-                    "endOffset": 35563
+                    "endOffset": 35565
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values\\common_strings.xml"
@@ -2893,9 +2893,9 @@
                 "to": {
                     "startLine": 272,
                     "startColumn": 4,
-                    "startOffset": 35568,
+                    "startOffset": 35570,
                     "endColumn": 45,
-                    "endOffset": 35609
+                    "endOffset": 35611
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\src\\main\\res\\values\\strings.xml"
@@ -2905,9 +2905,9 @@
                 "to": {
                     "startLine": 273,
                     "startColumn": 4,
-                    "startOffset": 35614,
+                    "startOffset": 35616,
                     "endColumn": 77,
-                    "endOffset": 35687
+                    "endOffset": 35689
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\src\\main\\res\\values\\strings.xml"
@@ -2917,9 +2917,9 @@
                 "to": {
                     "startLine": 274,
                     "startColumn": 4,
-                    "startOffset": 35692,
+                    "startOffset": 35694,
                     "endColumn": 82,
-                    "endOffset": 35770
+                    "endOffset": 35772
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\src\\main\\res\\values\\strings.xml"
@@ -2929,9 +2929,9 @@
                 "to": {
                     "startLine": 275,
                     "startColumn": 4,
-                    "startOffset": 35775,
+                    "startOffset": 35777,
                     "endColumn": 75,
-                    "endOffset": 35846
+                    "endOffset": 35848
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\src\\main\\res\\values\\strings.xml"
@@ -2941,9 +2941,9 @@
                 "to": {
                     "startLine": 276,
                     "startColumn": 4,
-                    "startOffset": 35851,
+                    "startOffset": 35853,
                     "endColumn": 75,
-                    "endOffset": 35922
+                    "endOffset": 35924
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\src\\main\\res\\values\\strings.xml"
@@ -2953,9 +2953,9 @@
                 "to": {
                     "startLine": 277,
                     "startColumn": 4,
-                    "startOffset": 35927,
+                    "startOffset": 35929,
                     "endColumn": 55,
-                    "endOffset": 35978
+                    "endOffset": 35980
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\src\\main\\res\\values\\strings.xml"
@@ -2965,9 +2965,9 @@
                 "to": {
                     "startLine": 278,
                     "startColumn": 4,
-                    "startOffset": 35983,
+                    "startOffset": 35985,
                     "endColumn": 67,
-                    "endOffset": 36046
+                    "endOffset": 36048
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\src\\main\\res\\values\\strings.xml"
@@ -2977,9 +2977,9 @@
                 "to": {
                     "startLine": 279,
                     "startColumn": 4,
-                    "startOffset": 36051,
+                    "startOffset": 36053,
                     "endColumn": 58,
-                    "endOffset": 36105
+                    "endOffset": 36107
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\src\\main\\res\\values\\strings.xml"
@@ -2989,9 +2989,9 @@
                 "to": {
                     "startLine": 280,
                     "startColumn": 4,
-                    "startOffset": 36110,
+                    "startOffset": 36112,
                     "endColumn": 68,
-                    "endOffset": 36174
+                    "endOffset": 36176
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\src\\main\\res\\values\\strings.xml"
@@ -3001,9 +3001,9 @@
                 "to": {
                     "startLine": 281,
                     "startColumn": 4,
-                    "startOffset": 36179,
+                    "startOffset": 36181,
                     "endColumn": 70,
-                    "endOffset": 36245
+                    "endOffset": 36247
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3013,9 +3013,9 @@
                 "to": {
                     "startLine": 282,
                     "startColumn": 4,
-                    "startOffset": 36250,
+                    "startOffset": 36252,
                     "endColumn": 38,
-                    "endOffset": 36284
+                    "endOffset": 36286
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\src\\main\\res\\values\\strings.xml"
@@ -3025,9 +3025,9 @@
                 "to": {
                     "startLine": 283,
                     "startColumn": 4,
-                    "startOffset": 36289,
+                    "startOffset": 36291,
                     "endColumn": 60,
-                    "endOffset": 36345
+                    "endOffset": 36347
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\src\\main\\res\\values\\strings.xml"
@@ -3037,9 +3037,9 @@
                 "to": {
                     "startLine": 284,
                     "startColumn": 4,
-                    "startOffset": 36350,
+                    "startOffset": 36352,
                     "endColumn": 47,
-                    "endOffset": 36393
+                    "endOffset": 36395
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\src\\main\\res\\values\\strings.xml"
@@ -3049,9 +3049,9 @@
                 "to": {
                     "startLine": 285,
                     "startColumn": 4,
-                    "startOffset": 36398,
+                    "startOffset": 36400,
                     "endColumn": 61,
-                    "endOffset": 36455
+                    "endOffset": 36457
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\src\\main\\res\\values\\strings.xml"
@@ -3061,9 +3061,9 @@
                 "to": {
                     "startLine": 286,
                     "startColumn": 4,
-                    "startOffset": 36460,
+                    "startOffset": 36462,
                     "endColumn": 77,
-                    "endOffset": 36533
+                    "endOffset": 36535
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3073,9 +3073,9 @@
                 "to": {
                     "startLine": 287,
                     "startColumn": 4,
-                    "startOffset": 36538,
+                    "startOffset": 36540,
                     "endColumn": 89,
-                    "endOffset": 36623
+                    "endOffset": 36625
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3085,9 +3085,9 @@
                 "to": {
                     "startLine": 288,
                     "startColumn": 4,
-                    "startOffset": 36628,
+                    "startOffset": 36630,
                     "endColumn": 87,
-                    "endOffset": 36711
+                    "endOffset": 36713
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3097,9 +3097,9 @@
                 "to": {
                     "startLine": 289,
                     "startColumn": 4,
-                    "startOffset": 36716,
+                    "startOffset": 36718,
                     "endColumn": 95,
-                    "endOffset": 36807
+                    "endOffset": 36809
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3109,10 +3109,10 @@
                 "to": {
                     "startLine": 290,
                     "startColumn": 4,
-                    "startOffset": 36812,
+                    "startOffset": 36814,
                     "endLine": 296,
                     "endColumn": 12,
-                    "endOffset": 37114
+                    "endOffset": 37116
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\src\\main\\res\\values\\styles.xml"
@@ -3122,10 +3122,10 @@
                 "to": {
                     "startLine": 297,
                     "startColumn": 4,
-                    "startOffset": 37119,
+                    "startOffset": 37121,
                     "endLine": 303,
                     "endColumn": 12,
-                    "endOffset": 37509
+                    "endOffset": 37511
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\src\\main\\res\\values\\styles.xml"
@@ -3135,10 +3135,10 @@
                 "to": {
                     "startLine": 304,
                     "startColumn": 4,
-                    "startOffset": 37514,
+                    "startOffset": 37516,
                     "endLine": 306,
                     "endColumn": 12,
-                    "endOffset": 37574
+                    "endOffset": 37576
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\src\\main\\res\\values\\styles.xml"
@@ -3148,10 +3148,10 @@
                 "to": {
                     "startLine": 307,
                     "startColumn": 4,
-                    "startOffset": 37579,
+                    "startOffset": 37581,
                     "endLine": 313,
                     "endColumn": 12,
-                    "endOffset": 38075
+                    "endOffset": 38077
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3161,9 +3161,9 @@
                 "to": {
                     "startLine": 314,
                     "startColumn": 4,
-                    "startOffset": 38080,
+                    "startOffset": 38082,
                     "endColumn": 88,
-                    "endOffset": 38164
+                    "endOffset": 38166
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3173,10 +3173,10 @@
                 "to": {
                     "startLine": 315,
                     "startColumn": 4,
-                    "startOffset": 38169,
+                    "startOffset": 38171,
                     "endLine": 318,
                     "endColumn": 12,
-                    "endOffset": 38411
+                    "endOffset": 38413
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3186,10 +3186,10 @@
                 "to": {
                     "startLine": 319,
                     "startColumn": 4,
-                    "startOffset": 38416,
+                    "startOffset": 38418,
                     "endLine": 322,
                     "endColumn": 12,
-                    "endOffset": 38692
+                    "endOffset": 38694
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3199,10 +3199,10 @@
                 "to": {
                     "startLine": 323,
                     "startColumn": 4,
-                    "startOffset": 38697,
+                    "startOffset": 38699,
                     "endLine": 327,
                     "endColumn": 12,
-                    "endOffset": 38977
+                    "endOffset": 38979
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3212,10 +3212,10 @@
                 "to": {
                     "startLine": 328,
                     "startColumn": 4,
-                    "startOffset": 38982,
+                    "startOffset": 38984,
                     "endLine": 333,
                     "endColumn": 12,
-                    "endOffset": 39370
+                    "endOffset": 39372
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3225,10 +3225,10 @@
                 "to": {
                     "startLine": 334,
                     "startColumn": 4,
-                    "startOffset": 39375,
+                    "startOffset": 39377,
                     "endLine": 340,
                     "endColumn": 12,
-                    "endOffset": 39847
+                    "endOffset": 39849
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3238,10 +3238,10 @@
                 "to": {
                     "startLine": 341,
                     "startColumn": 4,
-                    "startOffset": 39852,
+                    "startOffset": 39854,
                     "endLine": 344,
                     "endColumn": 12,
-                    "endOffset": 40069
+                    "endOffset": 40071
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3251,10 +3251,10 @@
                 "to": {
                     "startLine": 345,
                     "startColumn": 4,
-                    "startOffset": 40074,
+                    "startOffset": 40076,
                     "endLine": 348,
                     "endColumn": 12,
-                    "endOffset": 40291
+                    "endOffset": 40293
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3264,10 +3264,10 @@
                 "to": {
                     "startLine": 349,
                     "startColumn": 4,
-                    "startOffset": 40296,
+                    "startOffset": 40298,
                     "endLine": 353,
                     "endColumn": 12,
-                    "endOffset": 40559
+                    "endOffset": 40561
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3277,10 +3277,10 @@
                 "to": {
                     "startLine": 354,
                     "startColumn": 4,
-                    "startOffset": 40564,
+                    "startOffset": 40566,
                     "endLine": 357,
                     "endColumn": 12,
-                    "endOffset": 40786
+                    "endOffset": 40788
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3290,10 +3290,10 @@
                 "to": {
                     "startLine": 358,
                     "startColumn": 4,
-                    "startOffset": 40791,
+                    "startOffset": 40793,
                     "endLine": 361,
                     "endColumn": 12,
-                    "endOffset": 41016
+                    "endOffset": 41018
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3303,10 +3303,10 @@
                 "to": {
                     "startLine": 362,
                     "startColumn": 4,
-                    "startOffset": 41021,
+                    "startOffset": 41023,
                     "endLine": 365,
                     "endColumn": 12,
-                    "endOffset": 41246
+                    "endOffset": 41248
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3316,10 +3316,10 @@
                 "to": {
                     "startLine": 366,
                     "startColumn": 4,
-                    "startOffset": 41251,
+                    "startOffset": 41253,
                     "endLine": 369,
                     "endColumn": 12,
-                    "endOffset": 41476
+                    "endOffset": 41478
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3329,10 +3329,10 @@
                 "to": {
                     "startLine": 370,
                     "startColumn": 4,
-                    "startOffset": 41481,
+                    "startOffset": 41483,
                     "endLine": 373,
                     "endColumn": 12,
-                    "endOffset": 41706
+                    "endOffset": 41708
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3342,10 +3342,10 @@
                 "to": {
                     "startLine": 374,
                     "startColumn": 4,
-                    "startOffset": 41711,
+                    "startOffset": 41713,
                     "endLine": 377,
                     "endColumn": 12,
-                    "endOffset": 41933
+                    "endOffset": 41935
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3355,10 +3355,10 @@
                 "to": {
                     "startLine": 378,
                     "startColumn": 4,
-                    "startOffset": 41938,
+                    "startOffset": 41940,
                     "endLine": 381,
                     "endColumn": 12,
-                    "endOffset": 42172
+                    "endOffset": 42174
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3368,10 +3368,10 @@
                 "to": {
                     "startLine": 382,
                     "startColumn": 4,
-                    "startOffset": 42177,
+                    "startOffset": 42179,
                     "endLine": 385,
                     "endColumn": 12,
-                    "endOffset": 42398
+                    "endOffset": 42400
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3381,10 +3381,10 @@
                 "to": {
                     "startLine": 386,
                     "startColumn": 4,
-                    "startOffset": 42403,
+                    "startOffset": 42405,
                     "endLine": 389,
                     "endColumn": 12,
-                    "endOffset": 42643
+                    "endOffset": 42645
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3394,10 +3394,10 @@
                 "to": {
                     "startLine": 390,
                     "startColumn": 4,
-                    "startOffset": 42648,
+                    "startOffset": 42650,
                     "endLine": 391,
                     "endColumn": 12,
-                    "endOffset": 42773
+                    "endOffset": 42775
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3407,10 +3407,10 @@
                 "to": {
                     "startLine": 392,
                     "startColumn": 4,
-                    "startOffset": 42778,
+                    "startOffset": 42780,
                     "endLine": 393,
                     "endColumn": 12,
-                    "endOffset": 42903
+                    "endOffset": 42905
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3420,10 +3420,10 @@
                 "to": {
                     "startLine": 394,
                     "startColumn": 4,
-                    "startOffset": 42908,
+                    "startOffset": 42910,
                     "endLine": 397,
                     "endColumn": 12,
-                    "endOffset": 43133
+                    "endOffset": 43135
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3433,10 +3433,10 @@
                 "to": {
                     "startLine": 398,
                     "startColumn": 4,
-                    "startOffset": 43138,
+                    "startOffset": 43140,
                     "endLine": 401,
                     "endColumn": 12,
-                    "endOffset": 43381
+                    "endOffset": 43383
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3446,10 +3446,10 @@
                 "to": {
                     "startLine": 402,
                     "startColumn": 4,
-                    "startOffset": 43386,
+                    "startOffset": 43388,
                     "endLine": 405,
                     "endColumn": 12,
-                    "endOffset": 43600
+                    "endOffset": 43602
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3459,10 +3459,10 @@
                 "to": {
                     "startLine": 406,
                     "startColumn": 4,
-                    "startOffset": 43605,
+                    "startOffset": 43607,
                     "endLine": 410,
                     "endColumn": 12,
-                    "endOffset": 43883
+                    "endOffset": 43885
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3472,10 +3472,10 @@
                 "to": {
                     "startLine": 411,
                     "startColumn": 4,
-                    "startOffset": 43888,
+                    "startOffset": 43890,
                     "endLine": 414,
                     "endColumn": 12,
-                    "endOffset": 44091
+                    "endOffset": 44093
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3485,10 +3485,10 @@
                 "to": {
                     "startLine": 415,
                     "startColumn": 4,
-                    "startOffset": 44096,
+                    "startOffset": 44098,
                     "endLine": 417,
                     "endColumn": 12,
-                    "endOffset": 44222
+                    "endOffset": 44224
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3498,10 +3498,10 @@
                 "to": {
                     "startLine": 418,
                     "startColumn": 4,
-                    "startOffset": 44227,
+                    "startOffset": 44229,
                     "endLine": 421,
                     "endColumn": 12,
-                    "endOffset": 44449
+                    "endOffset": 44451
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3511,10 +3511,10 @@
                 "to": {
                     "startLine": 422,
                     "startColumn": 4,
-                    "startOffset": 44454,
+                    "startOffset": 44456,
                     "endLine": 425,
                     "endColumn": 12,
-                    "endOffset": 44695
+                    "endOffset": 44697
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3524,10 +3524,10 @@
                 "to": {
                     "startLine": 426,
                     "startColumn": 4,
-                    "startOffset": 44700,
+                    "startOffset": 44702,
                     "endLine": 429,
                     "endColumn": 12,
-                    "endOffset": 44920
+                    "endOffset": 44922
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3537,10 +3537,10 @@
                 "to": {
                     "startLine": 430,
                     "startColumn": 4,
-                    "startOffset": 44925,
+                    "startOffset": 44927,
                     "endLine": 433,
                     "endColumn": 12,
-                    "endOffset": 45167
+                    "endOffset": 45169
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3550,10 +3550,10 @@
                 "to": {
                     "startLine": 434,
                     "startColumn": 4,
-                    "startOffset": 45172,
+                    "startOffset": 45174,
                     "endLine": 437,
                     "endColumn": 12,
-                    "endOffset": 45388
+                    "endOffset": 45390
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3563,10 +3563,10 @@
                 "to": {
                     "startLine": 438,
                     "startColumn": 4,
-                    "startOffset": 45393,
+                    "startOffset": 45395,
                     "endLine": 441,
                     "endColumn": 12,
-                    "endOffset": 45633
+                    "endOffset": 45635
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3576,10 +3576,10 @@
                 "to": {
                     "startLine": 442,
                     "startColumn": 4,
-                    "startOffset": 45638,
+                    "startOffset": 45640,
                     "endLine": 445,
                     "endColumn": 12,
-                    "endOffset": 45907
+                    "endOffset": 45909
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3589,10 +3589,10 @@
                 "to": {
                     "startLine": 446,
                     "startColumn": 4,
-                    "startOffset": 45912,
+                    "startOffset": 45914,
                     "endLine": 449,
                     "endColumn": 12,
-                    "endOffset": 46208
+                    "endOffset": 46210
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3602,10 +3602,10 @@
                 "to": {
                     "startLine": 450,
                     "startColumn": 4,
-                    "startOffset": 46213,
+                    "startOffset": 46215,
                     "endLine": 453,
                     "endColumn": 12,
-                    "endOffset": 46532
+                    "endOffset": 46534
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3615,10 +3615,10 @@
                 "to": {
                     "startLine": 454,
                     "startColumn": 4,
-                    "startOffset": 46537,
+                    "startOffset": 46539,
                     "endLine": 457,
                     "endColumn": 12,
-                    "endOffset": 46823
+                    "endOffset": 46825
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3628,10 +3628,10 @@
                 "to": {
                     "startLine": 458,
                     "startColumn": 4,
-                    "startOffset": 46828,
+                    "startOffset": 46830,
                     "endLine": 461,
                     "endColumn": 12,
-                    "endOffset": 47137
+                    "endOffset": 47139
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3641,9 +3641,9 @@
                 "to": {
                     "startLine": 462,
                     "startColumn": 4,
-                    "startOffset": 47142,
+                    "startOffset": 47144,
                     "endColumn": 136,
-                    "endOffset": 47274
+                    "endOffset": 47276
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3653,9 +3653,9 @@
                 "to": {
                     "startLine": 463,
                     "startColumn": 4,
-                    "startOffset": 47279,
+                    "startOffset": 47281,
                     "endColumn": 130,
-                    "endOffset": 47405
+                    "endOffset": 47407
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3665,9 +3665,9 @@
                 "to": {
                     "startLine": 464,
                     "startColumn": 4,
-                    "startOffset": 47410,
+                    "startOffset": 47412,
                     "endColumn": 104,
-                    "endOffset": 47510
+                    "endOffset": 47512
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3677,10 +3677,10 @@
                 "to": {
                     "startLine": 465,
                     "startColumn": 4,
-                    "startOffset": 47515,
+                    "startOffset": 47517,
                     "endLine": 467,
                     "endColumn": 12,
-                    "endOffset": 47714
+                    "endOffset": 47716
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3690,10 +3690,10 @@
                 "to": {
                     "startLine": 468,
                     "startColumn": 4,
-                    "startOffset": 47719,
+                    "startOffset": 47721,
                     "endLine": 470,
                     "endColumn": 12,
-                    "endOffset": 47922
+                    "endOffset": 47924
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3703,10 +3703,10 @@
                 "to": {
                     "startLine": 471,
                     "startColumn": 4,
-                    "startOffset": 47927,
+                    "startOffset": 47929,
                     "endLine": 472,
                     "endColumn": 12,
-                    "endOffset": 48046
+                    "endOffset": 48048
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3716,10 +3716,10 @@
                 "to": {
                     "startLine": 473,
                     "startColumn": 4,
-                    "startOffset": 48051,
+                    "startOffset": 48053,
                     "endLine": 474,
                     "endColumn": 12,
-                    "endOffset": 48170
+                    "endOffset": 48172
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3729,9 +3729,9 @@
                 "to": {
                     "startLine": 475,
                     "startColumn": 4,
-                    "startOffset": 48175,
+                    "startOffset": 48177,
                     "endColumn": 104,
-                    "endOffset": 48275
+                    "endOffset": 48277
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3741,9 +3741,9 @@
                 "to": {
                     "startLine": 476,
                     "startColumn": 4,
-                    "startOffset": 48280,
+                    "startOffset": 48282,
                     "endColumn": 116,
-                    "endOffset": 48392
+                    "endOffset": 48394
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3753,10 +3753,10 @@
                 "to": {
                     "startLine": 477,
                     "startColumn": 4,
-                    "startOffset": 48397,
+                    "startOffset": 48399,
                     "endLine": 479,
                     "endColumn": 12,
-                    "endOffset": 48606
+                    "endOffset": 48608
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3766,10 +3766,10 @@
                 "to": {
                     "startLine": 480,
                     "startColumn": 4,
-                    "startOffset": 48611,
+                    "startOffset": 48613,
                     "endLine": 481,
                     "endColumn": 12,
-                    "endOffset": 48752
+                    "endOffset": 48754
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3779,10 +3779,10 @@
                 "to": {
                     "startLine": 482,
                     "startColumn": 4,
-                    "startOffset": 48757,
+                    "startOffset": 48759,
                     "endLine": 483,
                     "endColumn": 12,
-                    "endOffset": 48892
+                    "endOffset": 48894
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3792,10 +3792,10 @@
                 "to": {
                     "startLine": 484,
                     "startColumn": 4,
-                    "startOffset": 48897,
+                    "startOffset": 48899,
                     "endLine": 485,
                     "endColumn": 12,
-                    "endOffset": 48978
+                    "endOffset": 48980
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3805,10 +3805,10 @@
                 "to": {
                     "startLine": 486,
                     "startColumn": 4,
-                    "startOffset": 48983,
+                    "startOffset": 48985,
                     "endLine": 490,
                     "endColumn": 12,
-                    "endOffset": 49326
+                    "endOffset": 49328
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3818,9 +3818,9 @@
                 "to": {
                     "startLine": 491,
                     "startColumn": 4,
-                    "startOffset": 49331,
+                    "startOffset": 49333,
                     "endColumn": 87,
-                    "endOffset": 49414
+                    "endOffset": 49416
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3830,10 +3830,10 @@
                 "to": {
                     "startLine": 492,
                     "startColumn": 4,
-                    "startOffset": 49419,
+                    "startOffset": 49421,
                     "endLine": 495,
                     "endColumn": 12,
-                    "endOffset": 49644
+                    "endOffset": 49646
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3843,10 +3843,10 @@
                 "to": {
                     "startLine": 496,
                     "startColumn": 4,
-                    "startOffset": 49649,
+                    "startOffset": 49651,
                     "endLine": 501,
                     "endColumn": 12,
-                    "endOffset": 50062
+                    "endOffset": 50064
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3856,10 +3856,10 @@
                 "to": {
                     "startLine": 502,
                     "startColumn": 4,
-                    "startOffset": 50067,
+                    "startOffset": 50069,
                     "endLine": 505,
                     "endColumn": 12,
-                    "endOffset": 50295
+                    "endOffset": 50297
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3869,9 +3869,9 @@
                 "to": {
                     "startLine": 506,
                     "startColumn": 4,
-                    "startOffset": 50300,
+                    "startOffset": 50302,
                     "endColumn": 81,
-                    "endOffset": 50377
+                    "endOffset": 50379
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3881,10 +3881,10 @@
                 "to": {
                     "startLine": 507,
                     "startColumn": 4,
-                    "startOffset": 50382,
+                    "startOffset": 50384,
                     "endLine": 508,
                     "endColumn": 12,
-                    "endOffset": 50475
+                    "endOffset": 50477
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3894,10 +3894,10 @@
                 "to": {
                     "startLine": 509,
                     "startColumn": 4,
-                    "startOffset": 50480,
+                    "startOffset": 50482,
                     "endLine": 519,
                     "endColumn": 12,
-                    "endOffset": 51092
+                    "endOffset": 51094
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3907,9 +3907,9 @@
                 "to": {
                     "startLine": 520,
                     "startColumn": 4,
-                    "startOffset": 51097,
+                    "startOffset": 51099,
                     "endColumn": 99,
-                    "endOffset": 51192
+                    "endOffset": 51194
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3919,10 +3919,10 @@
                 "to": {
                     "startLine": 521,
                     "startColumn": 4,
-                    "startOffset": 51197,
+                    "startOffset": 51199,
                     "endLine": 524,
                     "endColumn": 12,
-                    "endOffset": 51428
+                    "endOffset": 51430
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3932,10 +3932,10 @@
                 "to": {
                     "startLine": 525,
                     "startColumn": 4,
-                    "startOffset": 51433,
+                    "startOffset": 51435,
                     "endLine": 530,
                     "endColumn": 12,
-                    "endOffset": 51852
+                    "endOffset": 51854
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3945,10 +3945,10 @@
                 "to": {
                     "startLine": 531,
                     "startColumn": 4,
-                    "startOffset": 51857,
+                    "startOffset": 51859,
                     "endLine": 534,
                     "endColumn": 12,
-                    "endOffset": 52091
+                    "endOffset": 52093
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3958,9 +3958,9 @@
                 "to": {
                     "startLine": 535,
                     "startColumn": 4,
-                    "startOffset": 52096,
+                    "startOffset": 52098,
                     "endColumn": 93,
-                    "endOffset": 52185
+                    "endOffset": 52187
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3970,9 +3970,9 @@
                 "to": {
                     "startLine": 536,
                     "startColumn": 4,
-                    "startOffset": 52190,
+                    "startOffset": 52192,
                     "endColumn": 88,
-                    "endOffset": 52274
+                    "endOffset": 52276
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3982,10 +3982,10 @@
                 "to": {
                     "startLine": 537,
                     "startColumn": 4,
-                    "startOffset": 52279,
+                    "startOffset": 52281,
                     "endLine": 540,
                     "endColumn": 12,
-                    "endOffset": 52511
+                    "endOffset": 52513
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -3995,10 +3995,10 @@
                 "to": {
                     "startLine": 541,
                     "startColumn": 4,
-                    "startOffset": 52516,
+                    "startOffset": 52518,
                     "endLine": 566,
                     "endColumn": 12,
-                    "endOffset": 54462
+                    "endOffset": 54464
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4008,10 +4008,10 @@
                 "to": {
                     "startLine": 567,
                     "startColumn": 4,
-                    "startOffset": 54467,
+                    "startOffset": 54469,
                     "endLine": 570,
                     "endColumn": 12,
-                    "endOffset": 54704
+                    "endOffset": 54706
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4021,10 +4021,10 @@
                 "to": {
                     "startLine": 571,
                     "startColumn": 4,
-                    "startOffset": 54709,
+                    "startOffset": 54711,
                     "endLine": 597,
                     "endColumn": 12,
-                    "endOffset": 56786
+                    "endOffset": 56788
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4034,10 +4034,10 @@
                 "to": {
                     "startLine": 598,
                     "startColumn": 4,
-                    "startOffset": 56791,
+                    "startOffset": 56793,
                     "endLine": 750,
                     "endColumn": 12,
-                    "endOffset": 66468
+                    "endOffset": 66470
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4047,10 +4047,10 @@
                 "to": {
                     "startLine": 751,
                     "startColumn": 4,
-                    "startOffset": 66473,
+                    "startOffset": 66475,
                     "endLine": 772,
                     "endColumn": 12,
-                    "endOffset": 67735
+                    "endOffset": 67737
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4060,10 +4060,10 @@
                 "to": {
                     "startLine": 773,
                     "startColumn": 4,
-                    "startOffset": 67740,
+                    "startOffset": 67742,
                     "endLine": 925,
                     "endColumn": 12,
-                    "endOffset": 77527
+                    "endOffset": 77529
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4073,10 +4073,10 @@
                 "to": {
                     "startLine": 926,
                     "startColumn": 4,
-                    "startOffset": 77532,
+                    "startOffset": 77534,
                     "endLine": 947,
                     "endColumn": 12,
-                    "endOffset": 78808
+                    "endOffset": 78810
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4086,10 +4086,10 @@
                 "to": {
                     "startLine": 948,
                     "startColumn": 4,
-                    "startOffset": 78813,
+                    "startOffset": 78815,
                     "endLine": 954,
                     "endColumn": 12,
-                    "endOffset": 79344
+                    "endOffset": 79346
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4099,10 +4099,10 @@
                 "to": {
                     "startLine": 955,
                     "startColumn": 4,
-                    "startOffset": 79349,
+                    "startOffset": 79351,
                     "endLine": 959,
                     "endColumn": 12,
-                    "endOffset": 79674
+                    "endOffset": 79676
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4112,10 +4112,10 @@
                 "to": {
                     "startLine": 960,
                     "startColumn": 4,
-                    "startOffset": 79679,
+                    "startOffset": 79681,
                     "endLine": 980,
                     "endColumn": 12,
-                    "endOffset": 80797
+                    "endOffset": 80799
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4125,10 +4125,10 @@
                 "to": {
                     "startLine": 981,
                     "startColumn": 4,
-                    "startOffset": 80802,
+                    "startOffset": 80804,
                     "endLine": 985,
                     "endColumn": 12,
-                    "endOffset": 81053
+                    "endOffset": 81055
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4138,10 +4138,10 @@
                 "to": {
                     "startLine": 986,
                     "startColumn": 4,
-                    "startOffset": 81058,
+                    "startOffset": 81060,
                     "endLine": 990,
                     "endColumn": 12,
-                    "endOffset": 81289
+                    "endOffset": 81291
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4151,10 +4151,10 @@
                 "to": {
                     "startLine": 991,
                     "startColumn": 4,
-                    "startOffset": 81294,
+                    "startOffset": 81296,
                     "endLine": 1000,
                     "endColumn": 12,
-                    "endOffset": 81836
+                    "endOffset": 81838
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4164,10 +4164,10 @@
                 "to": {
                     "startLine": 1001,
                     "startColumn": 4,
-                    "startOffset": 81841,
+                    "startOffset": 81843,
                     "endLine": 1009,
                     "endColumn": 12,
-                    "endOffset": 82330
+                    "endOffset": 82332
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4177,10 +4177,10 @@
                 "to": {
                     "startLine": 1010,
                     "startColumn": 4,
-                    "startOffset": 82335,
+                    "startOffset": 82337,
                     "endLine": 1018,
                     "endColumn": 12,
-                    "endOffset": 82935
+                    "endOffset": 82937
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4190,10 +4190,10 @@
                 "to": {
                     "startLine": 1019,
                     "startColumn": 4,
-                    "startOffset": 82940,
+                    "startOffset": 82942,
                     "endLine": 1021,
                     "endColumn": 12,
-                    "endOffset": 83083
+                    "endOffset": 83085
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4203,10 +4203,10 @@
                 "to": {
                     "startLine": 1022,
                     "startColumn": 4,
-                    "startOffset": 83088,
+                    "startOffset": 83090,
                     "endLine": 1028,
                     "endColumn": 12,
-                    "endOffset": 83671
+                    "endOffset": 83673
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4216,10 +4216,10 @@
                 "to": {
                     "startLine": 1029,
                     "startColumn": 4,
-                    "startOffset": 83676,
+                    "startOffset": 83678,
                     "endLine": 1036,
                     "endColumn": 12,
-                    "endOffset": 84235
+                    "endOffset": 84237
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4229,10 +4229,10 @@
                 "to": {
                     "startLine": 1037,
                     "startColumn": 4,
-                    "startOffset": 84240,
+                    "startOffset": 84242,
                     "endLine": 1043,
                     "endColumn": 12,
-                    "endOffset": 84610
+                    "endOffset": 84612
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4242,9 +4242,9 @@
                 "to": {
                     "startLine": 1044,
                     "startColumn": 4,
-                    "startOffset": 84615,
+                    "startOffset": 84617,
                     "endColumn": 117,
-                    "endOffset": 84728
+                    "endOffset": 84730
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4254,10 +4254,10 @@
                 "to": {
                     "startLine": 1045,
                     "startColumn": 4,
-                    "startOffset": 84733,
+                    "startOffset": 84735,
                     "endLine": 1053,
                     "endColumn": 12,
-                    "endOffset": 85266
+                    "endOffset": 85268
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4267,10 +4267,10 @@
                 "to": {
                     "startLine": 1054,
                     "startColumn": 4,
-                    "startOffset": 85271,
+                    "startOffset": 85273,
                     "endLine": 1056,
                     "endColumn": 12,
-                    "endOffset": 85423
+                    "endOffset": 85425
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4280,10 +4280,10 @@
                 "to": {
                     "startLine": 1057,
                     "startColumn": 4,
-                    "startOffset": 85428,
+                    "startOffset": 85430,
                     "endLine": 1059,
                     "endColumn": 12,
-                    "endOffset": 85567
+                    "endOffset": 85569
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4293,10 +4293,10 @@
                 "to": {
                     "startLine": 1060,
                     "startColumn": 4,
-                    "startOffset": 85572,
+                    "startOffset": 85574,
                     "endLine": 1064,
                     "endColumn": 12,
-                    "endOffset": 85887
+                    "endOffset": 85889
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4306,10 +4306,10 @@
                 "to": {
                     "startLine": 1065,
                     "startColumn": 4,
-                    "startOffset": 85892,
+                    "startOffset": 85894,
                     "endLine": 1068,
                     "endColumn": 12,
-                    "endOffset": 86143
+                    "endOffset": 86145
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4319,10 +4319,10 @@
                 "to": {
                     "startLine": 1069,
                     "startColumn": 4,
-                    "startOffset": 86148,
+                    "startOffset": 86150,
                     "endLine": 1072,
                     "endColumn": 12,
-                    "endOffset": 86313
+                    "endOffset": 86315
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4332,10 +4332,10 @@
                 "to": {
                     "startLine": 1073,
                     "startColumn": 4,
-                    "startOffset": 86318,
+                    "startOffset": 86320,
                     "endLine": 1075,
                     "endColumn": 12,
-                    "endOffset": 86454
+                    "endOffset": 86456
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4345,9 +4345,9 @@
                 "to": {
                     "startLine": 1076,
                     "startColumn": 4,
-                    "startOffset": 86459,
+                    "startOffset": 86461,
                     "endColumn": 63,
-                    "endOffset": 86518
+                    "endOffset": 86520
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4357,10 +4357,10 @@
                 "to": {
                     "startLine": 1077,
                     "startColumn": 4,
-                    "startOffset": 86523,
+                    "startOffset": 86525,
                     "endLine": 1080,
                     "endColumn": 12,
-                    "endOffset": 86800
+                    "endOffset": 86802
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4370,10 +4370,10 @@
                 "to": {
                     "startLine": 1081,
                     "startColumn": 4,
-                    "startOffset": 86805,
+                    "startOffset": 86807,
                     "endLine": 1084,
                     "endColumn": 12,
-                    "endOffset": 87086
+                    "endOffset": 87088
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4383,10 +4383,10 @@
                 "to": {
                     "startLine": 1085,
                     "startColumn": 4,
-                    "startOffset": 87091,
+                    "startOffset": 87093,
                     "endLine": 1094,
                     "endColumn": 12,
-                    "endOffset": 87762
+                    "endOffset": 87764
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4396,10 +4396,10 @@
                 "to": {
                     "startLine": 1095,
                     "startColumn": 4,
-                    "startOffset": 87767,
+                    "startOffset": 87769,
                     "endLine": 1099,
                     "endColumn": 12,
-                    "endOffset": 88026
+                    "endOffset": 88028
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4409,10 +4409,10 @@
                 "to": {
                     "startLine": 1100,
                     "startColumn": 4,
-                    "startOffset": 88031,
+                    "startOffset": 88033,
                     "endLine": 1106,
                     "endColumn": 12,
-                    "endOffset": 88364
+                    "endOffset": 88366
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4422,10 +4422,10 @@
                 "to": {
                     "startLine": 1107,
                     "startColumn": 4,
-                    "startOffset": 88369,
+                    "startOffset": 88371,
                     "endLine": 1112,
                     "endColumn": 12,
-                    "endOffset": 88717
+                    "endOffset": 88719
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4435,9 +4435,9 @@
                 "to": {
                     "startLine": 1113,
                     "startColumn": 4,
-                    "startOffset": 88722,
+                    "startOffset": 88724,
                     "endColumn": 93,
-                    "endOffset": 88811
+                    "endOffset": 88813
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4447,10 +4447,10 @@
                 "to": {
                     "startLine": 1114,
                     "startColumn": 4,
-                    "startOffset": 88816,
+                    "startOffset": 88818,
                     "endLine": 1116,
                     "endColumn": 12,
-                    "endOffset": 88997
+                    "endOffset": 88999
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4460,10 +4460,10 @@
                 "to": {
                     "startLine": 1117,
                     "startColumn": 4,
-                    "startOffset": 89002,
+                    "startOffset": 89004,
                     "endLine": 1120,
                     "endColumn": 12,
-                    "endOffset": 89303
+                    "endOffset": 89305
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4473,10 +4473,10 @@
                 "to": {
                     "startLine": 1121,
                     "startColumn": 4,
-                    "startOffset": 89308,
+                    "startOffset": 89310,
                     "endLine": 1125,
                     "endColumn": 12,
-                    "endOffset": 89565
+                    "endOffset": 89567
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4486,10 +4486,10 @@
                 "to": {
                     "startLine": 1126,
                     "startColumn": 4,
-                    "startOffset": 89570,
+                    "startOffset": 89572,
                     "endLine": 1127,
                     "endColumn": 12,
-                    "endOffset": 89690
+                    "endOffset": 89692
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4499,10 +4499,10 @@
                 "to": {
                     "startLine": 1128,
                     "startColumn": 4,
-                    "startOffset": 89695,
+                    "startOffset": 89697,
                     "endLine": 1129,
                     "endColumn": 12,
-                    "endOffset": 89817
+                    "endOffset": 89819
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4512,10 +4512,10 @@
                 "to": {
                     "startLine": 1130,
                     "startColumn": 4,
-                    "startOffset": 89822,
+                    "startOffset": 89824,
                     "endLine": 1132,
                     "endColumn": 12,
-                    "endOffset": 90056
+                    "endOffset": 90058
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4525,10 +4525,10 @@
                 "to": {
                     "startLine": 1133,
                     "startColumn": 4,
-                    "startOffset": 90061,
+                    "startOffset": 90063,
                     "endLine": 1135,
                     "endColumn": 12,
-                    "endOffset": 90267
+                    "endOffset": 90269
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4538,10 +4538,10 @@
                 "to": {
                     "startLine": 1136,
                     "startColumn": 4,
-                    "startOffset": 90272,
+                    "startOffset": 90274,
                     "endLine": 1137,
                     "endColumn": 12,
-                    "endOffset": 90386
+                    "endOffset": 90388
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4551,10 +4551,10 @@
                 "to": {
                     "startLine": 1138,
                     "startColumn": 4,
-                    "startOffset": 90391,
+                    "startOffset": 90393,
                     "endLine": 1141,
                     "endColumn": 12,
-                    "endOffset": 90579
+                    "endOffset": 90581
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4564,10 +4564,10 @@
                 "to": {
                     "startLine": 1142,
                     "startColumn": 4,
-                    "startOffset": 90584,
+                    "startOffset": 90586,
                     "endLine": 1148,
                     "endColumn": 12,
-                    "endOffset": 91034
+                    "endOffset": 91036
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4577,10 +4577,10 @@
                 "to": {
                     "startLine": 1149,
                     "startColumn": 4,
-                    "startOffset": 91039,
+                    "startOffset": 91041,
                     "endLine": 1151,
                     "endColumn": 12,
-                    "endOffset": 91215
+                    "endOffset": 91217
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4590,10 +4590,10 @@
                 "to": {
                     "startLine": 1152,
                     "startColumn": 4,
-                    "startOffset": 91220,
+                    "startOffset": 91222,
                     "endLine": 1154,
                     "endColumn": 12,
-                    "endOffset": 91337
+                    "endOffset": 91339
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4603,10 +4603,10 @@
                 "to": {
                     "startLine": 1155,
                     "startColumn": 4,
-                    "startOffset": 91342,
+                    "startOffset": 91344,
                     "endLine": 1158,
                     "endColumn": 12,
-                    "endOffset": 91596
+                    "endOffset": 91598
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4616,10 +4616,10 @@
                 "to": {
                     "startLine": 1159,
                     "startColumn": 4,
-                    "startOffset": 91601,
+                    "startOffset": 91603,
                     "endLine": 1160,
                     "endColumn": 12,
-                    "endOffset": 91709
+                    "endOffset": 91711
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4629,10 +4629,10 @@
                 "to": {
                     "startLine": 1161,
                     "startColumn": 4,
-                    "startOffset": 91714,
+                    "startOffset": 91716,
                     "endLine": 1164,
                     "endColumn": 12,
-                    "endOffset": 91896
+                    "endOffset": 91898
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4642,10 +4642,10 @@
                 "to": {
                     "startLine": 1165,
                     "startColumn": 4,
-                    "startOffset": 91901,
+                    "startOffset": 91903,
                     "endLine": 1166,
                     "endColumn": 12,
-                    "endOffset": 91998
+                    "endOffset": 92000
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4655,10 +4655,10 @@
                 "to": {
                     "startLine": 1167,
                     "startColumn": 4,
-                    "startOffset": 92003,
+                    "startOffset": 92005,
                     "endLine": 1172,
                     "endColumn": 12,
-                    "endOffset": 92442
+                    "endOffset": 92444
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4668,10 +4668,10 @@
                 "to": {
                     "startLine": 1173,
                     "startColumn": 4,
-                    "startOffset": 92447,
+                    "startOffset": 92449,
                     "endLine": 1174,
                     "endColumn": 12,
-                    "endOffset": 92566
+                    "endOffset": 92568
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4681,10 +4681,10 @@
                 "to": {
                     "startLine": 1175,
                     "startColumn": 4,
-                    "startOffset": 92571,
+                    "startOffset": 92573,
                     "endLine": 1178,
                     "endColumn": 12,
-                    "endOffset": 92851
+                    "endOffset": 92853
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4694,10 +4694,10 @@
                 "to": {
                     "startLine": 1179,
                     "startColumn": 4,
-                    "startOffset": 92856,
+                    "startOffset": 92858,
                     "endLine": 1190,
                     "endColumn": 12,
-                    "endOffset": 93738
+                    "endOffset": 93740
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4707,10 +4707,10 @@
                 "to": {
                     "startLine": 1191,
                     "startColumn": 4,
-                    "startOffset": 93743,
+                    "startOffset": 93745,
                     "endLine": 1196,
                     "endColumn": 12,
-                    "endOffset": 94032
+                    "endOffset": 94034
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4720,10 +4720,10 @@
                 "to": {
                     "startLine": 1197,
                     "startColumn": 4,
-                    "startOffset": 94037,
+                    "startOffset": 94039,
                     "endLine": 1205,
                     "endColumn": 12,
-                    "endOffset": 94602
+                    "endOffset": 94604
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4733,10 +4733,10 @@
                 "to": {
                     "startLine": 1206,
                     "startColumn": 4,
-                    "startOffset": 94607,
+                    "startOffset": 94609,
                     "endLine": 1216,
                     "endColumn": 12,
-                    "endOffset": 95334
+                    "endOffset": 95336
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4746,10 +4746,10 @@
                 "to": {
                     "startLine": 1217,
                     "startColumn": 4,
-                    "startOffset": 95339,
+                    "startOffset": 95341,
                     "endLine": 1219,
                     "endColumn": 12,
-                    "endOffset": 95506
+                    "endOffset": 95508
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4759,10 +4759,10 @@
                 "to": {
                     "startLine": 1220,
                     "startColumn": 4,
-                    "startOffset": 95511,
+                    "startOffset": 95513,
                     "endLine": 1224,
                     "endColumn": 12,
-                    "endOffset": 95842
+                    "endOffset": 95844
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4772,10 +4772,10 @@
                 "to": {
                     "startLine": 1225,
                     "startColumn": 4,
-                    "startOffset": 95847,
+                    "startOffset": 95849,
                     "endLine": 1236,
                     "endColumn": 12,
-                    "endOffset": 96709
+                    "endOffset": 96711
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4785,10 +4785,10 @@
                 "to": {
                     "startLine": 1237,
                     "startColumn": 4,
-                    "startOffset": 96714,
+                    "startOffset": 96716,
                     "endLine": 1241,
                     "endColumn": 12,
-                    "endOffset": 96987
+                    "endOffset": 96989
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4798,10 +4798,10 @@
                 "to": {
                     "startLine": 1242,
                     "startColumn": 4,
-                    "startOffset": 96992,
+                    "startOffset": 96994,
                     "endLine": 1249,
                     "endColumn": 12,
-                    "endOffset": 97453
+                    "endOffset": 97455
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.0.1\\res\\values\\values.xml"
@@ -4811,10 +4811,10 @@
                 "to": {
                     "startLine": 1250,
                     "startColumn": 4,
-                    "startOffset": 97458,
+                    "startOffset": 97460,
                     "endLine": 1252,
                     "endColumn": 12,
-                    "endOffset": 97579
+                    "endOffset": 97581
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.0.1\\res\\values\\values.xml"
@@ -4824,10 +4824,10 @@
                 "to": {
                     "startLine": 1253,
                     "startColumn": 4,
-                    "startOffset": 97584,
+                    "startOffset": 97586,
                     "endLine": 1255,
                     "endColumn": 12,
-                    "endOffset": 97707
+                    "endOffset": 97709
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.0.1\\res\\values\\values.xml"
@@ -4837,10 +4837,10 @@
                 "to": {
                     "startLine": 1256,
                     "startColumn": 4,
-                    "startOffset": 97712,
+                    "startOffset": 97714,
                     "endLine": 1293,
                     "endColumn": 12,
-                    "endOffset": 100569
+                    "endOffset": 100571
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4850,10 +4850,10 @@
                 "to": {
                     "startLine": 1294,
                     "startColumn": 4,
-                    "startOffset": 100574,
+                    "startOffset": 100576,
                     "endLine": 1332,
                     "endColumn": 12,
-                    "endOffset": 103571
+                    "endOffset": 103573
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4863,9 +4863,9 @@
                 "to": {
                     "startLine": 1333,
                     "startColumn": 4,
-                    "startOffset": 103576,
+                    "startOffset": 103578,
                     "endColumn": 61,
-                    "endOffset": 103633
+                    "endOffset": 103635
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4875,10 +4875,10 @@
                 "to": {
                     "startLine": 1334,
                     "startColumn": 4,
-                    "startOffset": 103638,
+                    "startOffset": 103640,
                     "endLine": 1343,
                     "endColumn": 12,
-                    "endOffset": 104263
+                    "endOffset": 104265
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4888,10 +4888,10 @@
                 "to": {
                     "startLine": 1344,
                     "startColumn": 4,
-                    "startOffset": 104268,
+                    "startOffset": 104270,
                     "endLine": 1352,
                     "endColumn": 12,
-                    "endOffset": 104877
+                    "endOffset": 104879
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4901,9 +4901,9 @@
                 "to": {
                     "startLine": 1353,
                     "startColumn": 4,
-                    "startOffset": 104882,
+                    "startOffset": 104884,
                     "endColumn": 85,
-                    "endOffset": 104963
+                    "endOffset": 104965
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4913,10 +4913,10 @@
                 "to": {
                     "startLine": 1354,
                     "startColumn": 4,
-                    "startOffset": 104968,
+                    "startOffset": 104970,
                     "endLine": 1358,
                     "endColumn": 12,
-                    "endOffset": 105185
+                    "endOffset": 105187
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\src\\main\\res\\values\\styles.xml"
@@ -4926,10 +4926,10 @@
                 "to": {
                     "startLine": 1359,
                     "startColumn": 4,
-                    "startOffset": 105190,
+                    "startOffset": 105192,
                     "endLine": 1360,
                     "endColumn": 12,
-                    "endOffset": 105298
+                    "endOffset": 105300
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4939,10 +4939,10 @@
                 "to": {
                     "startLine": 1361,
                     "startColumn": 4,
-                    "startOffset": 105303,
+                    "startOffset": 105305,
                     "endLine": 1364,
                     "endColumn": 12,
-                    "endOffset": 105527
+                    "endOffset": 105529
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4952,10 +4952,10 @@
                 "to": {
                     "startLine": 1365,
                     "startColumn": 4,
-                    "startOffset": 105532,
+                    "startOffset": 105534,
                     "endLine": 1367,
                     "endColumn": 12,
-                    "endOffset": 105687
+                    "endOffset": 105689
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4965,10 +4965,10 @@
                 "to": {
                     "startLine": 1368,
                     "startColumn": 4,
-                    "startOffset": 105692,
+                    "startOffset": 105694,
                     "endLine": 1370,
                     "endColumn": 12,
-                    "endOffset": 105839
+                    "endOffset": 105841
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4978,10 +4978,10 @@
                 "to": {
                     "startLine": 1371,
                     "startColumn": 4,
-                    "startOffset": 105844,
+                    "startOffset": 105846,
                     "endLine": 1373,
                     "endColumn": 12,
-                    "endOffset": 106010
+                    "endOffset": 106012
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -4991,10 +4991,10 @@
                 "to": {
                     "startLine": 1374,
                     "startColumn": 4,
-                    "startOffset": 106015,
+                    "startOffset": 106017,
                     "endLine": 1376,
                     "endColumn": 12,
-                    "endOffset": 106177
+                    "endOffset": 106179
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5004,10 +5004,10 @@
                 "to": {
                     "startLine": 1377,
                     "startColumn": 4,
-                    "startOffset": 106182,
+                    "startOffset": 106184,
                     "endLine": 1380,
                     "endColumn": 12,
-                    "endOffset": 106420
+                    "endOffset": 106422
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5017,10 +5017,10 @@
                 "to": {
                     "startLine": 1381,
                     "startColumn": 4,
-                    "startOffset": 106425,
+                    "startOffset": 106427,
                     "endLine": 1383,
                     "endColumn": 12,
-                    "endOffset": 106590
+                    "endOffset": 106592
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5030,10 +5030,10 @@
                 "to": {
                     "startLine": 1384,
                     "startColumn": 4,
-                    "startOffset": 106595,
+                    "startOffset": 106597,
                     "endLine": 1386,
                     "endColumn": 12,
-                    "endOffset": 106763
+                    "endOffset": 106765
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5043,10 +5043,10 @@
                 "to": {
                     "startLine": 1387,
                     "startColumn": 4,
-                    "startOffset": 106768,
+                    "startOffset": 106770,
                     "endLine": 1389,
                     "endColumn": 12,
-                    "endOffset": 106934
+                    "endOffset": 106936
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5056,10 +5056,10 @@
                 "to": {
                     "startLine": 1390,
                     "startColumn": 4,
-                    "startOffset": 106939,
+                    "startOffset": 106941,
                     "endLine": 1393,
                     "endColumn": 12,
-                    "endOffset": 107208
+                    "endOffset": 107210
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5069,10 +5069,10 @@
                 "to": {
                     "startLine": 1394,
                     "startColumn": 4,
-                    "startOffset": 107213,
+                    "startOffset": 107215,
                     "endLine": 1396,
                     "endColumn": 12,
-                    "endOffset": 107407
+                    "endOffset": 107409
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5082,10 +5082,10 @@
                 "to": {
                     "startLine": 1397,
                     "startColumn": 4,
-                    "startOffset": 107412,
+                    "startOffset": 107414,
                     "endLine": 1400,
                     "endColumn": 12,
-                    "endOffset": 107612
+                    "endOffset": 107614
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5095,10 +5095,10 @@
                 "to": {
                     "startLine": 1401,
                     "startColumn": 4,
-                    "startOffset": 107617,
+                    "startOffset": 107619,
                     "endLine": 1404,
                     "endColumn": 12,
-                    "endOffset": 107942
+                    "endOffset": 107944
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5108,9 +5108,9 @@
                 "to": {
                     "startLine": 1405,
                     "startColumn": 4,
-                    "startOffset": 107947,
+                    "startOffset": 107949,
                     "endColumn": 83,
-                    "endOffset": 108026
+                    "endOffset": 108028
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5120,9 +5120,9 @@
                 "to": {
                     "startLine": 1406,
                     "startColumn": 4,
-                    "startOffset": 108031,
+                    "startOffset": 108033,
                     "endColumn": 95,
-                    "endOffset": 108122
+                    "endOffset": 108124
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5132,9 +5132,9 @@
                 "to": {
                     "startLine": 1407,
                     "startColumn": 4,
-                    "startOffset": 108127,
+                    "startOffset": 108129,
                     "endColumn": 95,
-                    "endOffset": 108218
+                    "endOffset": 108220
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5144,9 +5144,9 @@
                 "to": {
                     "startLine": 1408,
                     "startColumn": 4,
-                    "startOffset": 108223,
+                    "startOffset": 108225,
                     "endColumn": 97,
-                    "endOffset": 108316
+                    "endOffset": 108318
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5156,9 +5156,9 @@
                 "to": {
                     "startLine": 1409,
                     "startColumn": 4,
-                    "startOffset": 108321,
+                    "startOffset": 108323,
                     "endColumn": 99,
-                    "endOffset": 108416
+                    "endOffset": 108418
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5168,9 +5168,9 @@
                 "to": {
                     "startLine": 1410,
                     "startColumn": 4,
-                    "startOffset": 108421,
+                    "startOffset": 108423,
                     "endColumn": 101,
-                    "endOffset": 108518
+                    "endOffset": 108520
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5180,9 +5180,9 @@
                 "to": {
                     "startLine": 1411,
                     "startColumn": 4,
-                    "startOffset": 108523,
+                    "startOffset": 108525,
                     "endColumn": 101,
-                    "endOffset": 108620
+                    "endOffset": 108622
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5192,9 +5192,9 @@
                 "to": {
                     "startLine": 1412,
                     "startColumn": 4,
-                    "startOffset": 108625,
+                    "startOffset": 108627,
                     "endColumn": 101,
-                    "endOffset": 108722
+                    "endOffset": 108724
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5204,9 +5204,9 @@
                 "to": {
                     "startLine": 1413,
                     "startColumn": 4,
-                    "startOffset": 108727,
+                    "startOffset": 108729,
                     "endColumn": 101,
-                    "endOffset": 108824
+                    "endOffset": 108826
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5216,9 +5216,9 @@
                 "to": {
                     "startLine": 1414,
                     "startColumn": 4,
-                    "startOffset": 108829,
+                    "startOffset": 108831,
                     "endColumn": 101,
-                    "endOffset": 108926
+                    "endOffset": 108928
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5228,9 +5228,9 @@
                 "to": {
                     "startLine": 1415,
                     "startColumn": 4,
-                    "startOffset": 108931,
+                    "startOffset": 108933,
                     "endColumn": 99,
-                    "endOffset": 109026
+                    "endOffset": 109028
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5240,9 +5240,9 @@
                 "to": {
                     "startLine": 1416,
                     "startColumn": 4,
-                    "startOffset": 109031,
+                    "startOffset": 109033,
                     "endColumn": 95,
-                    "endOffset": 109122
+                    "endOffset": 109124
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5252,9 +5252,9 @@
                 "to": {
                     "startLine": 1417,
                     "startColumn": 4,
-                    "startOffset": 109127,
+                    "startOffset": 109129,
                     "endColumn": 111,
-                    "endOffset": 109234
+                    "endOffset": 109236
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5264,9 +5264,9 @@
                 "to": {
                     "startLine": 1418,
                     "startColumn": 4,
-                    "startOffset": 109239,
+                    "startOffset": 109241,
                     "endColumn": 128,
-                    "endOffset": 109363
+                    "endOffset": 109365
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5276,9 +5276,9 @@
                 "to": {
                     "startLine": 1419,
                     "startColumn": 4,
-                    "startOffset": 109368,
+                    "startOffset": 109370,
                     "endColumn": 122,
-                    "endOffset": 109486
+                    "endOffset": 109488
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5288,10 +5288,10 @@
                 "to": {
                     "startLine": 1420,
                     "startColumn": 4,
-                    "startOffset": 109491,
+                    "startOffset": 109493,
                     "endLine": 1421,
                     "endColumn": 12,
-                    "endOffset": 109640
+                    "endOffset": 109642
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5301,10 +5301,10 @@
                 "to": {
                     "startLine": 1422,
                     "startColumn": 4,
-                    "startOffset": 109645,
+                    "startOffset": 109647,
                     "endLine": 1423,
                     "endColumn": 12,
-                    "endOffset": 109794
+                    "endOffset": 109796
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5314,9 +5314,9 @@
                 "to": {
                     "startLine": 1424,
                     "startColumn": 4,
-                    "startOffset": 109799,
+                    "startOffset": 109801,
                     "endColumn": 97,
-                    "endOffset": 109892
+                    "endOffset": 109894
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5326,9 +5326,9 @@
                 "to": {
                     "startLine": 1425,
                     "startColumn": 4,
-                    "startOffset": 109897,
+                    "startOffset": 109899,
                     "endColumn": 113,
-                    "endOffset": 110006
+                    "endOffset": 110008
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5338,9 +5338,9 @@
                 "to": {
                     "startLine": 1426,
                     "startColumn": 4,
-                    "startOffset": 110011,
+                    "startOffset": 110013,
                     "endColumn": 93,
-                    "endOffset": 110100
+                    "endOffset": 110102
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5350,10 +5350,10 @@
                 "to": {
                     "startLine": 1427,
                     "startColumn": 4,
-                    "startOffset": 110105,
+                    "startOffset": 110107,
                     "endLine": 1428,
                     "endColumn": 12,
-                    "endOffset": 110240
+                    "endOffset": 110242
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5363,10 +5363,10 @@
                 "to": {
                     "startLine": 1429,
                     "startColumn": 4,
-                    "startOffset": 110245,
+                    "startOffset": 110247,
                     "endLine": 1430,
                     "endColumn": 12,
-                    "endOffset": 110374
+                    "endOffset": 110376
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5376,9 +5376,9 @@
                 "to": {
                     "startLine": 1431,
                     "startColumn": 4,
-                    "startOffset": 110379,
+                    "startOffset": 110381,
                     "endColumn": 95,
-                    "endOffset": 110470
+                    "endOffset": 110472
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5388,9 +5388,9 @@
                 "to": {
                     "startLine": 1432,
                     "startColumn": 4,
-                    "startOffset": 110475,
+                    "startOffset": 110477,
                     "endColumn": 111,
-                    "endOffset": 110582
+                    "endOffset": 110584
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5400,9 +5400,9 @@
                 "to": {
                     "startLine": 1433,
                     "startColumn": 4,
-                    "startOffset": 110587,
+                    "startOffset": 110589,
                     "endColumn": 99,
-                    "endOffset": 110682
+                    "endOffset": 110684
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5412,9 +5412,9 @@
                 "to": {
                     "startLine": 1434,
                     "startColumn": 4,
-                    "startOffset": 110687,
+                    "startOffset": 110689,
                     "endColumn": 115,
-                    "endOffset": 110798
+                    "endOffset": 110800
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5424,9 +5424,9 @@
                 "to": {
                     "startLine": 1435,
                     "startColumn": 4,
-                    "startOffset": 110803,
+                    "startOffset": 110805,
                     "endColumn": 95,
-                    "endOffset": 110894
+                    "endOffset": 110896
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5436,9 +5436,9 @@
                 "to": {
                     "startLine": 1436,
                     "startColumn": 4,
-                    "startOffset": 110899,
+                    "startOffset": 110901,
                     "endColumn": 111,
-                    "endOffset": 111006
+                    "endOffset": 111008
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5448,10 +5448,10 @@
                 "to": {
                     "startLine": 1437,
                     "startColumn": 4,
-                    "startOffset": 111011,
+                    "startOffset": 111013,
                     "endLine": 1438,
                     "endColumn": 12,
-                    "endOffset": 111146
+                    "endOffset": 111148
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5461,9 +5461,9 @@
                 "to": {
                     "startLine": 1439,
                     "startColumn": 4,
-                    "startOffset": 111151,
+                    "startOffset": 111153,
                     "endColumn": 135,
-                    "endOffset": 111282
+                    "endOffset": 111284
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5473,10 +5473,10 @@
                 "to": {
                     "startLine": 1440,
                     "startColumn": 4,
-                    "startOffset": 111287,
+                    "startOffset": 111289,
                     "endLine": 1441,
                     "endColumn": 12,
-                    "endOffset": 111446
+                    "endOffset": 111448
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5486,9 +5486,9 @@
                 "to": {
                     "startLine": 1442,
                     "startColumn": 4,
-                    "startOffset": 111451,
+                    "startOffset": 111453,
                     "endColumn": 129,
-                    "endOffset": 111576
+                    "endOffset": 111578
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5498,10 +5498,10 @@
                 "to": {
                     "startLine": 1443,
                     "startColumn": 4,
-                    "startOffset": 111581,
+                    "startOffset": 111583,
                     "endLine": 1444,
                     "endColumn": 12,
-                    "endOffset": 111734
+                    "endOffset": 111736
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5511,10 +5511,10 @@
                 "to": {
                     "startLine": 1445,
                     "startColumn": 4,
-                    "startOffset": 111739,
+                    "startOffset": 111741,
                     "endLine": 1446,
                     "endColumn": 12,
-                    "endOffset": 111884
+                    "endOffset": 111886
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5524,9 +5524,9 @@
                 "to": {
                     "startLine": 1447,
                     "startColumn": 4,
-                    "startOffset": 111889,
+                    "startOffset": 111891,
                     "endColumn": 140,
-                    "endOffset": 112025
+                    "endOffset": 112027
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5536,10 +5536,10 @@
                 "to": {
                     "startLine": 1448,
                     "startColumn": 4,
-                    "startOffset": 112030,
+                    "startOffset": 112032,
                     "endLine": 1449,
                     "endColumn": 12,
-                    "endOffset": 112169
+                    "endOffset": 112171
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5549,9 +5549,9 @@
                 "to": {
                     "startLine": 1450,
                     "startColumn": 4,
-                    "startOffset": 112174,
+                    "startOffset": 112176,
                     "endColumn": 134,
-                    "endOffset": 112304
+                    "endOffset": 112306
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5561,9 +5561,9 @@
                 "to": {
                     "startLine": 1451,
                     "startColumn": 4,
-                    "startOffset": 112309,
+                    "startOffset": 112311,
                     "endColumn": 111,
-                    "endOffset": 112416
+                    "endOffset": 112418
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5573,9 +5573,9 @@
                 "to": {
                     "startLine": 1452,
                     "startColumn": 4,
-                    "startOffset": 112421,
+                    "startOffset": 112423,
                     "endColumn": 127,
-                    "endOffset": 112544
+                    "endOffset": 112546
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5585,10 +5585,10 @@
                 "to": {
                     "startLine": 1453,
                     "startColumn": 4,
-                    "startOffset": 112549,
+                    "startOffset": 112551,
                     "endLine": 1454,
                     "endColumn": 12,
-                    "endOffset": 112680
+                    "endOffset": 112682
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5598,10 +5598,10 @@
                 "to": {
                     "startLine": 1455,
                     "startColumn": 4,
-                    "startOffset": 112685,
+                    "startOffset": 112687,
                     "endLine": 1456,
                     "endColumn": 12,
-                    "endOffset": 112822
+                    "endOffset": 112824
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5611,10 +5611,10 @@
                 "to": {
                     "startLine": 1457,
                     "startColumn": 4,
-                    "startOffset": 112827,
+                    "startOffset": 112829,
                     "endLine": 1458,
                     "endColumn": 12,
-                    "endOffset": 112964
+                    "endOffset": 112966
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5624,9 +5624,9 @@
                 "to": {
                     "startLine": 1459,
                     "startColumn": 4,
-                    "startOffset": 112969,
+                    "startOffset": 112971,
                     "endColumn": 111,
-                    "endOffset": 113076
+                    "endOffset": 113078
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5636,9 +5636,9 @@
                 "to": {
                     "startLine": 1460,
                     "startColumn": 4,
-                    "startOffset": 113081,
+                    "startOffset": 113083,
                     "endColumn": 139,
-                    "endOffset": 113216
+                    "endOffset": 113218
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5648,9 +5648,9 @@
                 "to": {
                     "startLine": 1461,
                     "startColumn": 4,
-                    "startOffset": 113221,
+                    "startOffset": 113223,
                     "endColumn": 67,
-                    "endOffset": 113284
+                    "endOffset": 113286
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5660,9 +5660,9 @@
                 "to": {
                     "startLine": 1462,
                     "startColumn": 4,
-                    "startOffset": 113289,
+                    "startOffset": 113291,
                     "endColumn": 72,
-                    "endOffset": 113357
+                    "endOffset": 113359
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5672,9 +5672,9 @@
                 "to": {
                     "startLine": 1463,
                     "startColumn": 4,
-                    "startOffset": 113362,
+                    "startOffset": 113364,
                     "endColumn": 73,
-                    "endOffset": 113431
+                    "endOffset": 113433
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5684,9 +5684,9 @@
                 "to": {
                     "startLine": 1464,
                     "startColumn": 4,
-                    "startOffset": 113436,
+                    "startOffset": 113438,
                     "endColumn": 72,
-                    "endOffset": 113504
+                    "endOffset": 113506
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5696,9 +5696,9 @@
                 "to": {
                     "startLine": 1465,
                     "startColumn": 4,
-                    "startOffset": 113509,
+                    "startOffset": 113511,
                     "endColumn": 73,
-                    "endOffset": 113578
+                    "endOffset": 113580
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5708,10 +5708,10 @@
                 "to": {
                     "startLine": 1466,
                     "startColumn": 4,
-                    "startOffset": 113583,
+                    "startOffset": 113585,
                     "endLine": 1467,
                     "endColumn": 12,
-                    "endOffset": 113724
+                    "endOffset": 113726
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5721,10 +5721,10 @@
                 "to": {
                     "startLine": 1468,
                     "startColumn": 4,
-                    "startOffset": 113729,
+                    "startOffset": 113731,
                     "endLine": 1469,
                     "endColumn": 12,
-                    "endOffset": 113868
+                    "endOffset": 113870
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5734,10 +5734,10 @@
                 "to": {
                     "startLine": 1470,
                     "startColumn": 4,
-                    "startOffset": 113873,
+                    "startOffset": 113875,
                     "endLine": 1471,
                     "endColumn": 12,
-                    "endOffset": 114006
+                    "endOffset": 114008
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5747,9 +5747,9 @@
                 "to": {
                     "startLine": 1472,
                     "startColumn": 4,
-                    "startOffset": 114011,
+                    "startOffset": 114013,
                     "endColumn": 65,
-                    "endOffset": 114072
+                    "endOffset": 114074
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5759,9 +5759,9 @@
                 "to": {
                     "startLine": 1473,
                     "startColumn": 4,
-                    "startOffset": 114077,
+                    "startOffset": 114079,
                     "endColumn": 89,
-                    "endOffset": 114162
+                    "endOffset": 114164
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5771,9 +5771,9 @@
                 "to": {
                     "startLine": 1474,
                     "startColumn": 4,
-                    "startOffset": 114167,
+                    "startOffset": 114169,
                     "endColumn": 79,
-                    "endOffset": 114242
+                    "endOffset": 114244
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5783,9 +5783,9 @@
                 "to": {
                     "startLine": 1475,
                     "startColumn": 4,
-                    "startOffset": 114247,
+                    "startOffset": 114249,
                     "endColumn": 91,
-                    "endOffset": 114334
+                    "endOffset": 114336
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5795,9 +5795,9 @@
                 "to": {
                     "startLine": 1476,
                     "startColumn": 4,
-                    "startOffset": 114339,
+                    "startOffset": 114341,
                     "endColumn": 97,
-                    "endOffset": 114432
+                    "endOffset": 114434
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5807,10 +5807,10 @@
                 "to": {
                     "startLine": 1477,
                     "startColumn": 4,
-                    "startOffset": 114437,
+                    "startOffset": 114439,
                     "endLine": 1478,
                     "endColumn": 12,
-                    "endOffset": 114542
+                    "endOffset": 114544
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5820,9 +5820,9 @@
                 "to": {
                     "startLine": 1479,
                     "startColumn": 4,
-                    "startOffset": 114547,
+                    "startOffset": 114549,
                     "endColumn": 77,
-                    "endOffset": 114620
+                    "endOffset": 114622
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5832,9 +5832,9 @@
                 "to": {
                     "startLine": 1480,
                     "startColumn": 4,
-                    "startOffset": 114625,
+                    "startOffset": 114627,
                     "endColumn": 105,
-                    "endOffset": 114726
+                    "endOffset": 114728
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5844,9 +5844,9 @@
                 "to": {
                     "startLine": 1481,
                     "startColumn": 4,
-                    "startOffset": 114731,
+                    "startOffset": 114733,
                     "endColumn": 91,
-                    "endOffset": 114818
+                    "endOffset": 114820
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5856,9 +5856,9 @@
                 "to": {
                     "startLine": 1482,
                     "startColumn": 4,
-                    "startOffset": 114823,
+                    "startOffset": 114825,
                     "endColumn": 103,
-                    "endOffset": 114922
+                    "endOffset": 114924
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5868,9 +5868,9 @@
                 "to": {
                     "startLine": 1483,
                     "startColumn": 4,
-                    "startOffset": 114927,
+                    "startOffset": 114929,
                     "endColumn": 109,
-                    "endOffset": 115032
+                    "endOffset": 115034
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5880,10 +5880,10 @@
                 "to": {
                     "startLine": 1484,
                     "startColumn": 4,
-                    "startOffset": 115037,
+                    "startOffset": 115039,
                     "endLine": 1485,
                     "endColumn": 12,
-                    "endOffset": 115154
+                    "endOffset": 115156
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5893,10 +5893,10 @@
                 "to": {
                     "startLine": 1486,
                     "startColumn": 4,
-                    "startOffset": 115159,
+                    "startOffset": 115161,
                     "endLine": 1489,
                     "endColumn": 12,
-                    "endOffset": 115317
+                    "endOffset": 115319
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5906,10 +5906,10 @@
                 "to": {
                     "startLine": 1490,
                     "startColumn": 4,
-                    "startOffset": 115322,
+                    "startOffset": 115324,
                     "endLine": 1493,
                     "endColumn": 12,
-                    "endOffset": 115474
+                    "endOffset": 115476
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5919,9 +5919,9 @@
                 "to": {
                     "startLine": 1494,
                     "startColumn": 4,
-                    "startOffset": 115479,
+                    "startOffset": 115481,
                     "endColumn": 79,
-                    "endOffset": 115554
+                    "endOffset": 115556
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5931,9 +5931,9 @@
                 "to": {
                     "startLine": 1495,
                     "startColumn": 4,
-                    "startOffset": 115559,
+                    "startOffset": 115561,
                     "endColumn": 99,
-                    "endOffset": 115654
+                    "endOffset": 115656
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5943,9 +5943,9 @@
                 "to": {
                     "startLine": 1496,
                     "startColumn": 4,
-                    "startOffset": 115659,
+                    "startOffset": 115661,
                     "endColumn": 89,
-                    "endOffset": 115744
+                    "endOffset": 115746
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5955,9 +5955,9 @@
                 "to": {
                     "startLine": 1497,
                     "startColumn": 4,
-                    "startOffset": 115749,
+                    "startOffset": 115751,
                     "endColumn": 109,
-                    "endOffset": 115854
+                    "endOffset": 115856
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5967,9 +5967,9 @@
                 "to": {
                     "startLine": 1498,
                     "startColumn": 4,
-                    "startOffset": 115859,
+                    "startOffset": 115861,
                     "endColumn": 91,
-                    "endOffset": 115946
+                    "endOffset": 115948
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5979,10 +5979,10 @@
                 "to": {
                     "startLine": 1499,
                     "startColumn": 4,
-                    "startOffset": 115951,
+                    "startOffset": 115953,
                     "endLine": 1500,
                     "endColumn": 12,
-                    "endOffset": 116046
+                    "endOffset": 116048
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -5992,10 +5992,10 @@
                 "to": {
                     "startLine": 1501,
                     "startColumn": 4,
-                    "startOffset": 116051,
+                    "startOffset": 116053,
                     "endLine": 1502,
                     "endColumn": 12,
-                    "endOffset": 116158
+                    "endOffset": 116160
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6005,10 +6005,10 @@
                 "to": {
                     "startLine": 1503,
                     "startColumn": 4,
-                    "startOffset": 116163,
+                    "startOffset": 116165,
                     "endLine": 1504,
                     "endColumn": 12,
-                    "endOffset": 116272
+                    "endOffset": 116274
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6018,10 +6018,10 @@
                 "to": {
                     "startLine": 1505,
                     "startColumn": 4,
-                    "startOffset": 116277,
+                    "startOffset": 116279,
                     "endLine": 1506,
                     "endColumn": 12,
-                    "endOffset": 116388
+                    "endOffset": 116390
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6031,10 +6031,10 @@
                 "to": {
                     "startLine": 1507,
                     "startColumn": 4,
-                    "startOffset": 116393,
+                    "startOffset": 116395,
                     "endLine": 1508,
                     "endColumn": 12,
-                    "endOffset": 116504
+                    "endOffset": 116506
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6044,9 +6044,9 @@
                 "to": {
                     "startLine": 1509,
                     "startColumn": 4,
-                    "startOffset": 116509,
+                    "startOffset": 116511,
                     "endColumn": 93,
-                    "endOffset": 116598
+                    "endOffset": 116600
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6056,9 +6056,9 @@
                 "to": {
                     "startLine": 1510,
                     "startColumn": 4,
-                    "startOffset": 116603,
+                    "startOffset": 116605,
                     "endColumn": 113,
-                    "endOffset": 116712
+                    "endOffset": 116714
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6068,9 +6068,9 @@
                 "to": {
                     "startLine": 1511,
                     "startColumn": 4,
-                    "startOffset": 116717,
+                    "startOffset": 116719,
                     "endColumn": 111,
-                    "endOffset": 116824
+                    "endOffset": 116826
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6080,10 +6080,10 @@
                 "to": {
                     "startLine": 1512,
                     "startColumn": 4,
-                    "startOffset": 116829,
+                    "startOffset": 116831,
                     "endLine": 1513,
                     "endColumn": 12,
-                    "endOffset": 116926
+                    "endOffset": 116928
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6093,10 +6093,10 @@
                 "to": {
                     "startLine": 1514,
                     "startColumn": 4,
-                    "startOffset": 116931,
+                    "startOffset": 116933,
                     "endLine": 1515,
                     "endColumn": 12,
-                    "endOffset": 117046
+                    "endOffset": 117048
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6106,10 +6106,10 @@
                 "to": {
                     "startLine": 1516,
                     "startColumn": 4,
-                    "startOffset": 117051,
+                    "startOffset": 117053,
                     "endLine": 1517,
                     "endColumn": 12,
-                    "endOffset": 117168
+                    "endOffset": 117170
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6119,9 +6119,9 @@
                 "to": {
                     "startLine": 1518,
                     "startColumn": 4,
-                    "startOffset": 117173,
+                    "startOffset": 117175,
                     "endColumn": 81,
-                    "endOffset": 117250
+                    "endOffset": 117252
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6131,9 +6131,9 @@
                 "to": {
                     "startLine": 1519,
                     "startColumn": 4,
-                    "startOffset": 117255,
+                    "startOffset": 117257,
                     "endColumn": 103,
-                    "endOffset": 117354
+                    "endOffset": 117356
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6143,9 +6143,9 @@
                 "to": {
                     "startLine": 1520,
                     "startColumn": 4,
-                    "startOffset": 117359,
+                    "startOffset": 117361,
                     "endColumn": 119,
-                    "endOffset": 117474
+                    "endOffset": 117476
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6155,9 +6155,9 @@
                 "to": {
                     "startLine": 1521,
                     "startColumn": 4,
-                    "startOffset": 117479,
+                    "startOffset": 117481,
                     "endColumn": 125,
-                    "endOffset": 117600
+                    "endOffset": 117602
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6167,9 +6167,9 @@
                 "to": {
                     "startLine": 1522,
                     "startColumn": 4,
-                    "startOffset": 117605,
+                    "startOffset": 117607,
                     "endColumn": 97,
-                    "endOffset": 117698
+                    "endOffset": 117700
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6179,9 +6179,9 @@
                 "to": {
                     "startLine": 1523,
                     "startColumn": 4,
-                    "startOffset": 117703,
+                    "startOffset": 117705,
                     "endColumn": 93,
-                    "endOffset": 117792
+                    "endOffset": 117794
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6191,9 +6191,9 @@
                 "to": {
                     "startLine": 1524,
                     "startColumn": 4,
-                    "startOffset": 117797,
+                    "startOffset": 117799,
                     "endColumn": 87,
-                    "endOffset": 117880
+                    "endOffset": 117882
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6203,9 +6203,9 @@
                 "to": {
                     "startLine": 1525,
                     "startColumn": 4,
-                    "startOffset": 117885,
+                    "startOffset": 117887,
                     "endColumn": 111,
-                    "endOffset": 117992
+                    "endOffset": 117994
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6215,9 +6215,9 @@
                 "to": {
                     "startLine": 1526,
                     "startColumn": 4,
-                    "startOffset": 117997,
+                    "startOffset": 117999,
                     "endColumn": 115,
-                    "endOffset": 118108
+                    "endOffset": 118110
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6227,9 +6227,9 @@
                 "to": {
                     "startLine": 1527,
                     "startColumn": 4,
-                    "startOffset": 118113,
+                    "startOffset": 118115,
                     "endColumn": 121,
-                    "endOffset": 118230
+                    "endOffset": 118232
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6239,9 +6239,9 @@
                 "to": {
                     "startLine": 1528,
                     "startColumn": 4,
-                    "startOffset": 118235,
+                    "startOffset": 118237,
                     "endColumn": 111,
-                    "endOffset": 118342
+                    "endOffset": 118344
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6251,10 +6251,10 @@
                 "to": {
                     "startLine": 1529,
                     "startColumn": 4,
-                    "startOffset": 118347,
+                    "startOffset": 118349,
                     "endLine": 1531,
                     "endColumn": 12,
-                    "endOffset": 118517
+                    "endOffset": 118519
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6264,9 +6264,9 @@
                 "to": {
                     "startLine": 1532,
                     "startColumn": 4,
-                    "startOffset": 118522,
+                    "startOffset": 118524,
                     "endColumn": 115,
-                    "endOffset": 118633
+                    "endOffset": 118635
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6276,9 +6276,9 @@
                 "to": {
                     "startLine": 1533,
                     "startColumn": 4,
-                    "startOffset": 118638,
+                    "startOffset": 118640,
                     "endColumn": 85,
-                    "endOffset": 118719
+                    "endOffset": 118721
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6288,9 +6288,9 @@
                 "to": {
                     "startLine": 1534,
                     "startColumn": 4,
-                    "startOffset": 118724,
+                    "startOffset": 118726,
                     "endColumn": 91,
-                    "endOffset": 118811
+                    "endOffset": 118813
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6300,10 +6300,10 @@
                 "to": {
                     "startLine": 1535,
                     "startColumn": 4,
-                    "startOffset": 118816,
+                    "startOffset": 118818,
                     "endLine": 1536,
                     "endColumn": 12,
-                    "endOffset": 118923
+                    "endOffset": 118925
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6313,10 +6313,10 @@
                 "to": {
                     "startLine": 1537,
                     "startColumn": 4,
-                    "startOffset": 118928,
+                    "startOffset": 118930,
                     "endLine": 1538,
                     "endColumn": 12,
-                    "endOffset": 119047
+                    "endOffset": 119049
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6326,9 +6326,9 @@
                 "to": {
                     "startLine": 1539,
                     "startColumn": 4,
-                    "startOffset": 119052,
+                    "startOffset": 119054,
                     "endColumn": 66,
-                    "endOffset": 119114
+                    "endOffset": 119116
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6338,10 +6338,10 @@
                 "to": {
                     "startLine": 1540,
                     "startColumn": 4,
-                    "startOffset": 119119,
+                    "startOffset": 119121,
                     "endLine": 1541,
                     "endColumn": 12,
-                    "endOffset": 119240
+                    "endOffset": 119242
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6351,9 +6351,9 @@
                 "to": {
                     "startLine": 1542,
                     "startColumn": 4,
-                    "startOffset": 119245,
+                    "startOffset": 119247,
                     "endColumn": 67,
-                    "endOffset": 119308
+                    "endOffset": 119310
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6363,10 +6363,10 @@
                 "to": {
                     "startLine": 1543,
                     "startColumn": 4,
-                    "startOffset": 119313,
+                    "startOffset": 119315,
                     "endLine": 1544,
                     "endColumn": 12,
-                    "endOffset": 119436
+                    "endOffset": 119438
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6376,10 +6376,10 @@
                 "to": {
                     "startLine": 1545,
                     "startColumn": 4,
-                    "startOffset": 119441,
+                    "startOffset": 119443,
                     "endLine": 1546,
                     "endColumn": 12,
-                    "endOffset": 119580
+                    "endOffset": 119582
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6389,10 +6389,10 @@
                 "to": {
                     "startLine": 1547,
                     "startColumn": 4,
-                    "startOffset": 119585,
+                    "startOffset": 119587,
                     "endLine": 1548,
                     "endColumn": 12,
-                    "endOffset": 119708
+                    "endOffset": 119710
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6402,9 +6402,9 @@
                 "to": {
                     "startLine": 1549,
                     "startColumn": 4,
-                    "startOffset": 119713,
+                    "startOffset": 119715,
                     "endColumn": 68,
-                    "endOffset": 119777
+                    "endOffset": 119779
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6414,9 +6414,9 @@
                 "to": {
                     "startLine": 1550,
                     "startColumn": 4,
-                    "startOffset": 119782,
+                    "startOffset": 119784,
                     "endColumn": 94,
-                    "endOffset": 119872
+                    "endOffset": 119874
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6426,9 +6426,9 @@
                 "to": {
                     "startLine": 1551,
                     "startColumn": 4,
-                    "startOffset": 119877,
+                    "startOffset": 119879,
                     "endColumn": 114,
-                    "endOffset": 119987
+                    "endOffset": 119989
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6438,9 +6438,9 @@
                 "to": {
                     "startLine": 1552,
                     "startColumn": 4,
-                    "startOffset": 119992,
+                    "startOffset": 119994,
                     "endColumn": 112,
-                    "endOffset": 120100
+                    "endOffset": 120102
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6450,9 +6450,9 @@
                 "to": {
                     "startLine": 1553,
                     "startColumn": 4,
-                    "startOffset": 120105,
+                    "startOffset": 120107,
                     "endColumn": 98,
-                    "endOffset": 120199
+                    "endOffset": 120201
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6462,9 +6462,9 @@
                 "to": {
                     "startLine": 1554,
                     "startColumn": 4,
-                    "startOffset": 120204,
+                    "startOffset": 120206,
                     "endColumn": 108,
-                    "endOffset": 120308
+                    "endOffset": 120310
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6474,9 +6474,9 @@
                 "to": {
                     "startLine": 1555,
                     "startColumn": 4,
-                    "startOffset": 120313,
+                    "startOffset": 120315,
                     "endColumn": 110,
-                    "endOffset": 120419
+                    "endOffset": 120421
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6486,9 +6486,9 @@
                 "to": {
                     "startLine": 1556,
                     "startColumn": 4,
-                    "startOffset": 120424,
+                    "startOffset": 120426,
                     "endColumn": 110,
-                    "endOffset": 120530
+                    "endOffset": 120532
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6498,9 +6498,9 @@
                 "to": {
                     "startLine": 1557,
                     "startColumn": 4,
-                    "startOffset": 120535,
+                    "startOffset": 120537,
                     "endColumn": 100,
-                    "endOffset": 120631
+                    "endOffset": 120633
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6510,9 +6510,9 @@
                 "to": {
                     "startLine": 1558,
                     "startColumn": 4,
-                    "startOffset": 120636,
+                    "startOffset": 120638,
                     "endColumn": 104,
-                    "endOffset": 120736
+                    "endOffset": 120738
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6522,10 +6522,10 @@
                 "to": {
                     "startLine": 1559,
                     "startColumn": 4,
-                    "startOffset": 120741,
+                    "startOffset": 120743,
                     "endLine": 1560,
                     "endColumn": 12,
-                    "endOffset": 120848
+                    "endOffset": 120850
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6535,10 +6535,10 @@
                 "to": {
                     "startLine": 1561,
                     "startColumn": 4,
-                    "startOffset": 120853,
+                    "startOffset": 120855,
                     "endLine": 1562,
                     "endColumn": 12,
-                    "endOffset": 120978
+                    "endOffset": 120980
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6548,9 +6548,9 @@
                 "to": {
                     "startLine": 1563,
                     "startColumn": 4,
-                    "startOffset": 120983,
+                    "startOffset": 120985,
                     "endColumn": 90,
-                    "endOffset": 121069
+                    "endOffset": 121071
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6560,9 +6560,9 @@
                 "to": {
                     "startLine": 1564,
                     "startColumn": 4,
-                    "startOffset": 121074,
+                    "startOffset": 121076,
                     "endColumn": 122,
-                    "endOffset": 121192
+                    "endOffset": 121194
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6572,10 +6572,10 @@
                 "to": {
                     "startLine": 1565,
                     "startColumn": 4,
-                    "startOffset": 121197,
+                    "startOffset": 121199,
                     "endLine": 1566,
                     "endColumn": 12,
-                    "endOffset": 121304
+                    "endOffset": 121306
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6585,9 +6585,9 @@
                 "to": {
                     "startLine": 1567,
                     "startColumn": 4,
-                    "startOffset": 121309,
+                    "startOffset": 121311,
                     "endColumn": 85,
-                    "endOffset": 121390
+                    "endOffset": 121392
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6597,9 +6597,9 @@
                 "to": {
                     "startLine": 1568,
                     "startColumn": 4,
-                    "startOffset": 121395,
+                    "startOffset": 121397,
                     "endColumn": 103,
-                    "endOffset": 121494
+                    "endOffset": 121496
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6609,10 +6609,10 @@
                 "to": {
                     "startLine": 1569,
                     "startColumn": 4,
-                    "startOffset": 121499,
+                    "startOffset": 121501,
                     "endLine": 1570,
                     "endColumn": 12,
-                    "endOffset": 121602
+                    "endOffset": 121604
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6622,10 +6622,10 @@
                 "to": {
                     "startLine": 1571,
                     "startColumn": 4,
-                    "startOffset": 121607,
+                    "startOffset": 121609,
                     "endLine": 1572,
                     "endColumn": 12,
-                    "endOffset": 121702
+                    "endOffset": 121704
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6635,10 +6635,10 @@
                 "to": {
                     "startLine": 1573,
                     "startColumn": 4,
-                    "startOffset": 121707,
+                    "startOffset": 121709,
                     "endLine": 1574,
                     "endColumn": 12,
-                    "endOffset": 121820
+                    "endOffset": 121822
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6648,10 +6648,10 @@
                 "to": {
                     "startLine": 1575,
                     "startColumn": 4,
-                    "startOffset": 121825,
+                    "startOffset": 121827,
                     "endLine": 1576,
                     "endColumn": 12,
-                    "endOffset": 121924
+                    "endOffset": 121926
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6661,10 +6661,10 @@
                 "to": {
                     "startLine": 1577,
                     "startColumn": 4,
-                    "startOffset": 121929,
+                    "startOffset": 121931,
                     "endLine": 1578,
                     "endColumn": 12,
-                    "endOffset": 122028
+                    "endOffset": 122030
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6674,10 +6674,10 @@
                 "to": {
                     "startLine": 1579,
                     "startColumn": 4,
-                    "startOffset": 122033,
+                    "startOffset": 122035,
                     "endLine": 1580,
                     "endColumn": 12,
-                    "endOffset": 122154
+                    "endOffset": 122156
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6687,9 +6687,9 @@
                 "to": {
                     "startLine": 1581,
                     "startColumn": 4,
-                    "startOffset": 122159,
+                    "startOffset": 122161,
                     "endColumn": 87,
-                    "endOffset": 122242
+                    "endOffset": 122244
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6699,9 +6699,9 @@
                 "to": {
                     "startLine": 1582,
                     "startColumn": 4,
-                    "startOffset": 122247,
+                    "startOffset": 122249,
                     "endColumn": 89,
-                    "endOffset": 122332
+                    "endOffset": 122334
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6711,9 +6711,9 @@
                 "to": {
                     "startLine": 1583,
                     "startColumn": 4,
-                    "startOffset": 122337,
+                    "startOffset": 122339,
                     "endColumn": 109,
-                    "endOffset": 122442
+                    "endOffset": 122444
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6723,9 +6723,9 @@
                 "to": {
                     "startLine": 1584,
                     "startColumn": 4,
-                    "startOffset": 122447,
+                    "startOffset": 122449,
                     "endColumn": 83,
-                    "endOffset": 122526
+                    "endOffset": 122528
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6735,9 +6735,9 @@
                 "to": {
                     "startLine": 1585,
                     "startColumn": 4,
-                    "startOffset": 122531,
+                    "startOffset": 122533,
                     "endColumn": 83,
-                    "endOffset": 122610
+                    "endOffset": 122612
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6747,9 +6747,9 @@
                 "to": {
                     "startLine": 1586,
                     "startColumn": 4,
-                    "startOffset": 122615,
+                    "startOffset": 122617,
                     "endColumn": 53,
-                    "endOffset": 122664
+                    "endOffset": 122666
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6759,9 +6759,9 @@
                 "to": {
                     "startLine": 1587,
                     "startColumn": 4,
-                    "startOffset": 122669,
+                    "startOffset": 122671,
                     "endColumn": 63,
-                    "endOffset": 122728
+                    "endOffset": 122730
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6771,9 +6771,9 @@
                 "to": {
                     "startLine": 1588,
                     "startColumn": 4,
-                    "startOffset": 122733,
+                    "startOffset": 122735,
                     "endColumn": 105,
-                    "endOffset": 122834
+                    "endOffset": 122836
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6783,9 +6783,9 @@
                 "to": {
                     "startLine": 1589,
                     "startColumn": 4,
-                    "startOffset": 122839,
+                    "startOffset": 122841,
                     "endColumn": 109,
-                    "endOffset": 122944
+                    "endOffset": 122946
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6795,9 +6795,9 @@
                 "to": {
                     "startLine": 1590,
                     "startColumn": 4,
-                    "startOffset": 122949,
+                    "startOffset": 122951,
                     "endColumn": 83,
-                    "endOffset": 123028
+                    "endOffset": 123030
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"
@@ -6807,9 +6807,9 @@
                 "to": {
                     "startLine": 1591,
                     "startColumn": 4,
-                    "startOffset": 123033,
+                    "startOffset": 123035,
                     "endColumn": 119,
-                    "endOffset": 123148
+                    "endOffset": 123150
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values\\values.xml"

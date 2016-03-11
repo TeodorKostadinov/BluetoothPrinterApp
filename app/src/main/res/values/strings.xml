@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">PrintDemo</string>
+    <string name="app_name">TicketPrint</string>
     <string name="none_paired">No devices have been paired</string>
     <string name="scanning">Scanning for devices…</string>
     <string name="select_device">select a device to connect</string>

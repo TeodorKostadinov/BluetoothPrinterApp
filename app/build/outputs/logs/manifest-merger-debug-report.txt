@@ -2,7 +2,7 @@
 manifest
 ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:2:1-40:12
 	package
-		ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:3:5-37
+		ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from D:\BTPrinter\app\src\main\AndroidManifest.xml
 		INJECTED from D:\BTPrinter\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -70,12 +70,12 @@ MERGED from [com.android.support:support-v4:23.1.1] D:\BTPrinter\app\build\inter
 		ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:18:9-33
 	android:theme
 		ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:17:9-40
-activity#com.inveitix.printdemo.ui.MainActivity
+activity#com.inveitix.ticketprint.ui.MainActivity
 ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:19:9-27:20
 	android:label
 		ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:21:13-45
 	android:name
-		ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:20:13-44
+		ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:20:13-68
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
@@ -86,14 +86,14 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:25:17-77
 	android:name
 		ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:25:27-74
-activity#com.inveitix.printdemo.ui.DeviceListActivity
+activity#com.inveitix.ticketprint.ui.DeviceListActivity
 ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:28:9-31:59
 	android:label
 		ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:30:13-50
 	android:theme
 		ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:31:13-56
 	android:name
-		ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:29:13-50
+		ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:29:13-74
 meta-data#io.fabric.ApiKey
 ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:32:9-34:72
 	android:value
