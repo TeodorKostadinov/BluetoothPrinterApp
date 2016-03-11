@@ -30,6 +30,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
@@ -392,8 +393,10 @@ public class MainActivity extends AppCompatActivity {
                             .getString(DeviceListActivity.EXTRA_DEVICE_ADDRESS);
                     con_dev = mService.getDevByMac(address);
                     mService.connect(con_dev);
-                    btnSendDraw.setVisibility(View.VISIBLE);
-                    btnDisconnect.setVisibility(View.VISIBLE);
+                    if(mService.getState() == BluetoothService.STATE_CONNECTED) {
+                        btnSendDraw.setVisibility(View.VISIBLE);
+                        btnDisconnect.setVisibility(View.VISIBLE);
+                    }
                 }
                 break;
         }
@@ -411,8 +414,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void downloadContent() {
-        if (!edtContext.getText().toString().equals("") && !edtContext.getText().toString().equals(getString(R.string.txt_content))) {
-
+        if (!edtContext.getText().toString().equals("") && !edtContext.getText().toString()
+                .equals(getString(R.string.txt_content))) {
+            edtContext = (EditText) this.getCurrentFocus();
+            if (edtContext != null) {
+                InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
+                imm.hideSoftInputFromWindow(edtContext.getWindowToken(), 0);
+            }
             Retrofit retrofit = new Retrofit.Builder()
                     .baseUrl(edtContext.getText().toString()).build();
 
