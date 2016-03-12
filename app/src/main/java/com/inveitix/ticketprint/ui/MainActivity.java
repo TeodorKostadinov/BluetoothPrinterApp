@@ -1,6 +1,7 @@
 package com.inveitix.ticketprint.ui;
 
 import android.Manifest;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -121,6 +122,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
     };
+    private ProgressDialog dialog;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -160,11 +162,11 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void run() {
                         convertTask.execute();
+                        dialog.cancel();
                     }
                 }, 2000);
             }
         });
-
     }
 
     private void siteToImage() {
@@ -200,6 +202,15 @@ public class MainActivity extends AppCompatActivity {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    private void loadingListProgress() {
+        dialog = new ProgressDialog(MainActivity.this);
+        dialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+        dialog.setMessage("Loading. Please wait...");
+        dialog.setIndeterminate(true);
+        dialog.setCanceledOnTouchOutside(false);
+        dialog.show();
     }
 
     private void setRememberedWeb() {
@@ -416,11 +427,10 @@ public class MainActivity extends AppCompatActivity {
         StringBuilder builder = new StringBuilder(webAddress);
         char lastLetter = validWebAddress.charAt(webAddress.length() - 1);
 
-        if (!validWebAddress.startsWith("http")){
+        if (!validWebAddress.startsWith("http")) {
             builder.insert(0, "http://");
         }
-
-        if (lastLetter != '/'){
+        if (lastLetter != '/') {
             builder.append("/");
             validWebAddress = builder.toString();
         }
@@ -445,6 +455,7 @@ public class MainActivity extends AppCompatActivity {
                         if (response.body() != null) {
                             String summary = response.body().string();
                             webView.loadData(summary, getString(R.string.mime_type), null);
+                            loadingListProgress();
                             btnOpen.setText(R.string.find_printer);
                             isWebLoaded = true;
                         }
@@ -514,7 +525,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-
     class ClickEvent implements View.OnClickListener {
         public void onClick(View v) {
             if (v == btnOpen) {
@@ -533,7 +543,5 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         }
-
-
     }
 }
