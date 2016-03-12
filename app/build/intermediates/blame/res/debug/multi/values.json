@@ -2423,14 +2423,7 @@
                     "endOffset": 30769
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 56,
-                        "endColumn": 50,
-                        "endOffset": 102
-                    }
+                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {

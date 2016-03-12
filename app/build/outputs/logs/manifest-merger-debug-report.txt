@@ -6,11 +6,13 @@ ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from D:\BTPrinter\app\src\main\AndroidManifest.xml
 		INJECTED from D:\BTPrinter\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:5:5-31
+		ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:5:5-30
 		INJECTED from D:\BTPrinter\app\src\main\AndroidManifest.xml
 		INJECTED from D:\BTPrinter\app\src\main\AndroidManifest.xml
 	android:versionCode
 		ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\BTPrinter\app\src\main\AndroidManifest.xml
+		INJECTED from D:\BTPrinter\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.BLUETOOTH
