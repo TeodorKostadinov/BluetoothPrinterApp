@@ -231,17 +231,17 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="app_name">TicketPrint</string>
+    <string name="app_name">PrintReceipt</string>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
     <string name="auth_google_play_services_client_google_display_name">Google</string>
     <string name="bt_not_available">Bluetooth is not available</string>
     <string name="bt_open">Bluetooth open successful</string>
     <string name="btn_disconnect">Disconnect</string>
     <string name="btn_open">Open</string>
-    <string name="btn_print">Print</string>
+    <string name="btn_print">Print Customer Receipt</string>
     <string name="btn_search">Connect  Bluetooth  Printer</string>
     <string name="button_scan">Scan for devices</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">d9e445d0-4ec3-4090-8457-851acd9ae0df</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">3f83b1ef-d3a3-45ae-86f2-c63206477e42</string>
     <string name="common_android_wear_notification_needs_update_text"><ns1:g id="app_name">%1$s</ns1:g> requires an update to the Android Wear app.</string>
     <string name="common_android_wear_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update the Android Wear app.</string>
     <string msgid="6006316683626838685" name="common_android_wear_update_title">Update Android Wear</string>
@@ -276,8 +276,11 @@
     <string name="connect_success">Connect successful</string>
     <string name="connecting">Connecting...</string>
     <string name="encoding">utf-8</string>
+    <string name="enter_real_web">Please enter existing website</string>
     <string name="file_path">/MainActivity/media/img/</string>
+    <string name="find_printer">Find printer</string>
     <string name="menu_settings">set</string>
+    <string name="mime_type">text/html; charset=utf-8</string>
     <string name="no_bluetooth_permissions">No bluetooth permissions</string>
     <string name="no_bt_admin_permissions">No bluetooth admin permissions</string>
     <string name="no_internet_permissions">No internet permissions</string>
@@ -286,6 +289,7 @@
     <string name="none_paired">No devices have been paired</string>
     <string name="scanning">Scanning for devices…</string>
     <string name="select_device">select a device to connect</string>
+    <string name="set_seller_web">Set seller website</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="strLang">en</string>
     <string name="txt_cancel">Cancel</string>

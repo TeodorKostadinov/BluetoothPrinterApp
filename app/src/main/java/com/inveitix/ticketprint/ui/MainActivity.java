@@ -20,6 +20,7 @@ import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Paint;
+import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
@@ -29,8 +30,6 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.webkit.WebView;
@@ -61,6 +60,7 @@ import retrofit2.http.GET;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static final String TAG = "MainActivity";
     @Bind(R.id.btn_print)
     Button btnSendDraw;
     @Bind(R.id.btn_open)
@@ -80,6 +80,10 @@ public class MainActivity extends AppCompatActivity {
     BluetoothService mService;
     BluetoothDevice con_dev;
     SharedPreferences sharedPref;
+    SharedPreferences.Editor editor;
+    ConvertTask convertTask;
+    WebTask webTask;
+    boolean isWebLoaded;
 
     private Handler mHandler = new Handler() {
         @Override
@@ -127,6 +131,8 @@ public class MainActivity extends AppCompatActivity {
         }
         setContentView(R.layout.main);
         ButterKnife.bind(this);
+        convertTask = new ConvertTask();
+        webTask = new WebTask();
         mService = new BluetoothService(this, mHandler);
 
         if (!mService.isAvailable()) {
@@ -142,6 +148,10 @@ public class MainActivity extends AppCompatActivity {
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setDefaultTextEncodingName(getString(R.string.encoding));
         webView.setWebViewClient(new WebViewClient() {
+            @Override
+            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                return true;
+            }
 
             @SuppressLint("SdCardPath")
             @Override
@@ -149,11 +159,12 @@ public class MainActivity extends AppCompatActivity {
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        siteToImage();
+                        convertTask.execute();
                     }
                 }, 2000);
             }
         });
+
     }
 
     private void siteToImage() {
@@ -178,8 +189,8 @@ public class MainActivity extends AppCompatActivity {
             if (!dir.isDirectory()) {
                 dir.mkdirs();
             }
-            String arquivo = "darf_" + System.currentTimeMillis() + ".jpg";
-            file = new File(dir, arquivo);
+            String webCapture = "darf_" + System.currentTimeMillis() + ".jpg";
+            file = new File(dir, webCapture);
             fos = new FileOutputStream(file);
             b.compress(Bitmap.CompressFormat.PNG, 50, fos);
             fos.flush();
@@ -198,8 +209,7 @@ public class MainActivity extends AppCompatActivity {
                 edtContext.setText(rememberedWeb);
                 edtContext.setVisibility(View.GONE);
                 checkBox.setVisibility(View.GONE);
-                btnOpen.setVisibility(View.GONE);
-                downloadContent();
+                webTask.execute();
             }
 
         }
@@ -208,7 +218,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
-        saveState(checkBox.isChecked());
+        try {
+            saveState(checkBox.isChecked());
+        } catch (RuntimeException ex) {
+        }
     }
 
     @Override
@@ -219,7 +232,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void saveState(boolean isChecked) {
-        SharedPreferences.Editor editor = sharedPref.edit();
+        editor = sharedPref.edit();
         editor.putBoolean(RequestConstants.IS_CHECKED, isChecked);
         if (isChecked) {
             editor.putString(RequestConstants.WEB_SITE, edtContext.getText().toString());
@@ -313,25 +326,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main_menu, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.action_bt_connect:
-                Intent serverIntent = new Intent(MainActivity.this, DeviceListActivity.class);
-                startActivityForResult(serverIntent, RequestConstants.REQUEST_CONNECT_DEVICE);
-                return true;
-            default:
-                super.onOptionsItemSelected(item);
-        }
-        return super.onOptionsItemSelected(item);
-    }
-
-    @Override
     public void onStart() {
         super.onStart();
         if (!mService.isBTopen()) {
@@ -417,16 +411,29 @@ public class MainActivity extends AppCompatActivity {
         mService.write(sendData);
     }
 
-    public void downloadContent() {
+    public String validateUrl(String webAddress) {
+        String validWebAddress = webAddress;
+        StringBuilder builder = new StringBuilder(webAddress);
+        char lastLetter = validWebAddress.charAt(webAddress.length() - 1);
+
+        if (!validWebAddress.startsWith("http")){
+            builder.insert(0, "http://");
+        }
+
+        if (lastLetter != '/'){
+            builder.append("/");
+            validWebAddress = builder.toString();
+        }
+        return validWebAddress;
+    }
+
+    private void downloadContent() {
         if (!edtContext.getText().toString().equals("") && !edtContext.getText().toString()
                 .equals(getString(R.string.txt_content))) {
-            edtContext = (EditText) this.getCurrentFocus();
-            if (edtContext != null) {
-                InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-                imm.hideSoftInputFromWindow(edtContext.getWindowToken(), 0);
-            }
+            String webAddress = validateUrl(edtContext.getText().toString());
+
             Retrofit retrofit = new Retrofit.Builder()
-                    .baseUrl(edtContext.getText().toString()).build();
+                    .baseUrl(webAddress).build();
 
             HttpService service = retrofit.create(HttpService.class);
             Call<ResponseBody> result = service.getContent();
@@ -434,17 +441,23 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onResponse(Response<ResponseBody> response) {
                     try {
+                        Log.e(TAG, "Log");
                         if (response.body() != null) {
                             String summary = response.body().string();
-                            webView.loadData(summary, "text/html; charset=utf-8", null);
+                            webView.loadData(summary, getString(R.string.mime_type), null);
+                            btnOpen.setText(R.string.find_printer);
+                            isWebLoaded = true;
                         }
                     } catch (IOException e) {
-                        e.printStackTrace();
+                        Toast.makeText(MainActivity.this, R.string.enter_real_web, Toast.LENGTH_SHORT).show();
                     }
                 }
 
                 @Override
                 public void onFailure(Throwable t) {
+                    Toast.makeText(MainActivity.this, R.string.enter_real_web, Toast.LENGTH_SHORT).show();
+                    saveState(false);
+                    Log.e(TAG, "onFailure");
                 }
             });
         }
@@ -470,15 +483,48 @@ public class MainActivity extends AppCompatActivity {
         doExit();
     }
 
+    private void hideKeyboard() {
+        edtContext = (EditText) this.getCurrentFocus();
+        if (edtContext != null) {
+            InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+            imm.hideSoftInputFromWindow(edtContext.getWindowToken(), 0);
+        }
+    }
+
     public interface HttpService {
         @GET("/")
         Call<ResponseBody> getContent();
     }
 
+    private class ConvertTask extends AsyncTask<Void, Void, Void> {
+
+        @Override
+        protected Void doInBackground(Void... params) {
+            siteToImage();
+            return null;
+        }
+    }
+
+    private class WebTask extends AsyncTask<Void, Void, Void> {
+
+        @Override
+        protected Void doInBackground(Void... params) {
+            downloadContent();
+            return null;
+        }
+    }
+
+
     class ClickEvent implements View.OnClickListener {
         public void onClick(View v) {
             if (v == btnOpen) {
-                downloadContent();
+                if (isWebLoaded) {
+                    Intent serverIntent = new Intent(MainActivity.this, DeviceListActivity.class);
+                    startActivityForResult(serverIntent, RequestConstants.REQUEST_CONNECT_DEVICE);
+                } else {
+                    hideKeyboard();
+                    webTask.execute();
+                }
             } else if (v == btnDisconnect) {
                 mService.stop();
             } else if (v == btnSendDraw) {
@@ -487,5 +533,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         }
+
+
     }
 }

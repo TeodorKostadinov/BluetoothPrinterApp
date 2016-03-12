@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">TicketPrint</string>
+    <string name="app_name">PrintReceipt</string>
     <string name="none_paired">No devices have been paired</string>
     <string name="scanning">Scanning for devices…</string>
     <string name="select_device">select a device to connect</string>
     <string name="none_found">No devices found</string>
     <string name="btn_search">Connect  Bluetooth  Printer</string>
     <string name="btn_open">Open</string>
-    <string name="btn_print">Print</string>
+    <string name="btn_print">Print Customer Receipt</string>
     <string name="btn_disconnect">Disconnect</string>
     <string name="txt_content">http://</string>
     <string name="menu_settings">set</string>
@@ -31,5 +31,9 @@
     <string name="connecting">Connecting...</string>
     <string name="conn_lost">Device connection was lost</string>
     <string name="unable_conn">Unable to connect device</string>
+    <string name="enter_real_web">Please enter existing website</string>
+    <string name="set_seller_web">Set seller website</string>
+    <string name="find_printer">Find printer</string>
+    <string name="mime_type">text/html; charset=utf-8</string>
 
 </resources>

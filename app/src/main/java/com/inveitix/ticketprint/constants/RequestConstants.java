@@ -11,4 +11,5 @@ public class RequestConstants {
     public static final int PERMISSIONS_REQUEST_LOCATION = 3;
     public static final String WEB_SITE = "Remembered Web Site";
     public static final String IS_CHECKED = "Check box";
+    public static final String IS_REAL_SITE = "Is existing site";
 }

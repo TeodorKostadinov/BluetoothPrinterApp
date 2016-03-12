@@ -10,9 +10,11 @@
         android:id="@+id/txt_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="0.3"
         android:gravity="center_vertical|top"
+        android:hint="@string/set_seller_web"
         android:text="@string/txt_content"
-        android:textSize="16sp">
+        android:textSize="25sp">
 
     </EditText>
 
@@ -37,6 +39,7 @@
         android:text="@string/btn_open"
         android:layout_margin="4dp"
         android:layout_weight="0.1"
+        android:textSize="25sp"
         android:textColor="@color/white"
         android:background="@drawable/button_selector"
         android:elevation="4dp">
