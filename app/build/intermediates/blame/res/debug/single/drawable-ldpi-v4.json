@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\BTPrinter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\button.xml",
+        "source": "D:\\BTPrinter\\app\\src\\main\\res\\drawable-ldpi\\button.xml"
+    },
+    {
+        "merged": "D:\\BluetoothDEMO\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_launcher.png",
+        "source": "D:\\BluetoothDEMO\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\BTPrinter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_launcher.png",
+        "source": "D:\\BTPrinter\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\BTPrinter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\button_pressed.xml",
+        "source": "D:\\BTPrinter\\app\\src\\main\\res\\drawable-ldpi\\button_pressed.xml"
+    },
+    {
+        "merged": "D:\\BTPrinter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\button_selected.xml",
+        "source": "D:\\BTPrinter\\app\\src\\main\\res\\drawable-ldpi\\button_selected.xml"
+    },
+    {
+        "merged": "D:\\BTPrinter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\button_selector.xml",
+        "source": "D:\\BTPrinter\\app\\src\\main\\res\\drawable-ldpi\\button_selector.xml"
+    }
+]

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Print Receipt</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="scanning">Scanning for devices…</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_found">No devices found</string>
+    <string name="btn_search">Connect  Bluetooth  Printer</string>
+    <string name="btn_open">Open</string>
+    <string name="btn_print">Print Customer Receipt</string>
+    <string name="btn_disconnect">Disconnect</string>
+    <string name="txt_content">http://</string>
+    <string name="menu_settings">set</string>
+    <string name="strLang">en</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="no_bluetooth_permissions">No bluetooth permissions</string>
+    <string name="no_internet_permissions">No internet permissions</string>
+    <string name="no_bt_admin_permissions">No bluetooth admin permissions</string>
+    <string name="no_location_permissions">No location permissions</string>
+    <string name="txt_remember_web">Remember website</string>
+    <string name="txt_connect">Connect to bluetooth</string>
+    <string name="txt_exit">Do you want to exit?</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="txt_yes">Yes</string>
+    <string name="bt_open">Bluetooth open successful</string>
+    <string name="file_path">/MainActivity/media/img/</string>
+    <string name="encoding">utf-8</string>
+    <string name="bt_not_available">Bluetooth is not available</string>
+    <string name="connect_success">Connect successful</string>
+    <string name="connecting">Connecting...</string>
+    <string name="conn_lost">Device connection was lost</string>
+    <string name="unable_conn">Unable to connect device</string>
+    <string name="enter_real_web">Please enter existing website</string>
+    <string name="set_seller_web">Set seller website</string>
+    <string name="find_printer">Find printer</string>
+    <string name="mime_type">text/html; charset=utf-8</string>
+
+</resources>
