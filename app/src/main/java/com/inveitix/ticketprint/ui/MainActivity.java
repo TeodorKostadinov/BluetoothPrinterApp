@@ -82,8 +82,6 @@ public class MainActivity extends AppCompatActivity {
     BluetoothDevice con_dev;
     SharedPreferences sharedPref;
     SharedPreferences.Editor editor;
-    ConvertTask convertTask;
-    WebTask webTask;
     boolean isWebLoaded;
 
     private Handler mHandler = new Handler() {
@@ -97,6 +95,7 @@ public class MainActivity extends AppCompatActivity {
                                     Toast.LENGTH_SHORT).show();
                             btnDisconnect.setVisibility(View.VISIBLE);
                             btnSendDraw.setVisibility(View.VISIBLE);
+                            btnOpen.setVisibility(View.GONE);
                             break;
                         case BluetoothService.STATE_CONNECTING:
                             Toast.makeText(getApplicationContext(), R.string.connecting,
@@ -113,6 +112,7 @@ public class MainActivity extends AppCompatActivity {
                             Toast.LENGTH_SHORT).show();
                     btnDisconnect.setVisibility(View.GONE);
                     btnSendDraw.setVisibility(View.GONE);
+                    btnOpen.setVisibility(View.VISIBLE);
                     break;
                 case BluetoothService.MESSAGE_UNABLE_CONNECT:
                     Toast.makeText(getApplicationContext(), R.string.unable_conn,
@@ -133,8 +133,6 @@ public class MainActivity extends AppCompatActivity {
         }
         setContentView(R.layout.main);
         ButterKnife.bind(this);
-        convertTask = new ConvertTask();
-        webTask = new WebTask();
         mService = new BluetoothService(this, mHandler);
 
         if (!mService.isAvailable()) {
@@ -144,6 +142,7 @@ public class MainActivity extends AppCompatActivity {
         initWebView();
         sharedPref = this.getPreferences(Context.MODE_PRIVATE);
         checkPermissions();
+        setRememberedWeb();
     }
 
     private void initWebView() {
@@ -161,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        convertTask.execute();
+                        siteToImage();
                         dialog.cancel();
                     }
                 }, 2000);
@@ -220,7 +219,7 @@ public class MainActivity extends AppCompatActivity {
                 edtContext.setText(rememberedWeb);
                 edtContext.setVisibility(View.GONE);
                 checkBox.setVisibility(View.GONE);
-                webTask.execute();
+                downloadContent();
             }
 
         }
@@ -239,7 +238,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         checkBox.setChecked(load());
-        setRememberedWeb();
     }
 
     private void saveState(boolean isChecked) {
@@ -405,6 +403,7 @@ public class MainActivity extends AppCompatActivity {
                     if (mService.getState() == BluetoothService.STATE_CONNECTED) {
                         btnSendDraw.setVisibility(View.VISIBLE);
                         btnDisconnect.setVisibility(View.VISIBLE);
+                        btnOpen.setVisibility(View.GONE);
                     }
                 }
                 break;
@@ -434,7 +433,8 @@ public class MainActivity extends AppCompatActivity {
             builder.append("/");
             validWebAddress = builder.toString();
         }
-        return validWebAddress;
+        validWebAddress = validWebAddress.replace(" ", "");
+        return validWebAddress.trim();
     }
 
     private void downloadContent() {
@@ -507,24 +507,6 @@ public class MainActivity extends AppCompatActivity {
         Call<ResponseBody> getContent();
     }
 
-    private class ConvertTask extends AsyncTask<Void, Void, Void> {
-
-        @Override
-        protected Void doInBackground(Void... params) {
-            siteToImage();
-            return null;
-        }
-    }
-
-    private class WebTask extends AsyncTask<Void, Void, Void> {
-
-        @Override
-        protected Void doInBackground(Void... params) {
-            downloadContent();
-            return null;
-        }
-    }
-
     class ClickEvent implements View.OnClickListener {
         public void onClick(View v) {
             if (v == btnOpen) {
@@ -533,7 +515,11 @@ public class MainActivity extends AppCompatActivity {
                     startActivityForResult(serverIntent, RequestConstants.REQUEST_CONNECT_DEVICE);
                 } else {
                     hideKeyboard();
-                    webTask.execute();
+                    downloadContent();
+                    if (checkBox.isChecked()) {
+                        checkBox.setVisibility(View.GONE);
+                        edtContext.setVisibility(View.GONE);
+                    }
                 }
             } else if (v == btnDisconnect) {
                 mService.stop();

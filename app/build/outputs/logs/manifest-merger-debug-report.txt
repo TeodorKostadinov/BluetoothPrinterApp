@@ -65,7 +65,7 @@ MERGED from [com.android.support:support-v4:23.1.1] D:\BTPrinter\app\build\inter
 	android:allowBackup
 		ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:14:9-35
 	android:icon
-		ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:15:9-45
+		ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:15:9-43
 	android:largeHeap
 		ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:18:9-33
 	android:theme
