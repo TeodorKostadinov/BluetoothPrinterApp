@@ -6,7 +6,7 @@ ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from D:\BTPrinter\app\src\main\AndroidManifest.xml
 		INJECTED from D:\BTPrinter\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:5:5-30
+		ADDED from D:\BTPrinter\app\src\main\AndroidManifest.xml:5:5-32
 		INJECTED from D:\BTPrinter\app\src\main\AndroidManifest.xml
 		INJECTED from D:\BTPrinter\app\src\main\AndroidManifest.xml
 	android:versionCode

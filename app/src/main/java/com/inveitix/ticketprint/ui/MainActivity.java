@@ -142,6 +142,7 @@ public class MainActivity extends AppCompatActivity {
         initWebView();
         sharedPref = this.getPreferences(Context.MODE_PRIVATE);
         checkPermissions();
+        checkBox.setChecked(load());
         setRememberedWeb();
     }
 
@@ -245,8 +246,6 @@ public class MainActivity extends AppCompatActivity {
         editor.putBoolean(RequestConstants.IS_CHECKED, isChecked);
         if (isChecked) {
             editor.putString(RequestConstants.WEB_SITE, edtContext.getText().toString());
-        } else {
-            editor.putString(RequestConstants.WEB_SITE, getString(R.string.txt_content));
         }
         editor.apply();
     }
