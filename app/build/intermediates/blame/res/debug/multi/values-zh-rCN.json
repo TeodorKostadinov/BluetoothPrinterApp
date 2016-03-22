@@ -6,258 +6,398 @@
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
-                    "startOffset": 100,
+                    "startOffset": 105,
                     "endColumn": 95,
-                    "endOffset": 191
+                    "endOffset": 196
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 237,
+                        "endColumn": 95,
+                        "endOffset": 328
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 196,
+                    "startOffset": 201,
                     "endColumn": 106,
-                    "endOffset": 298
+                    "endOffset": 303
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 334,
+                        "endColumn": 106,
+                        "endOffset": 436
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 303,
+                    "startOffset": 308,
                     "endColumn": 122,
-                    "endOffset": 421
+                    "endOffset": 426
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 442,
+                        "endColumn": 122,
+                        "endOffset": 560
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 426,
+                    "startOffset": 431,
                     "endColumn": 94,
-                    "endOffset": 516
+                    "endOffset": 521
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 566,
+                        "endColumn": 94,
+                        "endOffset": 656
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 521,
+                    "startOffset": 526,
                     "endColumn": 99,
-                    "endOffset": 616
+                    "endOffset": 621
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 662,
+                        "endColumn": 99,
+                        "endOffset": 757
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 621,
+                    "startOffset": 626,
                     "endColumn": 81,
-                    "endOffset": 698
+                    "endOffset": 703
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 763,
+                        "endColumn": 81,
+                        "endOffset": 840
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 703,
+                    "startOffset": 708,
                     "endColumn": 96,
-                    "endOffset": 795
+                    "endOffset": 800
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 846,
+                        "endColumn": 96,
+                        "endOffset": 938
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 800,
+                    "startOffset": 805,
                     "endColumn": 105,
-                    "endOffset": 901
+                    "endOffset": 906
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 944,
+                        "endColumn": 105,
+                        "endOffset": 1045
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 906,
+                    "startOffset": 911,
                     "endColumn": 75,
-                    "endOffset": 977
+                    "endOffset": 982
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1051,
+                        "endColumn": 75,
+                        "endOffset": 1122
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 982,
+                    "startOffset": 987,
                     "endColumn": 75,
-                    "endOffset": 1053
+                    "endOffset": 1058
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1128,
+                        "endColumn": 75,
+                        "endOffset": 1199
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1058,
+                    "startOffset": 1063,
                     "endColumn": 77,
-                    "endOffset": 1131
+                    "endOffset": 1136
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1205,
+                        "endColumn": 77,
+                        "endOffset": 1278
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1136,
+                    "startOffset": 1141,
                     "endColumn": 95,
-                    "endOffset": 1227
+                    "endOffset": 1232
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1284,
+                        "endColumn": 95,
+                        "endOffset": 1375
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1232,
+                    "startOffset": 1237,
                     "endColumn": 95,
-                    "endOffset": 1323
+                    "endOffset": 1328
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1381,
+                        "endColumn": 95,
+                        "endOffset": 1472
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1328,
+                    "startOffset": 1333,
                     "endColumn": 94,
-                    "endOffset": 1418
+                    "endOffset": 1423
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1478,
+                        "endColumn": 94,
+                        "endOffset": 1568
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1423,
+                    "startOffset": 1428,
                     "endColumn": 96,
-                    "endOffset": 1515
+                    "endOffset": 1520
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1574,
+                        "endColumn": 96,
+                        "endOffset": 1666
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1520,
+                    "startOffset": 1525,
                     "endColumn": 94,
-                    "endOffset": 1610
+                    "endOffset": 1615
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1672,
+                        "endColumn": 94,
+                        "endOffset": 1762
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1615,
+                    "startOffset": 1620,
                     "endColumn": 97,
-                    "endOffset": 1708
+                    "endOffset": 1713
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1768,
+                        "endColumn": 97,
+                        "endOffset": 1861
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1713,
+                    "startOffset": 1718,
                     "endColumn": 111,
-                    "endOffset": 1820
+                    "endOffset": 1825
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1867,
+                        "endColumn": 111,
+                        "endOffset": 1974
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 1825,
+                    "startOffset": 1830,
                     "endColumn": 93,
-                    "endOffset": 1914
+                    "endOffset": 1919
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1980,
+                        "endColumn": 93,
+                        "endOffset": 2069
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 1919,
+                    "startOffset": 1924,
                     "endColumn": 46,
-                    "endOffset": 1961
+                    "endOffset": 1966
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values-zh-rCN\\strings.xml"
+                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 46,
+                        "endOffset": 101
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 1966,
+                    "startOffset": 1971,
                     "endColumn": 45,
-                    "endOffset": 2007
+                    "endOffset": 2012
                 },
                 "from": {
                     "file": "D:\\BTPrinter\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 419,
+                        "startOffset": 430,
                         "endColumn": 45,
-                        "endOffset": 460
+                        "endOffset": 471
                     }
                 }
             },
@@ -265,504 +405,798 @@
                 "to": {
                     "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 2012,
+                    "startOffset": 2017,
                     "endColumn": 39,
-                    "endOffset": 2047
+                    "endOffset": 2052
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values-zh-rCN\\strings.xml"
+                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 344,
+                        "endColumn": 39,
+                        "endOffset": 379
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 2052,
+                    "startOffset": 2057,
                     "endColumn": 43,
-                    "endOffset": 2091
+                    "endOffset": 2096
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values-zh-rCN\\strings.xml"
+                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 385,
+                        "endColumn": 43,
+                        "endOffset": 424
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 2096,
+                    "startOffset": 2101,
                     "endColumn": 46,
-                    "endOffset": 2138
+                    "endOffset": 2143
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values-zh-rCN\\strings.xml"
+                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 296,
+                        "endColumn": 46,
+                        "endOffset": 338
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 2143,
+                    "startOffset": 2148,
                     "endColumn": 42,
-                    "endOffset": 2181
+                    "endOffset": 2186
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values-zh-rCN\\strings.xml"
+                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 617,
+                        "endColumn": 42,
+                        "endOffset": 655
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 2186,
+                    "startOffset": 2191,
                     "endColumn": 169,
-                    "endOffset": 2351
+                    "endOffset": 2356
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 439,
+                        "endColumn": 173,
+                        "endOffset": 608
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 2356,
+                    "startOffset": 2361,
                     "endColumn": 152,
-                    "endOffset": 2504
+                    "endOffset": 2509
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2284,
+                        "endColumn": 156,
+                        "endOffset": 2436
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 2509,
+                    "startOffset": 2514,
                     "endColumn": 105,
-                    "endOffset": 2610
+                    "endOffset": 2615
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2011,
+                        "endColumn": 105,
+                        "endOffset": 2112
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 2615,
+                    "startOffset": 2620,
                     "endColumn": 185,
-                    "endOffset": 2796
+                    "endOffset": 2801
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 3846,
+                        "endColumn": 189,
+                        "endOffset": 4031
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 2801,
+                    "startOffset": 2806,
                     "endColumn": 115,
-                    "endOffset": 2912
+                    "endOffset": 2917
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1778,
+                        "endColumn": 115,
+                        "endOffset": 1889
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 2917,
+                    "startOffset": 2922,
                     "endColumn": 160,
-                    "endOffset": 3073
+                    "endOffset": 3078
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1612,
+                        "endColumn": 164,
+                        "endOffset": 1772
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 3078,
+                    "startOffset": 3083,
                     "endColumn": 113,
-                    "endOffset": 3187
+                    "endOffset": 3192
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1497,
+                        "endColumn": 113,
+                        "endOffset": 1606
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 3192,
+                    "startOffset": 3197,
                     "endColumn": 160,
-                    "endOffset": 3348
+                    "endOffset": 3353
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 746,
+                        "endColumn": 164,
+                        "endOffset": 906
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 3353,
+                    "startOffset": 3358,
                     "endColumn": 116,
-                    "endOffset": 3465
+                    "endOffset": 3470
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1379,
+                        "endColumn": 116,
+                        "endOffset": 1491
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 3470,
+                    "startOffset": 3475,
                     "endColumn": 169,
-                    "endOffset": 3635
+                    "endOffset": 3640
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1027,
+                        "endColumn": 173,
+                        "endOffset": 1196
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 3640,
+                    "startOffset": 3645,
                     "endColumn": 171,
-                    "endOffset": 3807
+                    "endOffset": 3812
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1202,
+                        "endColumn": 175,
+                        "endOffset": 1373
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 3812,
+                    "startOffset": 3817,
                     "endColumn": 113,
-                    "endOffset": 3921
+                    "endOffset": 3926
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 912,
+                        "endColumn": 113,
+                        "endOffset": 1021
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 3926,
+                    "startOffset": 3931,
                     "endColumn": 128,
-                    "endOffset": 4050
+                    "endOffset": 4055
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 3091,
+                        "endColumn": 128,
+                        "endOffset": 3215
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 4055,
+                    "startOffset": 4060,
                     "endColumn": 112,
-                    "endOffset": 4163
+                    "endOffset": 4168
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2977,
+                        "endColumn": 112,
+                        "endOffset": 3085
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 4168,
+                    "startOffset": 4173,
                     "endColumn": 130,
-                    "endOffset": 4294
+                    "endOffset": 4299
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 614,
+                        "endColumn": 130,
+                        "endOffset": 740
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 4299,
+                    "startOffset": 4304,
                     "endColumn": 133,
-                    "endOffset": 4428
+                    "endOffset": 4433
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2842,
+                        "endColumn": 133,
+                        "endOffset": 2971
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 4433,
+                    "startOffset": 4438,
                     "endColumn": 110,
-                    "endOffset": 4539
+                    "endOffset": 4544
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2730,
+                        "endColumn": 110,
+                        "endOffset": 2836
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 4544,
+                    "startOffset": 4549,
                     "endColumn": 141,
-                    "endOffset": 4681
+                    "endOffset": 4686
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 296,
+                        "endColumn": 141,
+                        "endOffset": 433
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 4686,
+                    "startOffset": 4691,
                     "endColumn": 121,
-                    "endOffset": 4803
+                    "endOffset": 4808
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 173,
+                        "endColumn": 121,
+                        "endOffset": 290
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 4808,
+                    "startOffset": 4813,
                     "endColumn": 123,
-                    "endOffset": 4927
+                    "endOffset": 4932
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 4150,
+                        "endColumn": 123,
+                        "endOffset": 4269
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 4932,
+                    "startOffset": 4937,
                     "endColumn": 111,
-                    "endOffset": 5039
+                    "endOffset": 5044
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 4037,
+                        "endColumn": 111,
+                        "endOffset": 4144
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 5044,
+                    "startOffset": 5049,
                     "endColumn": 120,
-                    "endOffset": 5160
+                    "endOffset": 5165
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 3221,
+                        "endColumn": 120,
+                        "endOffset": 3337
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 5165,
+                    "startOffset": 5170,
                     "endColumn": 188,
-                    "endOffset": 5349
+                    "endOffset": 5354
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 3462,
+                        "endColumn": 192,
+                        "endOffset": 3650
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 5354,
+                    "startOffset": 5359,
                     "endColumn": 117,
-                    "endOffset": 5467
+                    "endOffset": 5472
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 3343,
+                        "endColumn": 117,
+                        "endOffset": 3456
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 5472,
+                    "startOffset": 5477,
                     "endColumn": 102,
-                    "endOffset": 5570
+                    "endOffset": 5575
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 3656,
+                        "endColumn": 102,
+                        "endOffset": 3754
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 5575,
+                    "startOffset": 5580,
                     "endColumn": 160,
-                    "endOffset": 5731
+                    "endOffset": 5736
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2118,
+                        "endColumn": 164,
+                        "endOffset": 2278
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 5736,
+                    "startOffset": 5741,
                     "endColumn": 114,
-                    "endOffset": 5846
+                    "endOffset": 5851
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1895,
+                        "endColumn": 114,
+                        "endOffset": 2005
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 5851,
+                    "startOffset": 5856,
                     "endColumn": 162,
-                    "endOffset": 6009
+                    "endOffset": 6014
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2562,
+                        "endColumn": 166,
+                        "endOffset": 2724
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 6014,
+                    "startOffset": 6019,
                     "endColumn": 118,
-                    "endOffset": 6128
+                    "endOffset": 6133
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2442,
+                        "endColumn": 118,
+                        "endOffset": 2556
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 6133,
+                    "startOffset": 6138,
                     "endColumn": 84,
-                    "endOffset": 6213
+                    "endOffset": 6218
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-zh-rCN\\common_strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 3760,
+                        "endColumn": 84,
+                        "endOffset": 3840
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 57,
                     "startColumn": 4,
-                    "startOffset": 6218,
+                    "startOffset": 6223,
                     "endColumn": 44,
-                    "endOffset": 6258
+                    "endOffset": 6263
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values-zh-rCN\\strings.xml"
+                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 531,
+                        "endColumn": 44,
+                        "endOffset": 571
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 58,
                     "startColumn": 4,
-                    "startOffset": 6263,
+                    "startOffset": 6268,
                     "endColumn": 44,
-                    "endOffset": 6303
+                    "endOffset": 6308
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values-zh-rCN\\strings.xml"
+                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 250,
+                        "endColumn": 44,
+                        "endOffset": 290
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 6308,
+                    "startOffset": 6313,
                     "endColumn": 48,
-                    "endOffset": 6352
+                    "endOffset": 6357
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values-zh-rCN\\strings.xml"
+                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 107,
+                        "endColumn": 48,
+                        "endOffset": 151
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 60,
                     "startColumn": 4,
-                    "startOffset": 6357,
+                    "startOffset": 6362,
                     "endColumn": 39,
-                    "endOffset": 6392
+                    "endOffset": 6397
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values-zh-rCN\\strings.xml"
+                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 157,
+                        "endColumn": 39,
+                        "endOffset": 192
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 6397,
+                    "startOffset": 6402,
                     "endColumn": 50,
-                    "endOffset": 6443
+                    "endOffset": 6448
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values-zh-rCN\\strings.xml"
+                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 198,
+                        "endColumn": 50,
+                        "endOffset": 244
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 62,
                     "startColumn": 4,
-                    "startOffset": 6448,
+                    "startOffset": 6453,
                     "endColumn": 100,
-                    "endOffset": 6544
+                    "endOffset": 6549
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml"
+                    "file": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2075,
+                        "endColumn": 100,
+                        "endOffset": 2171
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 63,
                     "startColumn": 4,
-                    "startOffset": 6549,
+                    "startOffset": 6554,
                     "endColumn": 38,
-                    "endOffset": 6583
+                    "endOffset": 6588
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values-zh-rCN\\strings.xml"
+                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 577,
+                        "endColumn": 38,
+                        "endOffset": 611
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 64,
                     "startColumn": 4,
-                    "startOffset": 6588,
+                    "startOffset": 6593,
                     "endColumn": 42,
-                    "endOffset": 6626
+                    "endOffset": 6631
                 },
                 "from": {
-                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values-zh-rCN\\strings.xml"
+                    "file": "D:\\BTPrinter\\app\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 477,
+                        "endColumn": 52,
+                        "endOffset": 525
+                    }
                 }
             }
         ]

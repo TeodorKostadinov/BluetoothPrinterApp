@@ -16,10 +16,10 @@
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 234,
+                        "startOffset": 238,
                         "endLine": 6,
                         "endColumn": 12,
-                        "endOffset": 453
+                        "endOffset": 459
                     }
                 }
             },
@@ -37,10 +37,10 @@
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 458,
+                        "startOffset": 465,
                         "endLine": 9,
                         "endColumn": 12,
-                        "endOffset": 653
+                        "endOffset": 662
                     }
                 }
             },
@@ -57,9 +57,9 @@
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 658,
+                        "startOffset": 668,
                         "endColumn": 118,
-                        "endOffset": 772
+                        "endOffset": 782
                     }
                 }
             },
@@ -76,9 +76,9 @@
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 777,
+                        "startOffset": 788,
                         "endColumn": 94,
-                        "endOffset": 867
+                        "endOffset": 878
                     }
                 }
             }
