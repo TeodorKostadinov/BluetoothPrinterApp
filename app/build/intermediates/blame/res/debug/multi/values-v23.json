@@ -138,9 +138,9 @@
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 243,
+                        "startOffset": 239,
                         "endColumn": 134,
-                        "endOffset": 373
+                        "endOffset": 369
                     }
                 }
             },
@@ -157,9 +157,9 @@
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 560,
+                        "startOffset": 553,
                         "endColumn": 74,
-                        "endOffset": 630
+                        "endOffset": 623
                     }
                 }
             },
@@ -176,9 +176,9 @@
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 636,
+                        "startOffset": 628,
                         "endColumn": 86,
-                        "endOffset": 718
+                        "endOffset": 710
                     }
                 }
             },
@@ -196,10 +196,10 @@
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 724,
+                        "startOffset": 715,
                         "endLine": 17,
                         "endColumn": 12,
-                        "endOffset": 1285
+                        "endOffset": 1268
                     }
                 }
             },
@@ -217,10 +217,10 @@
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1291,
+                        "startOffset": 1273,
                         "endLine": 26,
                         "endColumn": 12,
-                        "endOffset": 1864
+                        "endOffset": 1838
                     }
                 }
             },
@@ -237,9 +237,9 @@
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
-                        "startOffset": 2051,
+                        "startOffset": 2022,
                         "endColumn": 104,
-                        "endOffset": 2151
+                        "endOffset": 2122
                     }
                 }
             }

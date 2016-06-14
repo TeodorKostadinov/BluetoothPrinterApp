@@ -465,7 +465,7 @@ public class MainActivity extends AppCompatActivity {
 
                 @Override
                 public void onFailure(Throwable t) {
-                    Toast.makeText(MainActivity.this, R.string.enter_real_web, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "No internet connection", Toast.LENGTH_SHORT).show();
                     saveState(false);
                     Log.e(TAG, "onFailure");
                 }

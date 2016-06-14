@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="http://schemas.android.com/tools">
+<resources xmlns:ns1="http://schemas.android.com/tools" xmlns:ns2="urn:oasis:names:tc:xliff:document:1.2">
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
@@ -241,18 +241,18 @@
     <string name="btn_print">Print Customer Receipt</string>
     <string name="btn_search">Connect  Bluetooth  Printer</string>
     <string name="button_scan">Scan for devices</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">16226cd6-3fef-49bd-9d64-b86b9e45230e</string>
-    <string name="common_android_wear_notification_needs_update_text"><ns1:g id="app_name">%1$s</ns1:g> requires an update to the Android Wear app.</string>
-    <string name="common_android_wear_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update the Android Wear app.</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">bc874669-90ca-4f95-82da-52a9420286d6</string>
+    <string name="common_android_wear_notification_needs_update_text"><ns2:g id="app_name">%1$s</ns2:g> requires an update to the Android Wear app.</string>
+    <string name="common_android_wear_update_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run unless you update the Android Wear app.</string>
     <string msgid="6006316683626838685" name="common_android_wear_update_title">Update Android Wear</string>
-    <string name="common_google_play_services_api_unavailable_text"><ns1:g id="app_name">%1$s</ns1:g> requires one or more Google Play services that are not currently available. Please contact the developer for assistance.</string>
+    <string name="common_google_play_services_api_unavailable_text"><ns2:g id="app_name">%1$s</ns2:g> requires one or more Google Play services that are not currently available. Please contact the developer for assistance.</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
-    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
-    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by <ns2:g id="app_name">%1$s</ns2:g></string>
     <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
-    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your phone.</string>
-    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone"><ns2:g id="app_name">%1$s</ns2:g> won\'t run without Google Play services, which are missing from your phone.</string>
+    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet"><ns2:g id="app_name">%1$s</ns2:g> won\'t run without Google Play services, which are missing from your tablet.</string>
     <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
     <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
     <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
@@ -264,12 +264,12 @@
     <string name="common_google_play_services_sign_in_failed_text">Error signing in the specified account. Please choose a different account.</string>
     <string name="common_google_play_services_sign_in_failed_title">Sign in failed</string>
     <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
-    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> relies on Google Play services, which is not supported by your device. Contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_text"><ns2:g id="app_name">%1$s</ns2:g> relies on Google Play services, which is not supported by your device. Contact the manufacturer for assistance.</string>
     <string name="common_google_play_services_unsupported_title">Google Play services</string>
     <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
-    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run unless you update Google Play services.</string>
     <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
-    <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_updating_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run without Google Play services, which are currently updating.</string>
     <string name="common_google_play_services_updating_title">Google Play services are updating</string>
     <string name="common_open_on_phone">Open on phone</string>
     <string name="conn_lost">Device connection was lost</string>
