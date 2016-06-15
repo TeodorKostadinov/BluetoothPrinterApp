@@ -1,3 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="D:\BluetoothPrinterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="D:\BluetoothPrinterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.1.0_65c3bb84f8df5ef40386c000e3febfc4b45ac870.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tito\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="D:\BluetoothPrinterApp\app\build\intermediates\pre-dexed\debug\okio-1.6.0_add438a73626a662dae8aba4cc9041beed683920.jar" />
+    </item>
+    <item
+        jar="D:\BluetoothPrinterApp\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.8\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c9ef45dcbd082cd63aac09a5e2cd443adb5df837">
+        <dex dex="D:\BluetoothPrinterApp\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-crashlytics-core-2.3.8_b91e68699b85cfa674807a31e0520bc4d9209e90.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tito\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="D:\BluetoothPrinterApp\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_20c1caa1b41859b9c703cbb12a6bcec6ea1f9d49.jar" />
+    </item>
+    <item
+        jar="D:\BluetoothPrinterApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="D:\BluetoothPrinterApp\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_9e90479ba194fe5007756dcf7722fed29db3be78.jar" />
+    </item>
+    <item
+        jar="D:\BluetoothPrinterApp\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.10\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a5db9a2dd46d84285ef737f65030b74b6e8ee2a4">
+        <dex dex="D:\BluetoothPrinterApp\app\build\intermediates\pre-dexed\debug\io.fabric.sdk.android-fabric-1.3.10_f10702edc9854a1dd9f66c70ed8baa08bcbd3aa6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tito\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.0-beta3\97675641051febfee098903cc0eff62f2826e34e\retrofit-2.0.0-beta3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="97675641051febfee098903cc0eff62f2826e34e">
+        <dex dex="D:\BluetoothPrinterApp\app\build\intermediates\pre-dexed\debug\retrofit-2.0.0-beta3_2dcee19901d1f4a0ffe5dbcff141b61abe80f140.jar" />
+    </item>
+    <item
+        jar="D:\BluetoothPrinterApp\app\libs\btsdk.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8f6b84f6fbcfbf895952b8e0c007ec5d0fce9bc9">
+        <dex dex="D:\BluetoothPrinterApp\app\build\intermediates\pre-dexed\debug\btsdk_b3579d6c36cb98a0517429555637cebd651595a6.jar" />
+    </item>
+    <item
+        jar="D:\BluetoothPrinterApp\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.5.5\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="611605b6b640c1558f9bdea41de8ff837ab68ca8">
+        <dex dex="D:\BluetoothPrinterApp\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-crashlytics-2.5.5_2bd7db73036787c659fcde64c1d8b1985ecd16f0.jar" />
+    </item>
+    <item
+        jar="D:\BluetoothPrinterApp\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="39ae02ce40c3ac828abbf780ce0ff5d7a28b7d6a">
+        <dex dex="D:\BluetoothPrinterApp\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.0.1_a585512d2e083c224105d5e1db07473df86ea7f4.jar" />
+    </item>
+    <item
+        jar="D:\BluetoothPrinterApp\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.1.4\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ad5bb101ced4d3939225c9b57e5a3d81547c1fbb">
+        <dex dex="D:\BluetoothPrinterApp\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-beta-1.1.4_254c9a503fd6bd8afa148647a6b408f844b66a6a.jar" />
+    </item>
+    <item
+        jar="D:\BluetoothPrinterApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="D:\BluetoothPrinterApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_86c7d3620d8d4b0f99f0ad93ba27e3e8df5fc4fc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tito\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.0.1\7ffdb02f95af1c1a208544e076cea5b8e66e731a\commons-io-2.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7ffdb02f95af1c1a208544e076cea5b8e66e731a">
+        <dex dex="D:\BluetoothPrinterApp\app\build\intermediates\pre-dexed\debug\commons-io-2.0.1_1dab615a88348a2c5c95ff71b5e78c290fae05bc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tito\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="D:\BluetoothPrinterApp\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1_1c7227d0ce98aaba731aa20a036327b29aaf149b.jar" />
+    </item>
+    <item
+        jar="D:\BluetoothPrinterApp\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.6\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9af3b9b8114e685291aa00e6572b0a9131244956">
+        <dex dex="D:\BluetoothPrinterApp\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-answers-1.3.6_1390958a95a6f552f1f37c506f39f4bbed2f1cca.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tito\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.0.0-RC1\be7e96331952019f16dc52dce09ab25df29353d7\okhttp-3.0.0-RC1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="be7e96331952019f16dc52dce09ab25df29353d7">
+        <dex dex="D:\BluetoothPrinterApp\app\build\intermediates\pre-dexed\debug\okhttp-3.0.0-RC1_69481ade2e7669e54d9906c1c698e76659e80451.jar" />
+    </item>
+    <item
+        jar="D:\BluetoothPrinterApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="D:\BluetoothPrinterApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.1.0_8316c4f9dc17df86d3a3a3da1ff104d0ec95cf11.jar" />
+    </item>
+    <item
+        jar="D:\BluetoothPrinterApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="D:\BluetoothPrinterApp\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_ab75ab4582086552bfec40a288167bc9186f7fae.jar" />
+    </item>
+
+</items>

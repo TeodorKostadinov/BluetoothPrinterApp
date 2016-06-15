@@ -4,7 +4,15 @@
         "source": "D:\\BTPrinter\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\icon.png",
+        "source": "D:\\BluetoothPrinterApp\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
+    },
+    {
         "merged": "D:\\BTPrinter\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\icon.png",
         "source": "D:\\BTPrinter\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
+    },
+    {
+        "merged": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\BluetoothPrinterApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }
 ]

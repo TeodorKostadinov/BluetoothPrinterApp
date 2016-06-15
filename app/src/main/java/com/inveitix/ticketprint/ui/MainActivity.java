@@ -79,7 +79,6 @@ public class MainActivity extends AppCompatActivity {
     SharedPreferences sharedPref;
     SharedPreferences.Editor editor;
     boolean isWebLoaded;
-    SaveImageTask imageTask;
 
     private Handler mHandler = new Handler() {
         @Override
@@ -130,7 +129,6 @@ public class MainActivity extends AppCompatActivity {
         }
         setContentView(R.layout.main);
         ButterKnife.bind(this);
-        imageTask = new SaveImageTask();
         mService = new BluetoothService(this, mHandler);
 
         if (!mService.isAvailable()) {
@@ -166,7 +164,7 @@ public class MainActivity extends AppCompatActivity {
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        imageTask.execute();
+                        siteToImage();
                         dialog.cancel();
                     }
                 }, 2000);
@@ -206,8 +204,6 @@ public class MainActivity extends AppCompatActivity {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        imageTask.cancel(true);
     }
 
     private void loadingListProgress() {
@@ -521,15 +517,6 @@ public class MainActivity extends AppCompatActivity {
                     printImage();
                 }
             }
-        }
-    }
-
-    class SaveImageTask extends AsyncTask<Void, Void, Void> {
-
-        @Override
-        protected Void doInBackground(Void... params) {
-            siteToImage();
-            return null;
         }
     }
 }
