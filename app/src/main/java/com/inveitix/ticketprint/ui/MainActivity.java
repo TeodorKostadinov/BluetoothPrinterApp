@@ -21,6 +21,7 @@ import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Paint;
+import android.net.http.SslError;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
@@ -33,6 +34,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
+import android.webkit.SslErrorHandler;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
@@ -51,12 +53,6 @@ import java.io.IOException;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import okhttp3.ResponseBody;
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-import retrofit2.Retrofit;
-import retrofit2.http.GET;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -83,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
     SharedPreferences sharedPref;
     SharedPreferences.Editor editor;
     boolean isWebLoaded;
+    SaveImageTask imageTask;
 
     private Handler mHandler = new Handler() {
         @Override
@@ -133,6 +130,7 @@ public class MainActivity extends AppCompatActivity {
         }
         setContentView(R.layout.main);
         ButterKnife.bind(this);
+        imageTask = new SaveImageTask();
         mService = new BluetoothService(this, mHandler);
 
         if (!mService.isAvailable()) {
@@ -148,10 +146,17 @@ public class MainActivity extends AppCompatActivity {
 
     private void initWebView() {
         webView.getSettings().setJavaScriptEnabled(true);
+        webView.getSettings().setDomStorageEnabled(true);
         webView.getSettings().setDefaultTextEncodingName(getString(R.string.encoding));
         webView.setWebViewClient(new WebViewClient() {
             @Override
+            public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
+                handler.proceed();
+            }
+
+            @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                view.loadUrl(url);
                 return true;
             }
 
@@ -161,7 +166,7 @@ public class MainActivity extends AppCompatActivity {
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        siteToImage();
+                        imageTask.execute();
                         dialog.cancel();
                     }
                 }, 2000);
@@ -171,7 +176,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void siteToImage() {
         webView.measure(View.MeasureSpec.makeMeasureSpec(
-                        View.MeasureSpec.UNSPECIFIED, View.MeasureSpec.UNSPECIFIED),
+                View.MeasureSpec.UNSPECIFIED, View.MeasureSpec.UNSPECIFIED),
                 View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED));
 
         webView.setDrawingCacheEnabled(true);
@@ -183,7 +188,6 @@ public class MainActivity extends AppCompatActivity {
         int iHeight = b.getHeight();
         c.drawBitmap(b, 0, iHeight, paint);
         webView.draw(c);
-
         FileOutputStream fos;
         try {
             path = Environment.getExternalStorageDirectory().toString();
@@ -191,7 +195,7 @@ public class MainActivity extends AppCompatActivity {
             if (!dir.isDirectory()) {
                 dir.mkdirs();
             }
-            String webCapture = "darf_" + System.currentTimeMillis() + ".jpg";
+            String webCapture = "darf_temp_pic.jpg";
             file = new File(dir, webCapture);
             fos = new FileOutputStream(file);
             b.compress(Bitmap.CompressFormat.PNG, 50, fos);
@@ -202,6 +206,8 @@ public class MainActivity extends AppCompatActivity {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        imageTask.cancel(true);
     }
 
     private void loadingListProgress() {
@@ -232,6 +238,7 @@ public class MainActivity extends AppCompatActivity {
         try {
             saveState(checkBox.isChecked());
         } catch (RuntimeException ex) {
+            ex.printStackTrace();
         }
     }
 
@@ -263,6 +270,8 @@ public class MainActivity extends AppCompatActivity {
                 ContextCompat.checkSelfPermission(this, Manifest.permission.BLUETOOTH_ADMIN);
         int permissionLocation =
                 ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION);
+        int permissionExternalStorage =
+                ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE);
 
         if (permissionCheck == PackageManager.PERMISSION_DENIED) {
             edtContext.setText(R.string.no_bluetooth_permissions);
@@ -282,6 +291,15 @@ public class MainActivity extends AppCompatActivity {
                         RequestConstants.TAG_REQUEST_PERMISSION, Toast.LENGTH_SHORT).show();
             } else {
                 requestInternetPermission();
+            }
+            return false;
+        } else if (permissionExternalStorage == PackageManager.PERMISSION_DENIED) {
+            if (ActivityCompat.shouldShowRequestPermissionRationale(this,
+                    Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
+                Toast.makeText(MainActivity.this,
+                        RequestConstants.TAG_REQUEST_PERMISSION, Toast.LENGTH_SHORT).show();
+            } else {
+                requestExternalStoragePermission();
             }
             return false;
         } else if (permissionBTAdmin == PackageManager.PERMISSION_DENIED) {
@@ -307,6 +325,12 @@ public class MainActivity extends AppCompatActivity {
         } else {
             return true;
         }
+    }
+
+    private void requestExternalStoragePermission() {
+        ActivityCompat
+                .requestPermissions(this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
+                        RequestConstants.WRITE_EXTERNAL_STORAGE);
     }
 
     private void requestLocationPermission() {
@@ -441,35 +465,10 @@ public class MainActivity extends AppCompatActivity {
                 .equals(getString(R.string.txt_content))) {
             String webAddress = validateUrl(edtContext.getText().toString());
 
-            Retrofit retrofit = new Retrofit.Builder()
-                    .baseUrl(webAddress).build();
-
-            HttpService service = retrofit.create(HttpService.class);
-            Call<ResponseBody> result = service.getContent();
-            result.enqueue(new Callback<ResponseBody>() {
-                @Override
-                public void onResponse(Response<ResponseBody> response) {
-                    try {
-                        Log.e(TAG, "Log");
-                        if (response.body() != null) {
-                            String summary = response.body().string();
-                            webView.loadData(summary, getString(R.string.mime_type), null);
-                            loadingListProgress();
-                            btnOpen.setText(R.string.find_printer);
-                            isWebLoaded = true;
-                        }
-                    } catch (IOException e) {
-                        Toast.makeText(MainActivity.this, R.string.enter_real_web, Toast.LENGTH_SHORT).show();
-                    }
-                }
-
-                @Override
-                public void onFailure(Throwable t) {
-                    Toast.makeText(MainActivity.this, "No internet connection", Toast.LENGTH_SHORT).show();
-                    saveState(false);
-                    Log.e(TAG, "onFailure");
-                }
-            });
+            webView.loadUrl(webAddress);
+            loadingListProgress();
+            btnOpen.setText(R.string.find_printer);
+            isWebLoaded = true;
         }
     }
 
@@ -501,11 +500,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public interface HttpService {
-        @GET("/")
-        Call<ResponseBody> getContent();
-    }
-
     class ClickEvent implements View.OnClickListener {
         public void onClick(View v) {
             if (v == btnOpen) {
@@ -527,6 +521,15 @@ public class MainActivity extends AppCompatActivity {
                     printImage();
                 }
             }
+        }
+    }
+
+    class SaveImageTask extends AsyncTask<Void, Void, Void> {
+
+        @Override
+        protected Void doInBackground(Void... params) {
+            siteToImage();
+            return null;
         }
     }
 }

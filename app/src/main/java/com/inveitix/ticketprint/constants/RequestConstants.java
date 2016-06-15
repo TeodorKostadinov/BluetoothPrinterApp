@@ -12,4 +12,5 @@ public class RequestConstants {
     public static final String WEB_SITE = "Remembered Web Site";
     public static final String IS_CHECKED = "Check box";
     public static final String IS_REAL_SITE = "Is existing site";
+    public static final int WRITE_EXTERNAL_STORAGE = 4;
 }
