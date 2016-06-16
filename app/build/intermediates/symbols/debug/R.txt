@@ -490,7 +490,6 @@ int id action_bar_root 0x7f0c003e
 int id action_bar_spinner 0x7f0c0001
 int id action_bar_subtitle 0x7f0c0024
 int id action_bar_title 0x7f0c0023
-int id action_bt_connect 0x7f0c006a
 int id action_context_bar 0x7f0c0044
 int id action_divider 0x7f0c0061
 int id action_menu_divider 0x7f0c0002
@@ -498,6 +497,7 @@ int id action_menu_presenter 0x7f0c0003
 int id action_mode_bar 0x7f0c0040
 int id action_mode_bar_stub 0x7f0c003f
 int id action_mode_close_button 0x7f0c0025
+int id action_refresh 0x7f0c006a
 int id activity_chooser_view_content 0x7f0c0026
 int id adjust_height 0x7f0c001b
 int id adjust_width 0x7f0c001c

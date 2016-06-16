@@ -32,6 +32,9 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.webkit.SslErrorHandler;
@@ -79,7 +82,6 @@ public class MainActivity extends AppCompatActivity {
     SharedPreferences sharedPref;
     SharedPreferences.Editor editor;
     boolean isWebLoaded;
-    SaveImageTask imageTask;
 
     private Handler mHandler = new Handler() {
         @Override
@@ -130,7 +132,6 @@ public class MainActivity extends AppCompatActivity {
         }
         setContentView(R.layout.main);
         ButterKnife.bind(this);
-        imageTask = new SaveImageTask();
         mService = new BluetoothService(this, mHandler);
 
         if (!mService.isAvailable()) {
@@ -166,7 +167,7 @@ public class MainActivity extends AppCompatActivity {
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        imageTask.execute();
+                        siteToImage();
                         dialog.cancel();
                     }
                 }, 2000);
@@ -206,8 +207,6 @@ public class MainActivity extends AppCompatActivity {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        imageTask.cancel(true);
     }
 
     private void loadingListProgress() {
@@ -229,6 +228,24 @@ public class MainActivity extends AppCompatActivity {
                 downloadContent();
             }
 
+        }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_refresh:
+                downloadContent();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
         }
     }
 
@@ -521,15 +538,6 @@ public class MainActivity extends AppCompatActivity {
                     printImage();
                 }
             }
-        }
-    }
-
-    class SaveImageTask extends AsyncTask<Void, Void, Void> {
-
-        @Override
-        protected Void doInBackground(Void... params) {
-            siteToImage();
-            return null;
         }
     }
 }

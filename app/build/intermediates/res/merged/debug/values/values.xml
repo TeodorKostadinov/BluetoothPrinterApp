@@ -241,7 +241,7 @@
     <string name="btn_print">Print Customer Receipt</string>
     <string name="btn_search">Connect  Bluetooth  Printer</string>
     <string name="button_scan">Scan for devices</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">9c47e569-1ca7-4000-9886-8a31b019a5a0</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">fdac138b-dcd0-466d-8669-1d6f74c2ccb2</string>
     <string name="common_android_wear_notification_needs_update_text"><ns2:g id="app_name">%1$s</ns2:g> requires an update to the Android Wear app.</string>
     <string name="common_android_wear_update_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run unless you update the Android Wear app.</string>
     <string msgid="6006316683626838685" name="common_android_wear_update_title">Update Android Wear</string>
