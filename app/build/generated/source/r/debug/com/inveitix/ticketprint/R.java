@@ -1763,7 +1763,6 @@ containing a value of this type.
         public static final int action_bar_spinner=0x7f0c0001;
         public static final int action_bar_subtitle=0x7f0c0024;
         public static final int action_bar_title=0x7f0c0023;
-        public static final int action_bt_connect=0x7f0c006a;
         public static final int action_context_bar=0x7f0c0044;
         public static final int action_divider=0x7f0c0061;
         public static final int action_menu_divider=0x7f0c0002;
@@ -1771,6 +1770,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0c0040;
         public static final int action_mode_bar_stub=0x7f0c003f;
         public static final int action_mode_close_button=0x7f0c0025;
+        public static final int action_refresh=0x7f0c006a;
         public static final int activity_chooser_view_content=0x7f0c0026;
         public static final int adjust_height=0x7f0c001b;
         public static final int adjust_width=0x7f0c001c;
