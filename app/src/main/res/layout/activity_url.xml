@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:gravity="center"
     android:background="@drawable/ticket_background">
 
@@ -11,6 +9,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#a0000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Print Receipt"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        android:textStyle="italic"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:id="@+id/txt_content"
@@ -20,10 +28,9 @@
         android:textSize="25sp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
-        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
         android:layout_alignLeft="@+id/btn_open"
-        android:layout_alignStart="@+id/btn_open"
-        android:layout_marginTop="178dp">
+        android:layout_alignStart="@+id/btn_open">
 
     </EditText>
 
