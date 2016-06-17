@@ -966,13 +966,13 @@
                     "endOffset": 216
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-pl\\values-pl.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pl\\values-pl.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 229,
+                        "startOffset": 55,
                         "endColumn": 115,
-                        "endOffset": 340
+                        "endOffset": 166
                     }
                 }
             },
@@ -985,13 +985,13 @@
                     "endOffset": 324
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-pl\\values-pl.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pl\\values-pl.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 345,
+                        "startOffset": 171,
                         "endColumn": 107,
-                        "endOffset": 448
+                        "endOffset": 274
                     }
                 }
             },
@@ -1004,13 +1004,13 @@
                     "endOffset": 447
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-pl\\values-pl.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pl\\values-pl.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 453,
+                        "startOffset": 279,
                         "endColumn": 122,
-                        "endOffset": 571
+                        "endOffset": 397
                     }
                 }
             },
@@ -1023,13 +1023,13 @@
                     "endOffset": 549
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-pl\\values-pl.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pl\\values-pl.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 576,
+                        "startOffset": 402,
                         "endColumn": 101,
-                        "endOffset": 673
+                        "endOffset": 499
                     }
                 }
             },
@@ -1042,13 +1042,13 @@
                     "endOffset": 657
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-pl\\values-pl.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pl\\values-pl.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 678,
+                        "startOffset": 504,
                         "endColumn": 107,
-                        "endOffset": 781
+                        "endOffset": 607
                     }
                 }
             },
@@ -1061,13 +1061,13 @@
                     "endOffset": 743
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-pl\\values-pl.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pl\\values-pl.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 786,
+                        "startOffset": 612,
                         "endColumn": 85,
-                        "endOffset": 867
+                        "endOffset": 693
                     }
                 }
             },
@@ -1080,13 +1080,13 @@
                     "endOffset": 852
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-pl\\values-pl.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pl\\values-pl.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 872,
+                        "startOffset": 698,
                         "endColumn": 108,
-                        "endOffset": 976
+                        "endOffset": 802
                     }
                 }
             },
@@ -1099,13 +1099,13 @@
                     "endOffset": 971
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-pl\\values-pl.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pl\\values-pl.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 981,
+                        "startOffset": 807,
                         "endColumn": 118,
-                        "endOffset": 1095
+                        "endOffset": 921
                     }
                 }
             },
@@ -1118,13 +1118,13 @@
                     "endOffset": 1049
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-pl\\values-pl.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pl\\values-pl.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 1100,
+                        "startOffset": 926,
                         "endColumn": 77,
-                        "endOffset": 1173
+                        "endOffset": 999
                     }
                 }
             },
@@ -1137,13 +1137,13 @@
                     "endOffset": 1126
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-pl\\values-pl.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pl\\values-pl.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1178,
+                        "startOffset": 1004,
                         "endColumn": 76,
-                        "endOffset": 1250
+                        "endOffset": 1076
                     }
                 }
             },
@@ -1156,13 +1156,13 @@
                     "endOffset": 1208
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-pl\\values-pl.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pl\\values-pl.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1255,
+                        "startOffset": 1081,
                         "endColumn": 81,
-                        "endOffset": 1332
+                        "endOffset": 1158
                     }
                 }
             },
@@ -1175,13 +1175,13 @@
                     "endOffset": 1317
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-pl\\values-pl.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pl\\values-pl.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1337,
+                        "startOffset": 1163,
                         "endColumn": 108,
-                        "endOffset": 1441
+                        "endOffset": 1267
                     }
                 }
             },
@@ -1194,13 +1194,13 @@
                     "endOffset": 1426
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-pl\\values-pl.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pl\\values-pl.xml",
                     "position": {
-                        "startLine": 16,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1446,
+                        "startOffset": 1272,
                         "endColumn": 108,
-                        "endOffset": 1550
+                        "endOffset": 1376
                     }
                 }
             },
@@ -1213,13 +1213,13 @@
                     "endOffset": 1525
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-pl\\values-pl.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pl\\values-pl.xml",
                     "position": {
-                        "startLine": 17,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1555,
+                        "startOffset": 1381,
                         "endColumn": 98,
-                        "endOffset": 1649
+                        "endOffset": 1475
                     }
                 }
             },
@@ -1232,13 +1232,13 @@
                     "endOffset": 1634
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-pl\\values-pl.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pl\\values-pl.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1654,
+                        "startOffset": 1480,
                         "endColumn": 108,
-                        "endOffset": 1758
+                        "endOffset": 1584
                     }
                 }
             },
@@ -1251,13 +1251,13 @@
                     "endOffset": 1745
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-pl\\values-pl.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pl\\values-pl.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1763,
+                        "startOffset": 1589,
                         "endColumn": 110,
-                        "endOffset": 1869
+                        "endOffset": 1695
                     }
                 }
             },
@@ -1270,13 +1270,13 @@
                     "endOffset": 1853
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-pl\\values-pl.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pl\\values-pl.xml",
                     "position": {
-                        "startLine": 20,
+                        "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1874,
+                        "startOffset": 1700,
                         "endColumn": 107,
-                        "endOffset": 1977
+                        "endOffset": 1803
                     }
                 }
             },
@@ -1289,13 +1289,13 @@
                     "endOffset": 1976
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-pl\\values-pl.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pl\\values-pl.xml",
                     "position": {
-                        "startLine": 21,
+                        "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 1982,
+                        "startOffset": 1808,
                         "endColumn": 122,
-                        "endOffset": 2100
+                        "endOffset": 1926
                     }
                 }
             },
@@ -1308,13 +1308,13 @@
                     "endOffset": 2072
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-pl\\values-pl.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pl\\values-pl.xml",
                     "position": {
-                        "startLine": 22,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 2105,
+                        "startOffset": 1931,
                         "endColumn": 95,
-                        "endOffset": 2196
+                        "endOffset": 2022
                     }
                 }
             },
@@ -1897,13 +1897,13 @@
                     "endOffset": 7042
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-pl\\values-pl.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-pl\\values-pl.xml",
                     "position": {
-                        "startLine": 23,
+                        "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 2201,
+                        "startOffset": 2027,
                         "endColumn": 100,
-                        "endOffset": 2297
+                        "endOffset": 2123
                     }
                 }
             }

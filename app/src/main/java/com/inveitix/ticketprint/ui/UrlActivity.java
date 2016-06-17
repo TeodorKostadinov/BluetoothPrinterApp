@@ -65,7 +65,6 @@ public class UrlActivity extends AppCompatActivity {
     private void loadWebContent() {
         Intent intent = new Intent(this, MainActivity.class);
         intent.putExtra("WebAddress", edtContext.getText().toString());
-        intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
         startActivity(intent);
 
     }

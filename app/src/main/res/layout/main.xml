@@ -1,52 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#3aaa"
-    android:orientation="vertical">
+    android:fitsSystemWindows="true">
 
-
-    <WebView
-        android:id="@+id/web_view"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="3" />
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-    <Button
-        android:id="@+id/btn_scan"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#3aaa"
+            android:orientation="vertical">
+
+            <WebView
+                android:id="@+id/web_view"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3" />
+
+            <Button
+                android:id="@+id/btn_print"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="0.1"
+                android:background="@drawable/button_selector"
+                android:elevation="2dp"
+                android:text="@string/btn_print"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_close"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="0.1"
+                android:background="@drawable/button_selector"
+                android:text="@string/btn_disconnect"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/bottom_sheet"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:layout_weight="0.1"
-        android:background="@drawable/button_selector"
-        android:elevation="4dp"
-        android:text="@string/btn_scan"
-        android:textColor="@color/white"
-        android:textSize="25sp">
+        android:layout_height="350dp"
+        android:background="#39f2d2"
+        android:clipToPadding="true"
+        app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
 
-    </Button>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btn_print"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:layout_weight="0.1"
-        android:background="@drawable/button_selector"
-        android:elevation="2dp"
-        android:text="@string/btn_print"
-        android:textColor="@color/white"
-        android:textSize="20sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:text="Scan for devices"
+                android:textSize="32sp" />
 
-    <Button
-        android:id="@+id/btn_close"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:layout_weight="0.1"
-        android:background="@drawable/button_selector"
-        android:text="@string/btn_disconnect"
-        android:textColor="@color/white"
-        android:textSize="20sp" />
+            <Button
+                android:id="@+id/btn_scan"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:background="@drawable/scan_btn_effect" />
 
-</LinearLayout>
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

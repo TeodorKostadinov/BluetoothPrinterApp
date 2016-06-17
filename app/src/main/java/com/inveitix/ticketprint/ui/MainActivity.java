@@ -26,6 +26,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
+import android.support.design.widget.BottomSheetBehavior;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
@@ -64,10 +65,11 @@ public class MainActivity extends AppCompatActivity {
     File file;
     @Bind(R.id.web_view)
     WebView webView;
-
+    @Bind(R.id.bottom_sheet)
+    View bottomSheet;
     BluetoothService mService;
     BluetoothDevice con_dev;
-
+    private BottomSheetBehavior mBottomSheetBehavior;
     private Handler mHandler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
@@ -118,19 +120,37 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.main);
         ButterKnife.bind(this);
         mService = new BluetoothService(this, mHandler);
-
+        initBottomSheet();
         if (!mService.isAvailable()) {
             Toast.makeText(this, R.string.bt_not_available, Toast.LENGTH_LONG).show();
             finish();
         }
         initWebView();
         checkPermissions();
+        downloadContent();
+    }
+
+    private void initBottomSheet() {
+        mBottomSheetBehavior = BottomSheetBehavior.from(bottomSheet);
+        mBottomSheetBehavior.setPeekHeight(200);
+        mBottomSheetBehavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
+        mBottomSheetBehavior.setBottomSheetCallback(new BottomSheetBehavior.BottomSheetCallback() {
+            @Override
+            public void onStateChanged(View bottomSheet, int newState) {
+                if (newState == BottomSheetBehavior.STATE_COLLAPSED) {
+                    mBottomSheetBehavior.setPeekHeight(200);
+                }
+            }
+
+            @Override
+            public void onSlide(View bottomSheet, float slideOffset) {
+            }
+        });
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        downloadContent();
     }
 
     private void initWebView() {

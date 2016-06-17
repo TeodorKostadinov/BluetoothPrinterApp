@@ -966,13 +966,13 @@
                     "endOffset": 212
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-gl-rES\\values-gl-rES.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-gl-rES\\values-gl-rES.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 233,
+                        "startOffset": 55,
                         "endColumn": 111,
-                        "endOffset": 340
+                        "endOffset": 162
                     }
                 }
             },
@@ -985,13 +985,13 @@
                     "endOffset": 320
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-gl-rES\\values-gl-rES.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-gl-rES\\values-gl-rES.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 345,
+                        "startOffset": 167,
                         "endColumn": 107,
-                        "endOffset": 448
+                        "endOffset": 270
                     }
                 }
             },
@@ -1004,13 +1004,13 @@
                     "endOffset": 443
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-gl-rES\\values-gl-rES.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-gl-rES\\values-gl-rES.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 453,
+                        "startOffset": 275,
                         "endColumn": 122,
-                        "endOffset": 571
+                        "endOffset": 393
                     }
                 }
             },
@@ -1023,13 +1023,13 @@
                     "endOffset": 555
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-gl-rES\\values-gl-rES.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-gl-rES\\values-gl-rES.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 576,
+                        "startOffset": 398,
                         "endColumn": 111,
-                        "endOffset": 683
+                        "endOffset": 505
                     }
                 }
             },
@@ -1042,13 +1042,13 @@
                     "endOffset": 663
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-gl-rES\\values-gl-rES.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-gl-rES\\values-gl-rES.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 688,
+                        "startOffset": 510,
                         "endColumn": 107,
-                        "endOffset": 791
+                        "endOffset": 613
                     }
                 }
             },
@@ -1061,13 +1061,13 @@
                     "endOffset": 748
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-gl-rES\\values-gl-rES.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-gl-rES\\values-gl-rES.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 796,
+                        "startOffset": 618,
                         "endColumn": 84,
-                        "endOffset": 876
+                        "endOffset": 698
                     }
                 }
             },
@@ -1080,13 +1080,13 @@
                     "endOffset": 850
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-gl-rES\\values-gl-rES.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-gl-rES\\values-gl-rES.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 881,
+                        "startOffset": 703,
                         "endColumn": 101,
-                        "endOffset": 978
+                        "endOffset": 800
                     }
                 }
             },
@@ -1099,13 +1099,13 @@
                     "endOffset": 976
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-gl-rES\\values-gl-rES.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-gl-rES\\values-gl-rES.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 983,
+                        "startOffset": 805,
                         "endColumn": 125,
-                        "endOffset": 1104
+                        "endOffset": 926
                     }
                 }
             },
@@ -1118,13 +1118,13 @@
                     "endOffset": 1060
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-gl-rES\\values-gl-rES.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-gl-rES\\values-gl-rES.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 1109,
+                        "startOffset": 931,
                         "endColumn": 83,
-                        "endOffset": 1188
+                        "endOffset": 1010
                     }
                 }
             },
@@ -1137,13 +1137,13 @@
                     "endOffset": 1141
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-gl-rES\\values-gl-rES.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-gl-rES\\values-gl-rES.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1193,
+                        "startOffset": 1015,
                         "endColumn": 80,
-                        "endOffset": 1269
+                        "endOffset": 1091
                     }
                 }
             },
@@ -1156,13 +1156,13 @@
                     "endOffset": 1223
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-gl-rES\\values-gl-rES.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-gl-rES\\values-gl-rES.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1274,
+                        "startOffset": 1096,
                         "endColumn": 81,
-                        "endOffset": 1351
+                        "endOffset": 1173
                     }
                 }
             },
@@ -1175,13 +1175,13 @@
                     "endOffset": 1330
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-gl-rES\\values-gl-rES.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-gl-rES\\values-gl-rES.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1356,
+                        "startOffset": 1178,
                         "endColumn": 106,
-                        "endOffset": 1458
+                        "endOffset": 1280
                     }
                 }
             },
@@ -1194,13 +1194,13 @@
                     "endOffset": 1439
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-gl-rES\\values-gl-rES.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-gl-rES\\values-gl-rES.xml",
                     "position": {
-                        "startLine": 16,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1463,
+                        "startOffset": 1285,
                         "endColumn": 108,
-                        "endOffset": 1567
+                        "endOffset": 1389
                     }
                 }
             },
@@ -1213,13 +1213,13 @@
                     "endOffset": 1538
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-gl-rES\\values-gl-rES.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-gl-rES\\values-gl-rES.xml",
                     "position": {
-                        "startLine": 17,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1572,
+                        "startOffset": 1394,
                         "endColumn": 98,
-                        "endOffset": 1666
+                        "endOffset": 1488
                     }
                 }
             },
@@ -1232,13 +1232,13 @@
                     "endOffset": 1646
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-gl-rES\\values-gl-rES.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-gl-rES\\values-gl-rES.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1671,
+                        "startOffset": 1493,
                         "endColumn": 107,
-                        "endOffset": 1774
+                        "endOffset": 1596
                     }
                 }
             },
@@ -1251,13 +1251,13 @@
                     "endOffset": 1749
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-gl-rES\\values-gl-rES.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-gl-rES\\values-gl-rES.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1779,
+                        "startOffset": 1601,
                         "endColumn": 102,
-                        "endOffset": 1877
+                        "endOffset": 1699
                     }
                 }
             },
@@ -1270,13 +1270,13 @@
                     "endOffset": 1856
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-gl-rES\\values-gl-rES.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-gl-rES\\values-gl-rES.xml",
                     "position": {
-                        "startLine": 20,
+                        "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1882,
+                        "startOffset": 1704,
                         "endColumn": 106,
-                        "endOffset": 1984
+                        "endOffset": 1806
                     }
                 }
             },
@@ -1289,13 +1289,13 @@
                     "endOffset": 1978
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-gl-rES\\values-gl-rES.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-gl-rES\\values-gl-rES.xml",
                     "position": {
-                        "startLine": 21,
+                        "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 1989,
+                        "startOffset": 1811,
                         "endColumn": 121,
-                        "endOffset": 2106
+                        "endOffset": 1928
                     }
                 }
             },
@@ -1308,13 +1308,13 @@
                     "endOffset": 2078
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-gl-rES\\values-gl-rES.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-gl-rES\\values-gl-rES.xml",
                     "position": {
-                        "startLine": 22,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 2111,
+                        "startOffset": 1933,
                         "endColumn": 99,
-                        "endOffset": 2206
+                        "endOffset": 2028
                     }
                 }
             },
@@ -1897,13 +1897,13 @@
                     "endOffset": 7201
                 },
                 "from": {
-                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-gl-rES\\values-gl-rES.xml",
+                    "file": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-gl-rES\\values-gl-rES.xml",
                     "position": {
-                        "startLine": 23,
+                        "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 2211,
+                        "startOffset": 2033,
                         "endColumn": 100,
-                        "endOffset": 2307
+                        "endOffset": 2129
                     }
                 }
             }
