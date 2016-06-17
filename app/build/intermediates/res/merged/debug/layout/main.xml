@@ -6,25 +6,6 @@
     android:orientation="vertical">
 
 
-    <EditText
-        android:id="@+id/txt_content"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.3"
-        android:gravity="center_vertical|top"
-        android:hint="@string/set_seller_web"
-        android:textSize="25sp">
-
-    </EditText>
-
-    <CheckBox
-        android:id="@+id/check_box"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="@string/txt_remember_web" />
-
-
     <WebView
         android:id="@+id/web_view"
         android:layout_width="match_parent"
@@ -32,7 +13,7 @@
         android:layout_weight="3" />
 
     <Button
-        android:id="@+id/btn_open"
+        android:id="@+id/btn_scan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
@@ -67,4 +48,5 @@
         android:text="@string/btn_disconnect"
         android:textColor="@color/white"
         android:textSize="20sp" />
+
 </LinearLayout>

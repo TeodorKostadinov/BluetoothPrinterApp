@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/ticket_background">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#a0000000"/>
+
+    <EditText
+        android:id="@+id/txt_content"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="@string/set_seller_web"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/btn_open"
+        android:layout_alignStart="@+id/btn_open"
+        android:layout_marginTop="178dp">
+
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_content"
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"
+        android:text="@string/txt_remember_web" />
+
+    <Button
+        android:id="@+id/btn_open"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@drawable/button_selector"
+        android:elevation="4dp"
+        android:layout_below="@+id/check_box"
+        android:layout_centerInParent="true"
+        android:text="@string/btn_open"
+        android:textColor="@color/white"
+        android:textSize="25sp"/>
+
+</RelativeLayout>

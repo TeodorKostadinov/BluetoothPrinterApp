@@ -35,5 +35,6 @@
     <string name="set_seller_web">Set seller website</string>
     <string name="find_printer">Find printer</string>
     <string name="mime_type">text/html; charset=utf-8</string>
+    <string name="btn_scan">Scan for device</string>
 
 </resources>

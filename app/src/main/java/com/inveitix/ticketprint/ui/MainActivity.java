@@ -16,13 +16,11 @@ import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
-import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.net.http.SslError;
-import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
@@ -33,13 +31,10 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.inputmethod.InputMethodManager;
 import android.webkit.SslErrorHandler;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
-import android.widget.CheckBox;
-import android.widget.EditText;
 import android.widget.Toast;
 
 import android.util.Log;
@@ -60,25 +55,18 @@ public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
     @Bind(R.id.btn_print)
     Button btnSendDraw;
-    @Bind(R.id.btn_open)
-    Button btnOpen;
     @Bind(R.id.btn_close)
     Button btnDisconnect;
+    @Bind(R.id.btn_scan)
+    Button btnScan;
     String path;
     File dir;
     File file;
-    @Bind(R.id.check_box)
-    CheckBox checkBox;
-    @Bind(R.id.txt_content)
-    EditText edtContext;
     @Bind(R.id.web_view)
     WebView webView;
 
     BluetoothService mService;
     BluetoothDevice con_dev;
-    SharedPreferences sharedPref;
-    SharedPreferences.Editor editor;
-    boolean isWebLoaded;
 
     private Handler mHandler = new Handler() {
         @Override
@@ -91,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
                                     Toast.LENGTH_SHORT).show();
                             btnDisconnect.setVisibility(View.VISIBLE);
                             btnSendDraw.setVisibility(View.VISIBLE);
-                            btnOpen.setVisibility(View.GONE);
+                            btnScan.setVisibility(View.GONE);
                             break;
                         case BluetoothService.STATE_CONNECTING:
                             Toast.makeText(getApplicationContext(), R.string.connecting,
@@ -108,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
                             Toast.LENGTH_SHORT).show();
                     btnDisconnect.setVisibility(View.GONE);
                     btnSendDraw.setVisibility(View.GONE);
-                    btnOpen.setVisibility(View.VISIBLE);
+                    btnScan.setVisibility(View.VISIBLE);
                     break;
                 case BluetoothService.MESSAGE_UNABLE_CONNECT:
                     Toast.makeText(getApplicationContext(), R.string.unable_conn,
@@ -136,10 +124,13 @@ public class MainActivity extends AppCompatActivity {
             finish();
         }
         initWebView();
-        sharedPref = this.getPreferences(Context.MODE_PRIVATE);
         checkPermissions();
-        checkBox.setChecked(load());
-        setRememberedWeb();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        downloadContent();
     }
 
     private void initWebView() {
@@ -215,48 +206,6 @@ public class MainActivity extends AppCompatActivity {
         dialog.show();
     }
 
-    private void setRememberedWeb() {
-        if (checkBox.isChecked()) {
-            String rememberedWeb = sharedPref.getString(RequestConstants.WEB_SITE, "");
-            if (!rememberedWeb.equals("")) {
-                edtContext.setText(rememberedWeb);
-                edtContext.setVisibility(View.GONE);
-                checkBox.setVisibility(View.GONE);
-                downloadContent();
-            }
-
-        }
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        try {
-            saveState(checkBox.isChecked());
-        } catch (RuntimeException ex) {
-            ex.printStackTrace();
-        }
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        checkBox.setChecked(load());
-    }
-
-    private void saveState(boolean isChecked) {
-        editor = sharedPref.edit();
-        editor.putBoolean(RequestConstants.IS_CHECKED, isChecked);
-        if (isChecked) {
-            editor.putString(RequestConstants.WEB_SITE, edtContext.getText().toString());
-        }
-        editor.apply();
-    }
-
-    private boolean load() {
-        return sharedPref.getBoolean(RequestConstants.IS_CHECKED, false);
-    }
-
     private boolean checkPermissions() {
         int permissionCheck =
                 ContextCompat.checkSelfPermission(this, Manifest.permission.BLUETOOTH);
@@ -270,7 +219,6 @@ public class MainActivity extends AppCompatActivity {
                 ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE);
 
         if (permissionCheck == PackageManager.PERMISSION_DENIED) {
-            edtContext.setText(R.string.no_bluetooth_permissions);
             if (ActivityCompat.shouldShowRequestPermissionRationale(this,
                     Manifest.permission.BLUETOOTH)) {
                 Toast.makeText(MainActivity.this,
@@ -280,7 +228,6 @@ public class MainActivity extends AppCompatActivity {
             }
             return false;
         } else if (permissionInternet == PackageManager.PERMISSION_DENIED) {
-            edtContext.setText(R.string.no_internet_permissions);
             if (ActivityCompat.shouldShowRequestPermissionRationale(this,
                     Manifest.permission.INTERNET)) {
                 Toast.makeText(MainActivity.this,
@@ -299,7 +246,6 @@ public class MainActivity extends AppCompatActivity {
             }
             return false;
         } else if (permissionBTAdmin == PackageManager.PERMISSION_DENIED) {
-            edtContext.setText(R.string.no_bt_admin_permissions);
             if (ActivityCompat.shouldShowRequestPermissionRationale(this,
                     Manifest.permission.INTERNET)) {
                 Toast.makeText(MainActivity.this,
@@ -309,7 +255,6 @@ public class MainActivity extends AppCompatActivity {
             }
             return false;
         } else if (permissionLocation == PackageManager.PERMISSION_DENIED) {
-            edtContext.setText(R.string.no_location_permissions);
             if (ActivityCompat.shouldShowRequestPermissionRationale(this,
                     Manifest.permission.ACCESS_COARSE_LOCATION)) {
                 Toast.makeText(MainActivity.this,
@@ -362,7 +307,7 @@ public class MainActivity extends AppCompatActivity {
         }
         try {
             btnSendDraw.setOnClickListener(new ClickEvent());
-            btnOpen.setOnClickListener(new ClickEvent());
+            btnScan.setOnClickListener(new ClickEvent());
             btnDisconnect.setOnClickListener(new ClickEvent());
 
             if (mService.getState() == BluetoothService.STATE_CONNECTED) {
@@ -422,7 +367,7 @@ public class MainActivity extends AppCompatActivity {
                     if (mService.getState() == BluetoothService.STATE_CONNECTED) {
                         btnSendDraw.setVisibility(View.VISIBLE);
                         btnDisconnect.setVisibility(View.VISIBLE);
-                        btnOpen.setVisibility(View.GONE);
+                        btnScan.setVisibility(View.GONE);
                     }
                 }
                 break;
@@ -457,14 +402,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void downloadContent() {
-        if (!edtContext.getText().toString().equals("") && !edtContext.getText().toString()
+        if (!getIntent().getStringExtra("WebAddress").equals("") && !getIntent().getStringExtra("WebAddress")
                 .equals(getString(R.string.txt_content))) {
-            String webAddress = validateUrl(edtContext.getText().toString());
-
+            String webAddress = validateUrl(getIntent().getStringExtra("WebAddress"));
             webView.loadUrl(webAddress);
             loadingListProgress();
-            btnOpen.setText(R.string.find_printer);
-            isWebLoaded = true;
         }
     }
 
@@ -488,28 +430,11 @@ public class MainActivity extends AppCompatActivity {
         doExit();
     }
 
-    private void hideKeyboard() {
-        edtContext = (EditText) this.getCurrentFocus();
-        if (edtContext != null) {
-            InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-            imm.hideSoftInputFromWindow(edtContext.getWindowToken(), 0);
-        }
-    }
-
     class ClickEvent implements View.OnClickListener {
         public void onClick(View v) {
-            if (v == btnOpen) {
-                if (isWebLoaded) {
-                    Intent serverIntent = new Intent(MainActivity.this, DeviceListActivity.class);
-                    startActivityForResult(serverIntent, RequestConstants.REQUEST_CONNECT_DEVICE);
-                } else {
-                    hideKeyboard();
-                    downloadContent();
-                    if (checkBox.isChecked()) {
-                        checkBox.setVisibility(View.GONE);
-                        edtContext.setVisibility(View.GONE);
-                    }
-                }
+            if (v == btnScan) {
+                Intent serverIntent = new Intent(MainActivity.this, DeviceListActivity.class);
+                startActivityForResult(serverIntent, RequestConstants.REQUEST_CONNECT_DEVICE);
             } else if (v == btnDisconnect) {
                 mService.stop();
             } else if (v == btnSendDraw) {
