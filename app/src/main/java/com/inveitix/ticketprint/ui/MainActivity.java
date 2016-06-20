@@ -2,7 +2,6 @@ package com.inveitix.ticketprint.ui;
 
 import android.Manifest;
 import android.app.ProgressDialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 
@@ -53,9 +52,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 
 
-public class MainActivity extends AppCompatActivity implements BottomSheetFragment.GetAddressListener{
-
-    private static final String TAG = "MainActivity";
+public class MainActivity extends AppCompatActivity implements BottomSheetFragment.GetAddressListener {
     @Bind(R.id.btn_print)
     FloatingActionButton btnSendDraw;
     @Bind(R.id.btn_close)

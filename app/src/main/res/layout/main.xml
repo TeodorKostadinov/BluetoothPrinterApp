@@ -53,8 +53,8 @@
                 android:id="@+id/btn_close"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toLeftOf="@+id/txt_scan"
                 android:layout_marginTop="16dp"
+                android:layout_toLeftOf="@+id/txt_scan"
                 android:background="@drawable/ic_close_black_48dp"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
@@ -77,8 +77,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:elevation="3dp"
-        android:src="@drawable/ic_print_white_36dp"
         android:focusableInTouchMode="true"
+        android:src="@drawable/ic_print_white_36dp"
         app:layout_anchor="@id/linear_layout"
         app:layout_anchorGravity="top|right|end" />
 

@@ -8,22 +8,13 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.net.Uri;
-import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomSheetBehavior;
 import android.support.design.widget.BottomSheetDialogFragment;
 import android.support.design.widget.CoordinatorLayout;
-import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
-import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -33,18 +24,10 @@ import com.zj.btsdk.BluetoothService;
 import java.util.Set;
 
 public class BottomSheetFragment extends BottomSheetDialogFragment {
-    public static String EXTRA_DEVICE_ADDRESS = "device_address";
     GetAddressListener addressListener;
     BluetoothService mService = null;
     View contentView;
     private ArrayAdapter<String> mNewDevicesArrayAdapter;
-
-    @Override
-    public void onAttach(Activity activity) {
-        super.onAttach(activity);
-        addressListener = (GetAddressListener) activity;
-    }
-
     private final BroadcastReceiver mReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
@@ -95,6 +78,12 @@ public class BottomSheetFragment extends BottomSheetDialogFragment {
 
         }
     };
+
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+        addressListener = (GetAddressListener) activity;
+    }
 
     @Override
     public void setupDialog(Dialog dialog, int style) {
@@ -168,7 +157,7 @@ public class BottomSheetFragment extends BottomSheetDialogFragment {
     }
 
     public interface GetAddressListener {
-        public void onAddressReceived(String address);
+        void onAddressReceived(String address);
     }
 
 
