@@ -13,7 +13,6 @@ import com.zj.btsdk.BluetoothService;
 import com.zj.btsdk.PrintPic;
 
 import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.content.pm.PackageManager;
@@ -27,6 +26,7 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.support.design.widget.BottomSheetBehavior;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
@@ -36,6 +36,8 @@ import android.webkit.SslErrorHandler;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import android.util.Log;
@@ -51,13 +53,13 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements BottomSheetFragment.GetAddressListener{
 
     private static final String TAG = "MainActivity";
     @Bind(R.id.btn_print)
-    Button btnSendDraw;
+    FloatingActionButton btnSendDraw;
     @Bind(R.id.btn_close)
-    Button btnDisconnect;
+    ImageButton btnDisconnect;
     @Bind(R.id.btn_scan)
     Button btnScan;
     String path;
@@ -67,8 +69,11 @@ public class MainActivity extends AppCompatActivity {
     WebView webView;
     @Bind(R.id.bottom_sheet)
     View bottomSheet;
+    @Bind(R.id.txt_scan)
+    TextView txtScan;
     BluetoothService mService;
     BluetoothDevice con_dev;
+    BottomSheetFragment bottomSheetDialogFragment;
     private BottomSheetBehavior mBottomSheetBehavior;
     private Handler mHandler = new Handler() {
         @Override
@@ -82,6 +87,8 @@ public class MainActivity extends AppCompatActivity {
                             btnDisconnect.setVisibility(View.VISIBLE);
                             btnSendDraw.setVisibility(View.VISIBLE);
                             btnScan.setVisibility(View.GONE);
+                            bottomSheetDialogFragment.dismiss();
+                            txtScan.setText(con_dev.getName());
                             break;
                         case BluetoothService.STATE_CONNECTING:
                             Toast.makeText(getApplicationContext(), R.string.connecting,
@@ -99,6 +106,7 @@ public class MainActivity extends AppCompatActivity {
                     btnDisconnect.setVisibility(View.GONE);
                     btnSendDraw.setVisibility(View.GONE);
                     btnScan.setVisibility(View.VISIBLE);
+                    txtScan.setText("Scan for devices");
                     break;
                 case BluetoothService.MESSAGE_UNABLE_CONNECT:
                     Toast.makeText(getApplicationContext(), R.string.unable_conn,
@@ -368,32 +376,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        switch (requestCode) {
-            case RequestConstants.REQUEST_ENABLE_BT:
-                if (resultCode == Activity.RESULT_OK) {
-                    Toast.makeText(this, R.string.bt_open, Toast.LENGTH_LONG).show();
-                } else {
-                    finish();
-                }
-                break;
-            case RequestConstants.REQUEST_CONNECT_DEVICE:
-                if (resultCode == Activity.RESULT_OK) {
-                    String address = data.getExtras()
-                            .getString(DeviceListActivity.EXTRA_DEVICE_ADDRESS);
-                    con_dev = mService.getDevByMac(address);
-                    mService.connect(con_dev);
-                    if (mService.getState() == BluetoothService.STATE_CONNECTED) {
-                        btnSendDraw.setVisibility(View.VISIBLE);
-                        btnDisconnect.setVisibility(View.VISIBLE);
-                        btnScan.setVisibility(View.GONE);
-                    }
-                }
-                break;
-        }
-    }
-
     @SuppressLint("SdCardPath")
     private void printImage() {
         byte[] sendData;
@@ -450,11 +432,22 @@ public class MainActivity extends AppCompatActivity {
         doExit();
     }
 
+    @Override
+    public void onAddressReceived(String address) {
+        con_dev = mService.getDevByMac(address);
+        mService.connect(con_dev);
+        if (mService.getState() == BluetoothService.STATE_CONNECTED) {
+            btnSendDraw.setVisibility(View.VISIBLE);
+            btnDisconnect.setVisibility(View.VISIBLE);
+        }
+    }
+
     class ClickEvent implements View.OnClickListener {
         public void onClick(View v) {
             if (v == btnScan) {
-                Intent serverIntent = new Intent(MainActivity.this, DeviceListActivity.class);
-                startActivityForResult(serverIntent, RequestConstants.REQUEST_CONNECT_DEVICE);
+                bottomSheetDialogFragment = new BottomSheetFragment();
+                bottomSheetDialogFragment.show(getSupportFragmentManager(), bottomSheetDialogFragment.getTag());
+                mBottomSheetBehavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
             } else if (v == btnDisconnect) {
                 mService.stop();
             } else if (v == btnSendDraw) {

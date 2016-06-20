@@ -28,10 +28,8 @@ import android.widget.AdapterView.OnItemClickListener;
 
 
 public class DeviceListActivity extends Activity {
-    // Return Intent extra
     public static String EXTRA_DEVICE_ADDRESS = "device_address";
 
-    // Member fields
     BluetoothService mService = null;
     private ArrayAdapter<String> mNewDevicesArrayAdapter;
 
@@ -46,13 +44,13 @@ public class DeviceListActivity extends Activity {
         setResult(Activity.RESULT_CANCELED);
 
         // Initialize the button to perform device discovery
-        Button scanButton = (Button) findViewById(R.id.button_scan);
-        scanButton.setOnClickListener(new OnClickListener() {
-            public void onClick(View v) {
-                doDiscovery();
-                v.setVisibility(View.GONE);
-            }
-        });
+//        Button scanButton = (Button) findViewById(R.id.button_scan);
+//        scanButton.setOnClickListener(new OnClickListener() {
+//            public void onClick(View v) {
+//                doDiscovery();
+//                v.setVisibility(View.GONE);
+//            }
+//        });
 
         // Initialize array adapters. One for already paired devices and
         // one for newly discovered devices

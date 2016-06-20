@@ -37,4 +37,7 @@
     <string name="mime_type">text/html; charset=utf-8</string>
     <string name="btn_scan">Scan for device</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
