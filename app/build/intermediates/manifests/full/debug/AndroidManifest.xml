@@ -26,10 +26,6 @@
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
-        <activity
-            android:name="com.inveitix.ticketprint.ui.DeviceListActivity"
-            android:label="@string/select_device"
-            android:theme="@android:style/Theme.Dialog" />
 
         <meta-data
             android:name="io.fabric.ApiKey"
