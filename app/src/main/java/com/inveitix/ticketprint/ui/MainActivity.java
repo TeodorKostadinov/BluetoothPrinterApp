@@ -28,6 +28,7 @@ import android.support.design.widget.BottomSheetBehavior;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -68,9 +69,12 @@ public class MainActivity extends AppCompatActivity implements BottomSheetFragme
     View bottomSheet;
     @Bind(R.id.txt_scan)
     TextView txtScan;
+    @Bind(R.id.swipe_container)
+    SwipeRefreshLayout swipeContainer;
     BluetoothService mService;
     BluetoothDevice con_dev;
     BottomSheetFragment bottomSheetDialogFragment;
+
     private BottomSheetBehavior mBottomSheetBehavior;
     private Handler mHandler = new Handler() {
         @Override
@@ -113,7 +117,6 @@ public class MainActivity extends AppCompatActivity implements BottomSheetFragme
         }
 
     };
-    private ProgressDialog dialog;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -130,9 +133,28 @@ public class MainActivity extends AppCompatActivity implements BottomSheetFragme
             Toast.makeText(this, R.string.bt_not_available, Toast.LENGTH_LONG).show();
             finish();
         }
+
+        initSwipeContainer();
         initWebView();
         checkPermissions();
         downloadContent();
+    }
+
+    private void initSwipeContainer() {
+        swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                downloadContent();
+            }
+        });
+
+        swipeContainer.setColorSchemeResources(R.color.colorAccent);
+        swipeContainer.post(new Runnable() {
+            @Override
+            public void run() {
+                swipeContainer.setRefreshing(true);
+            }
+        });
     }
 
     private void initBottomSheet() {
@@ -181,7 +203,7 @@ public class MainActivity extends AppCompatActivity implements BottomSheetFragme
                     @Override
                     public void run() {
                         siteToImage();
-                        dialog.cancel();
+                        swipeContainer.setRefreshing(false);
                     }
                 }, 2000);
             }
@@ -220,15 +242,6 @@ public class MainActivity extends AppCompatActivity implements BottomSheetFragme
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
-
-    private void loadingListProgress() {
-        dialog = new ProgressDialog(MainActivity.this);
-        dialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
-        dialog.setMessage("Loading. Please wait...");
-        dialog.setIndeterminate(true);
-        dialog.setCanceledOnTouchOutside(false);
-        dialog.show();
     }
 
     private boolean checkPermissions() {
@@ -405,7 +418,6 @@ public class MainActivity extends AppCompatActivity implements BottomSheetFragme
                 .equals(getString(R.string.txt_content))) {
             String webAddress = validateUrl(getIntent().getStringExtra("WebAddress"));
             webView.loadUrl(webAddress);
-            loadingListProgress();
         }
     }
 

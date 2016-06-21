@@ -8,18 +8,20 @@ import butterknife.ButterKnife.ViewBinder;
 public class MainActivity$$ViewBinder<T extends com.inveitix.ticketprint.ui.MainActivity> implements ViewBinder<T> {
   @Override public void bind(final Finder finder, final T target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131492994, "field 'btnSendDraw'");
-    target.btnSendDraw = finder.castView(view, 2131492994, "field 'btnSendDraw'");
+    view = finder.findRequiredView(source, 2131492995, "field 'btnSendDraw'");
+    target.btnSendDraw = finder.castView(view, 2131492995, "field 'btnSendDraw'");
     view = finder.findRequiredView(source, 2131492992, "field 'btnDisconnect'");
     target.btnDisconnect = finder.castView(view, 2131492992, "field 'btnDisconnect'");
-    view = finder.findRequiredView(source, 2131492993, "field 'btnScan'");
-    target.btnScan = finder.castView(view, 2131492993, "field 'btnScan'");
-    view = finder.findRequiredView(source, 2131492988, "field 'webView'");
-    target.webView = finder.castView(view, 2131492988, "field 'webView'");
-    view = finder.findRequiredView(source, 2131492989, "field 'bottomSheet'");
+    view = finder.findRequiredView(source, 2131492994, "field 'btnScan'");
+    target.btnScan = finder.castView(view, 2131492994, "field 'btnScan'");
+    view = finder.findRequiredView(source, 2131492989, "field 'webView'");
+    target.webView = finder.castView(view, 2131492989, "field 'webView'");
+    view = finder.findRequiredView(source, 2131492990, "field 'bottomSheet'");
     target.bottomSheet = view;
-    view = finder.findRequiredView(source, 2131492991, "field 'txtScan'");
-    target.txtScan = finder.castView(view, 2131492991, "field 'txtScan'");
+    view = finder.findRequiredView(source, 2131492993, "field 'txtScan'");
+    target.txtScan = finder.castView(view, 2131492993, "field 'txtScan'");
+    view = finder.findRequiredView(source, 2131492988, "field 'swipeContainer'");
+    target.swipeContainer = finder.castView(view, 2131492988, "field 'swipeContainer'");
   }
 
   @Override public void unbind(T target) {
@@ -29,5 +31,6 @@ public class MainActivity$$ViewBinder<T extends com.inveitix.ticketprint.ui.Main
     target.webView = null;
     target.bottomSheet = null;
     target.txtScan = null;
+    target.swipeContainer = null;
   }
 }

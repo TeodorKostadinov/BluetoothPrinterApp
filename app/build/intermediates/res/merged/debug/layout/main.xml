@@ -6,16 +6,16 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
-    <ScrollView
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        android:layout_height="match_parent">
 
-        <LinearLayout
+        <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#3aaa"
-            android:orientation="vertical">
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
             <WebView
                 android:id="@+id/web_view"
@@ -23,9 +23,8 @@
                 android:layout_height="0dp"
                 android:layout_weight="3" />
 
-
-        </LinearLayout>
-    </ScrollView>
+        </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
 
     <android.support.v4.widget.NestedScrollView
         android:id="@+id/bottom_sheet"
@@ -40,24 +39,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <TextView
-                android:id="@+id/txt_scan"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_margin="16dp"
-                android:text="Scan for devices"
-                android:textSize="32sp" />
-
             <ImageButton
                 android:id="@+id/btn_close"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toLeftOf="@+id/txt_scan"
-                android:layout_marginTop="16dp"
+                android:layout_alignParentLeft="true"
+
+                android:layout_margin="16dp"
                 android:background="@drawable/ic_close_black_48dp"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt_scan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_centerHorizontal="true"
+                android:layout_toRightOf="@id/btn_close"
+                android:text="Scan for devices"
+                android:textColor="@color/white"
+                android:textSize="32sp" />
+
 
             <Button
                 android:id="@+id/btn_scan"
@@ -77,8 +80,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:elevation="3dp"
-        android:src="@drawable/ic_print_white_36dp"
         android:focusableInTouchMode="true"
+        android:src="@drawable/ic_print_white_36dp"
         app:layout_anchor="@id/linear_layout"
         app:layout_anchorGravity="top|right|end" />
 

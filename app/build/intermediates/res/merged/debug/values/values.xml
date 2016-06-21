@@ -35,8 +35,8 @@
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#248b86</color>
+    <color name="colorPrimaryDark">#1f8884</color>
     <color name="common_action_bar_splitter">#d2d2d2</color>
     <color name="common_signin_btn_dark_text_default">@android:color/white</color>
     <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
@@ -312,7 +312,7 @@
     <string name="btn_search">Connect  Bluetooth  Printer</string>
     <string name="button_scan">Scan for devices</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">a98649cb-d27b-446f-af8f-7ed63d542ebd</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">0aa9c187-dbd7-4822-87bb-899e6da95ea4</string>
     <string name="common_android_wear_notification_needs_update_text"><ns2:g id="app_name">%1$s</ns2:g> requires an update to the Android Wear app.</string>
     <string name="common_android_wear_update_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run unless you update the Android Wear app.</string>
     <string msgid="6006316683626838685" name="common_android_wear_update_title">Update Android Wear</string>
