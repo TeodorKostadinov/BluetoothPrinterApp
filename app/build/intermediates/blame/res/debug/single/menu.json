@@ -2,9 +2,5 @@
     {
         "merged": "D:\\BTPrinter\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_menu.xml",
         "source": "D:\\BTPrinter\\app\\src\\main\\res\\menu\\main_menu.xml"
-    },
-    {
-        "merged": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_menu.xml",
-        "source": "D:\\BluetoothPrinterApp\\app\\src\\main\\res\\menu\\main_menu.xml"
     }
 ]

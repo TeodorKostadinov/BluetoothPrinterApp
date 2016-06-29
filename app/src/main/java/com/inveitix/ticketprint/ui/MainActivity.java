@@ -30,12 +30,15 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.RotateAnimation;
 import android.view.inputmethod.InputMethodManager;
 import android.webkit.SslErrorHandler;
 import android.webkit.WebView;
@@ -47,6 +50,7 @@ import android.widget.Toast;
 
 import android.util.Log;
 
+import butterknife.OnClick;
 import io.fabric.sdk.android.Fabric;
 
 
@@ -76,6 +80,8 @@ public class MainActivity extends AppCompatActivity {
     EditText edtContext;
     @Bind(R.id.web_view)
     WebView webView;
+    @Bind(R.id.btn_refresh)
+    Button btnRefresh;
 
     BluetoothService mService;
     BluetoothDevice con_dev;
@@ -92,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
                         case BluetoothService.STATE_CONNECTED:
                             Toast.makeText(getApplicationContext(), R.string.connect_success,
                                     Toast.LENGTH_SHORT).show();
-                            btnDisconnect.setVisibility(View.VISIBLE);
+                            btnDisconnect.setVisibility(View.GONE);
                             btnSendDraw.setVisibility(View.VISIBLE);
                             btnOpen.setVisibility(View.GONE);
                             break;
@@ -126,6 +132,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+        actionBar.setCustomView(R.layout.action_bar);
+        actionBar.setDisplayShowHomeEnabled(true);
+        actionBar.setDisplayUseLogoEnabled(true);
         Fabric.with(this, new Crashlytics());
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             WebView.enableSlowWholeDocumentDraw();
@@ -169,6 +180,7 @@ public class MainActivity extends AppCompatActivity {
                     public void run() {
                         siteToImage();
                         dialog.cancel();
+                        btnRefresh.clearAnimation();
                     }
                 }, 2000);
             }
@@ -231,22 +243,15 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.main_menu, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.action_refresh:
-                downloadContent();
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
+    @OnClick(R.id.btn_refresh)
+    public void refresh(){
+        Animation animation = new RotateAnimation(0.0f, 360.0f,
+                Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF,
+                0.5f);
+        animation.setRepeatCount(-1);
+        animation.setDuration(2000);
+        btnRefresh.setAnimation(animation);
+        downloadContent();
     }
 
     @Override
@@ -388,7 +393,7 @@ public class MainActivity extends AppCompatActivity {
 
             if (mService.getState() == BluetoothService.STATE_CONNECTED) {
                 btnSendDraw.setVisibility(View.VISIBLE);
-                btnDisconnect.setVisibility(View.VISIBLE);
+                btnDisconnect.setVisibility(View.GONE);
             } else {
                 btnDisconnect.setVisibility(View.GONE);
                 btnSendDraw.setVisibility(View.GONE);
@@ -442,7 +447,7 @@ public class MainActivity extends AppCompatActivity {
                     mService.connect(con_dev);
                     if (mService.getState() == BluetoothService.STATE_CONNECTED) {
                         btnSendDraw.setVisibility(View.VISIBLE);
-                        btnDisconnect.setVisibility(View.VISIBLE);
+                        btnDisconnect.setVisibility(View.GONE);
                         btnOpen.setVisibility(View.GONE);
                     }
                 }

@@ -292,6 +292,10 @@
         "source": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_lines.xml"
     },
     {
+        "merged": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\action_bar.xml",
+        "source": "D:\\BluetoothPrinterApp\\app\\src\\main\\res\\layout\\action_bar.xml"
+    },
+    {
         "merged": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_title_item.xml"
     },

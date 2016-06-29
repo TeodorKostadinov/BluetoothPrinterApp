@@ -68,6 +68,10 @@
         "source": "D:\\BTPrinter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_list_longpressed_holo.9.png"
     },
     {
+        "merged": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_close_black_48dp.png",
+        "source": "D:\\BluetoothPrinterApp\\app\\src\\main\\res\\drawable-mdpi\\ic_close_black_48dp.png"
+    },
+    {
         "merged": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
         "source": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_textfield_default_mtrl_alpha.9.png"
     },
@@ -174,6 +178,10 @@
     {
         "merged": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
         "source": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "D:\\BluetoothPrinterApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_print_white_36dp.png",
+        "source": "D:\\BluetoothPrinterApp\\app\\src\\main\\res\\drawable-mdpi\\ic_print_white_36dp.png"
     },
     {
         "merged": "D:\\BTPrinter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
